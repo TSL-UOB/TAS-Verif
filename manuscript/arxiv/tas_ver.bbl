@@ -1,0 +1,54 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{kononenko2001machine}{article}{}
+      \name{author}{1}{}{%
+        {{hash=398d8e9b11dc3ac0d8be10cc7eda4e86}{%
+           family={Kononenko},
+           familyi={K\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{398d8e9b11dc3ac0d8be10cc7eda4e86}
+      \strng{fullhash}{398d8e9b11dc3ac0d8be10cc7eda4e86}
+      \strng{bibnamehash}{398d8e9b11dc3ac0d8be10cc7eda4e86}
+      \strng{authorbibnamehash}{398d8e9b11dc3ac0d8be10cc7eda4e86}
+      \strng{authornamehash}{398d8e9b11dc3ac0d8be10cc7eda4e86}
+      \strng{authorfullhash}{398d8e9b11dc3ac0d8be10cc7eda4e86}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Artificial Intelligence in medicine}
+      \field{number}{1}
+      \field{title}{Machine learning for medical diagnosis: history, state of the art and perspective}
+      \field{volume}{23}
+      \field{year}{2001}
+      \field{pages}{89\bibrangedash 109}
+      \range{pages}{21}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
