@@ -19,6 +19,59 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{avci2021review}{article}{}
+      \name{author}{6}{}{%
+        {{hash=2da5f256e88899d776afbd9cf3fdb39e}{%
+           family={Avci},
+           familyi={A\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod}}}%
+        {{hash=4a1484824cd66e8a1f5ae13802205786}{%
+           family={Abdeljaber},
+           familyi={A\bibinitperiod},
+           given={Osama},
+           giveni={O\bibinitperiod}}}%
+        {{hash=88fcbfc7f3b82fa8bcc91190c133d9f0}{%
+           family={Kiranyaz},
+           familyi={K\bibinitperiod},
+           given={Serkan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dffb8ebcba1ad47174982dfe8b00e026}{%
+           family={Hussein},
+           familyi={H\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b680f786282bcb3b9a76782c1aa50289}{%
+           family={Gabbouj},
+           familyi={G\bibinitperiod},
+           given={Moncef},
+           giveni={M\bibinitperiod}}}%
+        {{hash=26a229af3cb54093613e2fa7b30d3298}{%
+           family={Inman},
+           familyi={I\bibinitperiod},
+           given={Daniel\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d494a73c80d39734f3afb46795adb6e3}
+      \strng{fullhash}{351bb55c7369e13acb6f03577a3812f1}
+      \strng{bibnamehash}{d494a73c80d39734f3afb46795adb6e3}
+      \strng{authorbibnamehash}{d494a73c80d39734f3afb46795adb6e3}
+      \strng{authornamehash}{d494a73c80d39734f3afb46795adb6e3}
+      \strng{authorfullhash}{351bb55c7369e13acb6f03577a3812f1}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mechanical systems and signal processing}
+      \field{title}{A review of vibration-based damage detection in civil structures: From traditional methods to Machine Learning and Deep Learning applications}
+      \field{volume}{147}
+      \field{year}{2021}
+      \field{pages}{107077}
+      \range{pages}{1}
+    \endentry
     \entry{kononenko2001machine}{article}{}
       \name{author}{1}{}{%
         {{hash=398d8e9b11dc3ac0d8be10cc7eda4e86}{%
@@ -47,6 +100,100 @@
       \field{year}{2001}
       \field{pages}{89\bibrangedash 109}
       \range{pages}{21}
+    \endentry
+    \entry{koopman2018toward}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0180518be5acba53c0936c475b7ebeb0}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b6ea5a7032ae19a0dc619b901a2d57ac}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{fullhash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{bibnamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authorbibnamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authornamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authorfullhash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAE Technical Paper, Tech. Rep}
+      \field{title}{Toward a framework for highly automated vehicle safety validation}
+      \field{year}{2018}
+    \endentry
+    \entry{kuo2020towards}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bc726342d045052eccf5f40564cc32b9}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=97a34fafcdd066f1eaa0cb625cb5f808}{%
+           family={Lupton},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ce913728089400fee1645139f6e48f1}
+      \strng{fullhash}{8ce913728089400fee1645139f6e48f1}
+      \strng{bibnamehash}{8ce913728089400fee1645139f6e48f1}
+      \strng{authorbibnamehash}{8ce913728089400fee1645139f6e48f1}
+      \strng{authornamehash}{8ce913728089400fee1645139f6e48f1}
+      \strng{authorfullhash}{8ce913728089400fee1645139f6e48f1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2003.10674}
+      \field{title}{Towards explainability of machine learning models in insurance pricing}
+      \field{year}{2020}
+    \endentry
+    \entry{medium_ai_phones}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=705e05eacfeb5d76a0382eb80a7b93c7}{%
+           family={{\relax Medium}},
+           familyi={_\bibinitperiod}}}%
+      }
+      \strng{namehash}{705e05eacfeb5d76a0382eb80a7b93c7}
+      \strng{fullhash}{705e05eacfeb5d76a0382eb80a7b93c7}
+      \strng{bibnamehash}{705e05eacfeb5d76a0382eb80a7b93c7}
+      \strng{authorbibnamehash}{705e05eacfeb5d76a0382eb80a7b93c7}
+      \strng{authornamehash}{705e05eacfeb5d76a0382eb80a7b93c7}
+      \strng{authorfullhash}{705e05eacfeb5d76a0382eb80a7b93c7}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://medium.com/gobeyond-ai/artificial-intelligence-ai-in-mobile-phones-is-it-a-good-thing-fe044f20ea6c}}
+      \field{note}{Accessed: 2022-08-02}
+      \field{title}{Artificial Intelligence in Mobile Phones}
+    \endentry
+    \entry{tf_vacuum}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=310a755337d0b1d335e90168630ae42b}{%
+           family={{\relax TensorFlow Blog}},
+           familyi={_\bibinitperiod}}}%
+      }
+      \strng{namehash}{310a755337d0b1d335e90168630ae42b}
+      \strng{fullhash}{310a755337d0b1d335e90168630ae42b}
+      \strng{bibnamehash}{310a755337d0b1d335e90168630ae42b}
+      \strng{authorbibnamehash}{310a755337d0b1d335e90168630ae42b}
+      \strng{authornamehash}{310a755337d0b1d335e90168630ae42b}
+      \strng{authorfullhash}{310a755337d0b1d335e90168630ae42b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://blog.tensorflow.org/2020/01/ecovacs-robotics-ai-robotic-vacuum.html}}
+      \field{note}{Accessed: 2022-08-02}
+      \field{title}{Ecovacs Robotics: the AI robotic vacuum cleaner powered by TensorFlow}
     \endentry
   \enddatalist
 \endrefsection

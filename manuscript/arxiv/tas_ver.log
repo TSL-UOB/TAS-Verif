@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  2 AUG 2022 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  3 AUG 2022 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,8 +1196,8 @@ Package hyperref Warning: Ignoring empty anchor on input line 87.
 
 AED: lastpage setting LastPage
 
-Overfull \vbox (2.14998pt too high) has occurred while \output is active []
-
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1215,13 +1215,13 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26708 strings out of 481239
- 503493 string characters out of 5920376
- 1164805 words of memory out of 5000000
- 41507 multiletter control sequences out of 15000+600000
- 537802 words of font info for 43 fonts, out of 8000000 for 9000
+ 26725 strings out of 481239
+ 504114 string characters out of 5920376
+ 1160142 words of memory out of 5000000
+ 41519 multiletter control sequences out of 15000+600000
+ 537803 words of font info for 43 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 68i,9n,100p,836b,1312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,8n,100p,836b,1427s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -1230,11 +1230,11 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmtt9.pfb>
-Output written on tas_ver.pdf (1 page, 120345 bytes).
+amsfonts/cm/cmtt10.pfb>
+Output written on tas_ver.pdf (1 page, 135932 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

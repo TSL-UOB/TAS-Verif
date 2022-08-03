@@ -1,29 +1,32 @@
 \section{Introduction}
-
-
-The use of AI-enabled and autonomous systems is pervasive in current society and is set to become even more so with current technological growth trends and adoption rates. Systems with embedded AI and machine learning (ML) algorithms can be found in numerous applications from mobile phones\footnote{\url{https://medium.com/gobeyond-ai/artificial-intelligence-ai-in-mobile-phones-is-it-a-good-thing-fe044f20ea6c}} and vacuum cleaners\footnote{\url{https://blog.tensorflow.org/2020/01/ecovacs-robotics-ai-robotic-vacuum.html}} to medical diagnostics~\cite{kononenko2001machine}. 
+The use of AI-enabled and autonomous systems is pervasive in current society and is set to become even more so with current technological growth trends and adoption rates. Systems with embedded AI and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{medium_ai_phones}, insurance pricing~\cite{kuo2020towards} and vacuum cleaners~\cite{tf_vacuum} to medical diagnostics~\cite{kononenko2001machine} and detecting structural damage to buildings~\cite{avci2021review}. 
 %
-This also includes a range of safety-critical applications in the aerospace and automotive industry. 
+There is also growing use of machine learning in a range of safety-critical systems (SCSs), for example in the aerospace and automotive industry where failure of these systems could result in catastrophic failure and potentially loss of life or damage to property and the environment. These safety-critical autonomous systems (SCAS) present a complex but essential challenge to the safety assurance and verification community. 
 %
-There are swaths of applications for productivity (auto-complete email sentences in MS outlook, auto-complete code writing in github), entertainment (image and video manipulation) and 
-medical
-insurance
-manufacturing
-automated warehousing
-
-
-Verification and validation are important to earning trust and gaining confidence in the safety of AS. 
-
+Conventional V\&V is principally concerned with assessing the system against a set of requirements. 
+What human factors are considered eg. ISO29119
+But if AS are to be fully trustworthy there is an aspect
+We find ourselves at a central tenet; is the AS appropriately trustworthy and, is the user's trust in the AS appropriate?
+%
+To present a defensible safety argument for AS and SCAS...
+trust stakeholders
+\emph{trust qualities}
+application specific
 
 
 %\subsection{Document Structure}
 In the following, related work is reviewed in Section
 
+\section{Related Work}\label{Related_work}
 
 
+\section{Assessment Framework Vision}\label{Assessment_Framework_Vision}
 
-\section{Related Work}
-\label{Related_work}
+
+\subsection{Assessment Methods \& Corroborative Evidence}
+Gaining reliability assurance of SCASs using testing alone is unfeasible given the often high-dimensional operational state space. Multiple testing methodologies should be employed where appropriate, e.g. verification, falsification and testing, [Harper Corroborative 2022] combining mutually consistent evidence from multiple and diverse assessment methods will raise the confidence in system trustworthiness.
+
+Knowledge of the internal state of the system is often hidden, e.g. blackbox, due to IP and commercial sensitivity, but whitebox access will be essential for certain aspects of trustworthiness assessment. This may not need to reveal sensitive algorithms but just enough information through observability points in the software architecture could go a long way to understanding if automated decisions are made for the right reason\cite{koopman2018toward}. 
 
 
 
