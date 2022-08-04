@@ -72,6 +72,105 @@
       \field{pages}{107077}
       \range{pages}{1}
     \endentry
+    \entry{alpha_fold}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1d46e8043997c8570d0c31262787fa32}{%
+           family={Callaway},
+           familyi={C\bibinitperiod},
+           given={Ewen},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature}%
+      }
+      \strng{namehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{fullhash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{bibnamehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{authorbibnamehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{authornamehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{authorfullhash}{1d46e8043997c8570d0c31262787fa32}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nature.com/articles/d41586-022-02083-2}}
+      \field{journaltitle}{Nature News}
+      \field{note}{Accessed: 2022-08-02}
+      \field{title}{The entire protein universe: AI predicts shape of nearly every known protein}
+      \field{volume}{608}
+      \field{year}{2022}
+      \field{pages}{15\bibrangedash 16}
+      \range{pages}{2}
+      \verb{doi}
+      \verb https://doi.org/10.1038/d41586-022-02083-2
+      \endverb
+    \endentry
+    \entry{Chiou2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1f536e37a1b7d713c56820b52c44df89}{%
+           family={Chiou},
+           familyi={C\bibinitperiod},
+           given={Erin\bibnamedelima K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5afd73a9b515b1bc5caa35a02400d62b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{015574259bf28e3e6f11dd54b7fe93b7}
+      \strng{fullhash}{015574259bf28e3e6f11dd54b7fe93b7}
+      \strng{bibnamehash}{015574259bf28e3e6f11dd54b7fe93b7}
+      \strng{authorbibnamehash}{015574259bf28e3e6f11dd54b7fe93b7}
+      \strng{authornamehash}{015574259bf28e3e6f11dd54b7fe93b7}
+      \strng{authorfullhash}{015574259bf28e3e6f11dd54b7fe93b7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15478181}
+      \field{journaltitle}{Human Factors}
+      \field{title}{{Trusting Automation: Designing for Responsivity and Resilience}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1177/00187208211009995
+      \endverb
+      \keyw{adaptive automation,autonomy,human–automation interaction,intelligent agents,intersubjectivity,trust}
+    \endentry
+    \entry{kok2020trust}{article}{}
+      \name{author}{2}{}{%
+        {{hash=177494a241837a9012780b4b9f9cc5e5}{%
+           family={Kok},
+           familyi={K\bibinitperiod},
+           given={Bing\bibnamedelima Cai},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0d3913d17eb88bdf9584046784697e2d}{%
+           family={Soh},
+           familyi={S\bibinitperiod},
+           given={Harold},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4cb8ad719563d385a5b385d07e0344f5}
+      \strng{fullhash}{4cb8ad719563d385a5b385d07e0344f5}
+      \strng{bibnamehash}{4cb8ad719563d385a5b385d07e0344f5}
+      \strng{authorbibnamehash}{4cb8ad719563d385a5b385d07e0344f5}
+      \strng{authornamehash}{4cb8ad719563d385a5b385d07e0344f5}
+      \strng{authorfullhash}{4cb8ad719563d385a5b385d07e0344f5}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Robotics Reports}
+      \field{number}{4}
+      \field{title}{Trust in robots: Challenges and opportunities}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{297\bibrangedash 309}
+      \range{pages}{13}
+    \endentry
     \entry{kononenko2001machine}{article}{}
       \name{author}{1}{}{%
         {{hash=398d8e9b11dc3ac0d8be10cc7eda4e86}{%

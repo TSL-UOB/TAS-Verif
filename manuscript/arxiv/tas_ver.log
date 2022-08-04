@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  3 AUG 2022 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  4 AUG 2022 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,9 +1192,7 @@ a shorter form with \titlerunning prior to \maketitle
 
 Package hyperref Warning: Ignoring empty anchor on input line 87.
 
-(../source/abstract.tex) (../source/body.tex) (../source/appendix.tex)
-
-AED: lastpage setting LastPage
+(../source/abstract.tex) (../source/body.tex)
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
@@ -1202,7 +1200,13 @@ Package balance Warning: You have called \balance in second column
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
+] (../source/appendix.tex) 
+AED: lastpage setting LastPage
+
+Overfull \vbox (2.22223pt too high) has occurred while \output is active []
+
+
+[2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./tas_ver.aux)
@@ -1215,10 +1219,10 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26725 strings out of 481239
- 504114 string characters out of 5920376
- 1160142 words of memory out of 5000000
- 41519 multiletter control sequences out of 15000+600000
+ 26741 strings out of 481239
+ 504592 string characters out of 5920376
+ 1158291 words of memory out of 5000000
+ 41531 multiletter control sequences out of 15000+600000
  537803 words of font info for 43 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  68i,8n,100p,836b,1427s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1231,10 +1235,10 @@ t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb>
-Output written on tas_ver.pdf (1 page, 135932 bytes).
+Output written on tas_ver.pdf (2 pages, 138631 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -302,10 +302,10 @@ INPUT ../source/body.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ../source/appendix.tex
 INPUT ../source/appendix.tex
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT tas_ver.aux
 INPUT ./tas_ver.out
 INPUT ./tas_ver.out
