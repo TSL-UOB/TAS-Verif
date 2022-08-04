@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@latest/styles/vis-network.css" type="text/css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"> </script>
+<center>
+<h1>AS-Qualities Network Graph</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 1200px;
+            background-color: black;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#540D6E", "font": {"color": "white"}, "id": 0, "label": "ability", "shape": "dot", "value": 2}, {"color": "#F78A53", "font": {"color": "white"}, "id": 1, "label": "accessibility", "shape": "dot", "value": 2}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 2, "label": "accountability", "shape": "dot", "value": 4}, {"color": "#540D6E", "font": {"color": "white"}, "id": 3, "label": "accuracy", "shape": "dot", "value": 1}, {"color": "#3BCEAC", "font": {"color": "white"}, "id": 4, "label": "adaptability", "shape": "dot", "value": 2}, {"color": "#540D6E", "font": {"color": "white"}, "id": 5, "label": "adept", "shape": "dot", "value": 1}, {"color": "#3BCEAC", "font": {"color": "white"}, "id": 6, "label": "analysability", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 7, "label": "appropriateness recognisibility", "shape": "dot", "value": 1}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 8, "label": "assurance", "shape": "dot", "value": 2}, {"color": "#9DD076", "font": {"color": "white"}, "id": 9, "label": "authenticity", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 10, "label": "Autonomy", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 11, "label": "availability", "shape": "dot", "value": 3}, {"color": "#EE4266", "font": {"color": "white"}, "id": 12, "label": "beneficence", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 13, "label": "benevolence", "shape": "dot", "value": 1}, {"color": "#A1286A", "font": {"color": "white"}, "id": 14, "label": "capacity", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 15, "label": "communicative", "shape": "dot", "value": 2}, {"color": "#540D6E", "font": {"color": "white"}, "id": 16, "label": "competency", "shape": "dot", "value": 6}, {"color": "#EE4266", "font": {"color": "white"}, "id": 17, "label": "concern", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 18, "label": "confidential", "shape": "dot", "value": 3}, {"color": "#EE4266", "font": {"color": "white"}, "id": 19, "label": "congeniality", "shape": "dot", "value": 1}, {"color": "#540D6E", "font": {"color": "white"}, "id": 20, "label": "consistency", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 21, "label": "cooperative", "shape": "dot", "value": 4}, {"color": "#F78A53", "font": {"color": "white"}, "id": 22, "label": "coordination", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 23, "label": "deferential", "shape": "dot", "value": 1}, {"color": "#540D6E", "font": {"color": "white"}, "id": 24, "label": "dependable", "shape": "dot", "value": 2}, {"color": "#A1286A", "font": {"color": "white"}, "id": 25, "label": "efficient", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 26, "label": "ethical", "shape": "dot", "value": 2}, {"color": "#540D6E", "font": {"color": "white"}, "id": 27, "label": "experienced", "shape": "dot", "value": 1}, {"color": "#540D6E", "font": {"color": "white"}, "id": 28, "label": "expertise", "shape": "dot", "value": 3}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 29, "label": "explainability", "shape": "dot", "value": 2}, {"color": "#9DD076", "font": {"color": "white"}, "id": 30, "label": "fairness", "shape": "dot", "value": 2}, {"color": "#9DD076", "font": {"color": "white"}, "id": 31, "label": "faithfulness", "shape": "dot", "value": 4}, {"color": "#EE4266", "font": {"color": "white"}, "id": 32, "label": "flexible", "shape": "dot", "value": 2}, {"color": "#540D6E", "font": {"color": "white"}, "id": 33, "label": "functionality", "shape": "dot", "value": 1}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 34, "label": "governance", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 35, "label": "harmony", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 36, "label": "honesty", "shape": "dot", "value": 1}, {"color": "#25BE8B", "font": {"color": "white"}, "id": 37, "label": "initialise", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 38, "label": "integrity", "shape": "dot", "value": 5}, {"color": "#F78A53", "font": {"color": "white"}, "id": 39, "label": "intelligibility", "shape": "dot", "value": 1}, {"color": "#540D6E", "font": {"color": "white"}, "id": 40, "label": "intentional", "shape": "dot", "value": 2}, {"color": "#540D6E", "font": {"color": "white"}, "id": 41, "label": "intentionality", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 42, "label": "interoperability", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 43, "label": "interpersonal", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 44, "label": "interpretability", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 45, "label": "Justice", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 46, "label": "learnability", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 47, "label": "loyalty", "shape": "dot", "value": 2}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 48, "label": "maturity", "shape": "dot", "value": 1}, {"color": "#3BCEAC", "font": {"color": "white"}, "id": 49, "label": "modifiability", "shape": "dot", "value": 1}, {"color": "#3BCEAC", "font": {"color": "white"}, "id": 50, "label": "modularity", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 51, "label": "negotiation", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 52, "label": "non-discriminatory", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 53, "label": "non\u2011maleficence", "shape": "dot", "value": 1}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 54, "label": "openness", "shape": "dot", "value": 3}, {"color": "#F78A53", "font": {"color": "white"}, "id": 55, "label": "operability", "shape": "dot", "value": 1}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 56, "label": "persistence", "shape": "dot", "value": 1}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 57, "label": "predictable", "shape": "dot", "value": 3}, {"color": "#EE4266", "font": {"color": "white"}, "id": 58, "label": "principled", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 59, "label": "privacy", "shape": "dot", "value": 2}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 60, "label": "reasonable", "shape": "dot", "value": 2}, {"color": "#EE4266", "font": {"color": "white"}, "id": 61, "label": "reciprocity", "shape": "dot", "value": 1}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 62, "label": "regulation", "shape": "dot", "value": 1}, {"color": "#540D6E", "font": {"color": "white"}, "id": 63, "label": "reliability", "shape": "dot", "value": 6}, {"color": "#25BE8B", "font": {"color": "white"}, "id": 64, "label": "replaceability", "shape": "dot", "value": 1}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 65, "label": "resilient", "shape": "dot", "value": 1}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 66, "label": "responsibility", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 67, "label": "responsive", "shape": "dot", "value": 1}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 68, "label": "responsivity", "shape": "dot", "value": 1}, {"color": "#3BCEAC", "font": {"color": "white"}, "id": 69, "label": "reusability", "shape": "dot", "value": 1}, {"color": "#A1286A", "font": {"color": "white"}, "id": 70, "label": "robustness", "shape": "dot", "value": 3}, {"color": "#540D6E", "font": {"color": "white"}, "id": 71, "label": "safe", "shape": "dot", "value": 3}, {"color": "#F78A53", "font": {"color": "white"}, "id": 72, "label": "satisfying", "shape": "dot", "value": 1}, {"color": "#25BE8B", "font": {"color": "white"}, "id": 73, "label": "scalability", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 74, "label": "security", "shape": "dot", "value": 2}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 75, "label": "sensible", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 76, "label": "sensitive", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 77, "label": "sincerity", "shape": "dot", "value": 1}, {"color": "#F78A53", "font": {"color": "white"}, "id": 78, "label": "SLEEC", "shape": "dot", "value": 1}, {"color": "#540D6E", "font": {"color": "white"}, "id": 79, "label": "specialist", "shape": "dot", "value": 1}, {"color": "#3BCEAC", "font": {"color": "white"}, "id": 80, "label": "sustainability", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 81, "label": "tactfulness", "shape": "dot", "value": 1}, {"color": "#3BCEAC", "font": {"color": "white"}, "id": 82, "label": "testability", "shape": "dot", "value": 1}, {"color": "#A1286A", "font": {"color": "white"}, "id": 83, "label": "timely", "shape": "dot", "value": 3}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 84, "label": "tolerance", "shape": "dot", "value": 2}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 85, "label": "traceability", "shape": "dot", "value": 1}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 86, "label": "transparency", "shape": "dot", "value": 2}, {"color": "#cccccc", "font": {"color": "white"}, "id": 87, "label": "trustworthy", "shape": "dot", "value": 1}, {"color": "#0EAD69", "font": {"color": "white"}, "id": 88, "label": "understandability", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 89, "label": "understanding", "shape": "dot", "value": 2}, {"color": "#F78A53", "font": {"color": "white"}, "id": 90, "label": "usability", "shape": "dot", "value": 2}, {"color": "#540D6E", "font": {"color": "white"}, "id": 91, "label": "utility", "shape": "dot", "value": 1}, {"color": "#9DD076", "font": {"color": "white"}, "id": 92, "label": "validate", "shape": "dot", "value": 1}, {"color": "#FFD23F", "font": {"color": "white"}, "id": 93, "label": "volitional", "shape": "dot", "value": 1}, {"color": "#EE4266", "font": {"color": "white"}, "id": 94, "label": "well-behaved", "shape": "dot", "value": 1}]);
+        edges = new vis.DataSet([{"from": 0, "to": 14, "width": 8}, {"from": 0, "to": 16, "width": 8}, {"from": 0, "to": 28, "width": 8}, {"from": 1, "to": 11, "width": 8}, {"from": 1, "to": 54, "width": 8}, {"from": 2, "to": 66, "width": 8}, {"from": 9, "to": 3, "width": 8}, {"from": 9, "to": 63, "width": 8}, {"from": 9, "to": 31, "width": 8}, {"from": 13, "to": 89, "width": 8}, {"from": 13, "to": 84, "width": 8}, {"from": 13, "to": 12, "width": 8}, {"from": 14, "to": 16, "width": 8}, {"from": 16, "to": 28, "width": 8}, {"from": 18, "to": 87, "width": 8}, {"from": 20, "to": 35, "width": 8}, {"from": 24, "to": 87, "width": 8}, {"from": 27, "to": 5, "width": 8}, {"from": 31, "to": 47, "width": 8}, {"from": 31, "to": 3, "width": 8}, {"from": 35, "to": 22, "width": 8}, {"from": 36, "to": 38, "width": 8}, {"from": 36, "to": 31, "width": 8}, {"from": 36, "to": 54, "width": 8}, {"from": 36, "to": 77, "width": 8}, {"from": 46, "to": 54, "width": 8}, {"from": 46, "to": 72, "width": 8}, {"from": 47, "to": 63, "width": 8}, {"from": 48, "to": 66, "width": 8}, {"from": 54, "to": 77, "width": 8}, {"from": 58, "to": 26, "width": 8}, {"from": 60, "to": 75, "width": 8}, {"from": 63, "to": 24, "width": 8}, {"from": 63, "to": 87, "width": 8}, {"from": 63, "to": 57, "width": 8}, {"from": 63, "to": 71, "width": 8}, {"from": 87, "to": 58, "width": 8}, {"from": 87, "to": 75, "width": 8}, {"from": 87, "to": 26, "width": 8}, {"from": 89, "to": 76, "width": 8}, {"from": 91, "to": 25, "width": 8}, {"from": 91, "to": 75, "width": 8}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
