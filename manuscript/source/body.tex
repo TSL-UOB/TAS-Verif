@@ -7,9 +7,19 @@ Conventional V\&V is principally concerned with assessing the system against a s
 %
 This paper focuses on a reviewing what trustworthiness means for AS, how AS can be verified as trustworthy, and the challenges associated with what that verification process may look like. 
 
-A widely held tenet is that there can never be a suitable amount of verification for complex, autonomous systems that gives complete assurance [ref] and thinking must now move beyond verification at the system design stage to a more continuous operational evaluation, e.g. runtime verification [ref] which also brings other unresolved issues such suitable oracle design [ref]. 
+A widely held tenet is that there can never be a suitable amount of verification for complex, autonomous systems that gives complete safety-critical assurance [butler_nasa]. Corroborative V\&V [kerstin, harper] attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, simulation, falsification, physical testing. 
 %
-Further to this issue, is the lack of standards by which many trustworthy qualities should be appraised and the methods by which they should be evaluated.
+But even this may not be enough for the diverse operational domains of some AS, e.g. automated vehicles in high-density urban areas, and thinking should move beyond verification at only the system design stage, to a more continuous operational evaluation, e.g. runtime verification [ref]. Runtime verification brings other currently unresolved issues, such suitable oracle design [ref], but some authors propose valid solutions to this using edge computing and \emph{just in time} verification [peter thales, ref?]. 
+%
+Croudsourcing verification test cases through scientific games may also be an interesting route to explore, demonstrated for an automated vehicle controller in a driving simulator [github_test_gen_game]. 
+
+
+Further to this issue, are the lack of \emph{standards} against which some trustworthy qualities should be appraised and the \emph{methods} by which they should be evaluated. For example, there are standards for correct road driving conduct [ref UKHC] but no ethical standards by which those driving decisions should be made. 
+%
+Although headway is being made into developing standards for non-functional properties, such as guidelines for ethical AI [ref EU AI high level expert group] and checklists for HRI best practice [DE HRI checklist], there are still areas that need attention, such as standards and specifications for transparency and explainability, asethetics and fairness [dhaminda22]. 
+%
+Additionally, there is more that can be done at the design stage to improve \emph{verifiability}. Evidence for system correctness is essential, but this must be supported with decision explaination [koopman], whilst maintaining IPR around sensitive hardware and software algorithms [ref]. 
+
 
 
 %
