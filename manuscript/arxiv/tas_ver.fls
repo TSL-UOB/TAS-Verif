@@ -245,8 +245,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
