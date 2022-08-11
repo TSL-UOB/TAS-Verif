@@ -1,4 +1,8 @@
-% \addbibresource{../source/TASverif.bib}
+\addbibresource{../source/TASverif.bib}
+
+% ****************************************
+% *************************** Introduction
+% ****************************************
 
 \section{Introduction}
 Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{medium_ai_phones}, insurance pricing~\cite{kuo2020towards} and vacuum cleaners~\cite{tf_vacuum} to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
@@ -12,7 +16,7 @@ Conventional V\&V is principally concerned with assessing the system against a s
 %
 This paper focuses on a reviewing what trustworthiness means for AS, how AS can be verified as trustworthy, and the challenges associated with what that verification process may look like. 
 
-% A widely held tenet is that there can never be a suitable amount of verification for complex, autonomous systems that gives complete safety-critical assurance [butler_nasa]. Corroborative V\&V [kerstin, harper] attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, simulation, falsification, physical testing. 
+A widely held tenet is that there can never be a suitable amount of verification for complex, autonomous systems that gives complete safety-critical assurance [butler nasa]. Corroborative V\&V [kerstin, harper] attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, simulation, falsification, physical testing. 
 %
 But even this may not be enough for the diverse operational domains of some AS, e.g. automated vehicles in high-density urban areas, and thinking should move beyond verification at only the system design stage, to a more continuous operational evaluation, e.g. runtime verification [ref]. Runtime verification brings other currently unresolved issues, such suitable oracle design [ref], but some authors propose valid solutions to this using edge computing and \emph{just in time} verification~\cite{CyRes20,eder2021cyres}. 
 %
@@ -43,14 +47,22 @@ In addition to assessing the AS trustworthiness, there must also be consideratio
 In the following, related work is reviewed in Section
 
 
+% ****************************************
+% ************** Trustworthiness Qualities
+% ****************************************
+
 \subsection{Trustworthiness Qualities}
 
 Trust can be expressed in a number of ways and directions; trust the user has in the system, the objective trustworthiness of the system and the context in which the interaction between the two takes place~\cite{Hancock2021}. 
 %
 In this research we consider only the trustworthiness of the system, but we acknowledge the importance of the other areas in which there has been much contribution from the psychology and human factors community~\cite{Floridi2019,Lee2004,kok2020trust,Chiou2021,Kohn2021}Trustworthiness of autonomous systems in this context, is the result of objective assessment of the system compared against a set of appropriate standards.
 
+Devitt argues that reliability and accuracy are the central pillars of trustworthiness and that other properties stem from these, e.g. adaptability and redundancy are higher-order properties of reliability~\cite{devitt2018trustworthiness}. 
 
 
+% ****************************************
+% *************************** Related Work
+% ****************************************
 \section{Related Work}\label{Related_work}
 
 Floridi suggests the need for agreed upon metrics for trustworthiness of AI systems and suggests an  AI Trust comparison index, metrics are needed for benchmarking AI suitability to the public.
@@ -59,8 +71,17 @@ Rudas and Haidegger also supports the idea of agreed upon metrics from the verif
 
 
 
-
+% ****************************************
+% ******************* Assessment Framework
+% ****************************************
 \section{Assessment Framework Vision}\label{Assessment_Framework_Vision}
+
+
+
+
+% ****************************************
+% ********************* Existing Standards
+% ****************************************
 
 \subsection{Existing Standards for AS}
 Existing standards on verification (from Rudas 2020): P1872.1, P2817, P7000 and P7007.
@@ -72,8 +93,14 @@ Ethical framework for AI~\cite{Floridi2018} ``offer 20 concrete recommendations 
 
 Porter2022 presents an ethical assurance argument for AS, extending the assurance case considered for safety to include ethical standards
 
+devitt2018trustworthiness 
+
 \textcolor{red}{Dhaminda to contribute here?}
 
+
+% ****************************************
+% ********************* Existing Standards
+% ****************************************
 
 \subsection{Assessment Methods \& Corroborative Evidence}
 Gaining reliability assurance of SCASs using testing alone is unfeasible given the often high-dimensional operational state space. Multiple testing methodologies should be employed where appropriate, e.g. verification, falsification and testing, [Harper Corroborative 2022] combining mutually consistent evidence from multiple and diverse assessment methods will raise the confidence in system trustworthiness.
@@ -81,6 +108,10 @@ Gaining reliability assurance of SCASs using testing alone is unfeasible given t
 Knowledge of the internal state of the system is often hidden, e.g. blackbox, due to IP and commercial sensitivity, but whitebox access will be essential for certain aspects of trustworthiness assessment. This may not need to reveal sensitive algorithms but just enough information through observability points in the software architecture could go a long way to understanding if automated decisions are made for the right reason~\cite{koopman2018toward}. 
 
 
+
+% ****************************************
+% ********************* Existing Standards
+% ****************************************
 
 \section{Conclusion}\label{conclusion}
 

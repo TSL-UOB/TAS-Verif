@@ -2204,10 +2204,11 @@
     <bcf:citekey order="16">kok2020trust</bcf:citekey>
     <bcf:citekey order="16">Chiou2021</bcf:citekey>
     <bcf:citekey order="16">Kohn2021</bcf:citekey>
-    <bcf:citekey order="17">Rudas2020</bcf:citekey>
-    <bcf:citekey order="18">Wang2020</bcf:citekey>
-    <bcf:citekey order="19">Floridi2018</bcf:citekey>
-    <bcf:citekey order="20">koopman2018toward</bcf:citekey>
+    <bcf:citekey order="17">devitt2018trustworthiness</bcf:citekey>
+    <bcf:citekey order="18">Rudas2020</bcf:citekey>
+    <bcf:citekey order="19">Wang2020</bcf:citekey>
+    <bcf:citekey order="20">Floridi2018</bcf:citekey>
+    <bcf:citekey order="21">koopman2018toward</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

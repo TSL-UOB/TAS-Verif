@@ -269,6 +269,33 @@
       \endverb
       \keyw{adaptive automation,autonomy,human–automation interaction,intelligent agents,intersubjectivity,trust}
     \endentry
+    \entry{devitt2018trustworthiness}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0bd5ff5c95dcad1cefd9a8baab1c0385}{%
+           family={Devitt},
+           familyi={D\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0bd5ff5c95dcad1cefd9a8baab1c0385}
+      \strng{fullhash}{0bd5ff5c95dcad1cefd9a8baab1c0385}
+      \strng{bibnamehash}{0bd5ff5c95dcad1cefd9a8baab1c0385}
+      \strng{authorbibnamehash}{0bd5ff5c95dcad1cefd9a8baab1c0385}
+      \strng{authornamehash}{0bd5ff5c95dcad1cefd9a8baab1c0385}
+      \strng{authorfullhash}{0bd5ff5c95dcad1cefd9a8baab1c0385}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Foundations of trusted autonomy (Studies in Systems, Decision and Control, Volume 117)}
+      \field{title}{Trustworthiness of autonomous systems}
+      \field{year}{2018}
+      \field{pages}{161\bibrangedash 184}
+      \range{pages}{24}
+    \endentry
     \entry{eder2021cyres}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=7c6ad14b250cf6c8ba8e92e4ad94f196}{%
