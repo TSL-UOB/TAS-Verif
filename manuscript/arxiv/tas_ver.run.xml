@@ -79,7 +79,7 @@
       <file>tas_ver.bcf</file>
     </requires>
     <requires type="editable">
-      <file>../source/assertion.bib</file>
+      <file>../source/TASverif.bib</file>
     </requires>
   </external>
 </requests>

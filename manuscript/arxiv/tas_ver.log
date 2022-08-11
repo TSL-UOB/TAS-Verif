@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  10 AUG 2022 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  11 AUG 2022 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,10 +1192,48 @@ Package hyperref Warning: Ignoring empty anchor on input line 87.
 /updmap/pdftex.map}
 
 
-]) (../source/appendix.tex)
+])
+Underfull \hbox (badness 1264) in paragraph at lines 110--110
+[]\OT1/cmr/m/n/10 S. C. Kohn et al. ``Mea-sure-ment of Trust in
+ []
 
-AED: lastpage setting LastPage
+
+Underfull \hbox (badness 1024) in paragraph at lines 110--110
+[]\OT1/cmr/m/n/10 J. Kraus et al. ``The trust-wor-thy and ac-cept-
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 110--110
+\OT1/cmr/m/it/10 f^^?ur Ange-wandte Or-gan-i-sa-tion-spsy-cholo-gie (GIO)
+ []
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
 [2]
+Underfull \hbox (badness 1721) in paragraph at lines 110--110
+\OT1/cmr/m/n/10 wor-thi-ness and ac-count-abil-ity of human-driven
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 110--110
+\OT1/cmr/m/n/10 au-tonomous sys-tems''. In: \OT1/cmr/m/it/10 2021 IEEE In-ter-n
+a-
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 110--110
+[]\OT1/cmr/m/n/10 A. F. Win-field et al. ``IEEE P7001: A pro-
+ []
+
+(../source/appendix.tex) 
+AED: lastpage setting LastPage
+
+Overfull \vbox (2.22223pt too high) has occurred while \output is active []
+
+
+[3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./tas_ver.aux)
@@ -1208,26 +1246,27 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26728 strings out of 481239
- 504311 string characters out of 5920376
- 1159041 words of memory out of 5000000
- 41522 multiletter control sequences out of 15000+600000
- 537803 words of font info for 43 fonts, out of 8000000 for 9000
+ 26806 strings out of 481239
+ 506689 string characters out of 5920376
+ 1161756 words of memory out of 5000000
+ 41582 multiletter control sequences out of 15000+600000
+ 538104 words of font info for 44 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 68i,8n,100p,836b,1366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,8n,100p,1184b,1377s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmtt10.pfb>
-Output written on tas_ver.pdf (2 pages, 140592 bytes).
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb>
+Output written on tas_ver.pdf (3 pages, 162377 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

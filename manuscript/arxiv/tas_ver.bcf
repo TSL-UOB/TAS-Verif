@@ -2179,7 +2179,7 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">../source/assertion.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../source/TASverif.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">medium_ai_phones</bcf:citekey>
@@ -2188,9 +2188,26 @@
     <bcf:citekey order="4">kononenko2001machine</bcf:citekey>
     <bcf:citekey order="5">avci2021review</bcf:citekey>
     <bcf:citekey order="6">alpha_fold</bcf:citekey>
-    <bcf:citekey order="7">kok2020trust</bcf:citekey>
-    <bcf:citekey order="7">Chiou2021</bcf:citekey>
-    <bcf:citekey order="8">koopman2018toward</bcf:citekey>
+    <bcf:citekey order="7">CyRes20</bcf:citekey>
+    <bcf:citekey order="7">eder2021cyres</bcf:citekey>
+    <bcf:citekey order="8">Allen2018</bcf:citekey>
+    <bcf:citekey order="9">highwayCode</bcf:citekey>
+    <bcf:citekey order="10">kraus2022trustworthy</bcf:citekey>
+    <bcf:citekey order="11">winfield2021ieee</bcf:citekey>
+    <bcf:citekey order="12">Abeywickrama2022</bcf:citekey>
+    <bcf:citekey order="13">koopman2018toward</bcf:citekey>
+    <bcf:citekey order="14">kok2020trust</bcf:citekey>
+    <bcf:citekey order="14">Chiou2021</bcf:citekey>
+    <bcf:citekey order="15">Hancock2021</bcf:citekey>
+    <bcf:citekey order="16">Floridi2019</bcf:citekey>
+    <bcf:citekey order="16">Lee2004</bcf:citekey>
+    <bcf:citekey order="16">kok2020trust</bcf:citekey>
+    <bcf:citekey order="16">Chiou2021</bcf:citekey>
+    <bcf:citekey order="16">Kohn2021</bcf:citekey>
+    <bcf:citekey order="17">Rudas2020</bcf:citekey>
+    <bcf:citekey order="18">Wang2020</bcf:citekey>
+    <bcf:citekey order="19">Floridi2018</bcf:citekey>
+    <bcf:citekey order="20">koopman2018toward</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
