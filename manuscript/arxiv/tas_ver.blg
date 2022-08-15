@@ -1,17 +1,9 @@
-[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
-[0] Config.pm:307> INFO - Logfile is 'tas_ver.blg'
-[41] biber:322> INFO - === Thu Aug 11, 2022, 15:49:13
-[48] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
-[83] Biber.pm:943> INFO - Found 24 citekeys in bib section 0
-[89] Biber.pm:4256> INFO - Processing section 0
-[89] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
-[89] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
-[94] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
-[95] bibtex.pm:1653> INFO - LaTeX decoding ...
-[118] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
-[251] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[251] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[251] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[251] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[267] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
-[277] bbl.pm:755> INFO - Output to tas_ver.bbl
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'tas_ver.blg'
+[27] biber:313> INFO - === Mon Aug 15, 2022, 16:03:39
+[45] Biber.pm:371> INFO - Reading 'tas_ver.bcf'
+[102] Biber.pm:857> INFO - Found 31 citekeys in bib section 0
+[114] Biber.pm:3981> INFO - Processing section 0
+[135] Biber.pm:4154> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
+[136] Utils.pm:185> ERROR - Data file '../source/TASverif.bib' cannot be read in encoding 'ascii': ascii "\xE2" does not map to Unicode at /usr/share/perl5/File/Slurper.pm line 59.
+[136] Biber.pm:114> INFO - ERRORS: 1
