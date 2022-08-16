@@ -1,4 +1,4 @@
-% \addbibresource{../source/TASverif.bib}
+\addbibresource{../source/TASverif.bib}
 
 % ****************************************
 % *************************** Introduction
@@ -7,18 +7,24 @@
 \section{Introduction}
 Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{medium_ai_phones}, insurance pricing~\cite{kuo2020towards} and vacuum cleaners~\cite{tf_vacuum} to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
 %
-For successful adoption of these systems then there needs to be demonstrable assurance of their safe operation which becomes increasingly difficult to in complex and changing environments.  
+For successful adoption of these systems then there needs to be demonstrable assurance of their trustworthy operation which becomes increasingly difficult in complex and changing environments.  
 %
-There is also growing use of machine learning in a range of safety-critical systems (SCSs), for example in the aerospace and automotive industry where low reliability of these systems could result in catastrophic failure and potentially loss of life or damage to property and the environment. These safety-critical autonomous systems (SCAS) present a complex but essential challenge to the safety assurance and verification community. 
+There is also growing use of machine learning in a range of safety-critical systems (SCSs), for example in the aerospace and automotive industry where low reliability of these systems could result in catastrophic failure and potentially loss of life or damage to property and the environment. These safety-critical autonomous systems present a complex but essential challenge to the safety assurance and verification community. 
 
+Verification and validation (V\&V) is the process to gain confidence in the correctness of a system relative to its requirements. Prior to and separate from verification, a specification of the the system must clearly define the expected operational behaviour of the system and many challenges are associated with this task for autonomous systems~\cite{Abeywickrama2022}. 
 %
+% ********************
 Conventional V\&V is principally concerned with assessing the system against a set of requirements, providing guarantees of functionality and assurance of safety. But if autonomous systems are to be fully accepted into society, there must be acknowledgement of and evidence to show compliance with a broad range of \emph{trustworthiness qualities}. 
+% 
+A major challenge in verifying this broader category trustworthiness qualities are the lack of standards and regulations against which they can be evaluated. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of developing robust assessment methodologies and metrics of success for these more nuanced trustworthiness qualities. 
+%
+% [maybe cut] For example, there are well defined rules for driving conduct and expected behaviour [UKHC] which could be verified using simulation based verification [harper22] but standards for social interaction, aesthetics or ethical behaviour are either non-existent or just emerging [EU directive for AI ethics]. 
 %
 This paper focuses on a reviewing what trustworthiness means for AS, how AS can be verified as trustworthy, and the challenges associated with what that verification process may look like. 
 
-A widely held tenet is that there can never be a suitable amount of verification for complex, autonomous systems that gives complete safety-critical assurance [butler nasa]. Corroborative V\&V [kerstin, harper] attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, simulation, falsification, physical testing. 
+A widely held tenet is that there can never be a suitable amount of verification that gives complete assurance for complex, safety-critical autonomous systems, although limits on reliability rates have been proposed~\cite{Butler1993}. Corroborative V\&V~\cite{webster2020corroborative} attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, testing. 
 %
-But even this may not be enough for the diverse operational domains of some AS, e.g. automated vehicles in high-density urban areas, and thinking should move beyond verification at only the system design stage, to a more continuous operational evaluation, e.g. runtime verification [ref]. Runtime verification brings other currently unresolved issues, such suitable oracle design [ref], but some authors propose valid solutions to this using edge computing and \emph{just in time} verification~\cite{CyRes20,eder2021cyres}. 
+But even this may not be enough for the diverse operational domains of some AS, e.g. automated vehicles in high-density urban areas, and thinking should move beyond verification at only the system design stage, to a more continuous operational evaluation, e.g. runtime verification. Runtime verification brings other currently unresolved issues, such suitable oracle design~\cite{Leucker2009}, but some authors propose valid ideas to this using edge computing and cloud-based verification~\cite{CyRes20,eder2021cyres}. 
 %
 The use of \emph{serious games} can be another interesting opportunity for building trustworthiness in complex autonomous systems and has been used in the context of mission planning for NASA~\cite{Allen2018} and also demonstrated for an automated vehicle controller in a driving simulator [ref test gen game, need to make github page, add code and youtube videos]. 
 
@@ -47,7 +53,7 @@ application specific
 What human factors are considered eg. ISO29119
 
 
-In addition to assessing the AS trustworthiness, there must also be consideration to gain, calibrate and maintain user trust in the system~\cite{kok2020trust, Chiou2021}, else failures related to overtrust and undertrust are possible. 
+In addition to assessing the AS trustworthiness, there must also be consideration to gain, calibrate and maintain user trust in the system~\cite{kok2020trust, Chiou2021}, as miscalibration of trust between system and user can have serious consequences~\cite{kok2020trust}. 
 
 
 %\subsection{Document Structure}
@@ -62,15 +68,33 @@ In the following, related work is reviewed in Section
 
 Trust can be expressed in a number of ways and directions; trust the user has in the system, the objective trustworthiness of the system and the context in which the interaction between the two takes place~\cite{Hancock2021}. 
 %
+Trustworthiness can also been described as a the probability that a system holds some established property or quality, and that greater trustworthiness begets greater likelihood that the system may exhibit that quality. 
+%
 In this research we consider the trustworthiness of the system and the specific qualities that must be demonstrated, but we acknowledge the importance of the other mechanisms where human-system trust can be gained or lost in which there has been much contribution from the HRI, psychology and human factors community~\cite{Floridi2019,Lee2004,kok2020trust,Chiou2021,Kohn2021,kraus2022trustworthy}. 
 %
 Trustworthiness of autonomous systems in the context of this work then, results from objective assessment of the system with respect to a set of appropriate standards. 
 %
 There has been much academic deliberation on the specific qualities that comprise trustworthiness of AS, specifically for AI~\cite{Thiebes2021,Wing2021} and HRI~\cite{kraus2022trustworthy,atkinson2012trust}
 %
-Devitt argues that reliability and accuracy are the central pillars of trustworthiness and that other properties stem from these, stating that adaptability and redundancy are higher-order properties of reliability~\cite{devitt2018trustworthiness}. 
+Devitt argues that reliability and accuracy are the two central pillars of trustworthiness of AS and that all other properties stem from these, for example, stating that adaptability and redundancy are higher-order properties of reliability~\cite{devitt2018trustworthiness}. 
 %
-Thiebes et al. argue for five foundational principles of trustworthy AS (1) beneficence, (2) non-maleficence, (3) autonomy, (4) justice, and (5) explicability~\cite{Thiebes2021}.  
+
+%
+There is, in fact, a spectrum of qualities that comprise user trust in an autonomous system...
+
+A summary of AS trustworthy qualities in the literature can be found at [https://github.com/TSL-UOB/TAS-Verif]
+
+
+
+
+
+
+\subsection{AS Trustworthiness Quality Categories}
+
+(Lee \& See 2004) performance, process, purpose, which although are broadly capturing of all trustworthy qualities miss some nuance to give an open account. 
+
+Thiebes et al. argue for five foundational principles of trustworthy AS: beneficence (doing good), non-maleficence (not harming), autonomy (preserving human decision making), justice (fair and reasonable), and explicability (easily understood)~\cite{Thiebes2021}. These are based on and related to other discussion on ethically principled foundations of trustworthiness, Floridi 2018~\cite{Floridi2018}, and should be weighted appropriate to the strong international contribution to this area Jobin 2019~\cite{jobin2019global} but fail to capture the full trustworthiness spectrum of qualities presented here.
+
 
 
 % ****************************************
@@ -156,16 +180,8 @@ Knowledge of the internal state of the system is often hidden, e.g. blackbox, du
 % ***********************************
 % notes
 
-
-% \section{Verification for Swarms}\label{sec:verification}
-
-% % Once designed/evolved/implemented with the above considerations it will still be important to test and monitor the resulting behaviours. To do this we can verify etc...
-% Verification and validation (V\&V) is the process to gain confidence in the correctness of a system relative to its requirements. Prior to and separate from verification, a specification of the the system must clearly define the expected operational behaviour of the system and many challenges are associated with this task for autonomous systems~\cite{Abeywickrama2022}. There are different verification methods that can be employed and are often chosen relevant to the application, operational domain and the specific properties that need to be verified.
-
-% \subsection{Swarm Trustworthiness Qualities}\label{sec:verification-qualities}
-% A swarm must not just be functionally correct but fully trustworthy if it is to integrate with, and be useful to society. Verifying trustworthiness qualities may require methods extending beyond traditional V\&V techniques, as trustworthiness is a meta-property that encapsulates not just safety and functional correctness but many other non-functional attributes, for example, reliability, performance and ethics~\cite{Floridi2019, Wing2021, Lee2004}. A major challenge in verification of these more broad trustworthiness qualities are the lack of standards and regulations by which they can be evaluated against. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of devloping robust methodologies for these more nuanced trustworthiness qualities. For example, there are well defined rules for driving conduct and expected behaviour [UKHC] which could be verified using simulation based verification [harper22] but standards for social interaction, aesthetics or ethical behaviour are either non-existent or just emerging [EU directive for AI ethics]. 
 % %
-% In addition to assessing the trustworthiness of the swarm, there must also be consideration to gain, calibrate and maintain user trust in the system~\cite{Chiou2021}, as under- or overtrust in the system can lead to serious and sometimes fatal consequences~\cite{kok2020trust}.
+% 
 
 % \subsection{Swarm Trustworthiness Qualities \& Assessment}\label{sec:verification-qualities-swarm}
 % Robustness, scalability and adaptability are considered as being particularly useful qualities of swarm trustworthiness, although this list could be extended to cover many other trustworthy qualities [https://github.com/TSL-UOB/TAS-Verif]. 
