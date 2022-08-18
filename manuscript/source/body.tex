@@ -5,6 +5,7 @@
 % ****************************************
 
 \section{Introduction}
+
 Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{mediumaiphones}, insurance pricing~\cite{kuo2020towards} and self-driving vehicles %vacuum cleaners~\cite{tf_vacuum} 
 to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
 %
@@ -14,8 +15,8 @@ There is also growing use of machine learning in a range of safety-critical syst
 
 Verification and validation (V\&V) is the process to gain confidence in the correctness of a system relative to its requirements. Prior to, and separate from verification, a specification must clearly define the trustworthy operational behaviour of the system and many challenges are associated with this task for autonomous systems~\cite{Abeywickrama2022}. 
 %
-% ********************
-% Conventional V\&V is principally concerned with assessing the system against a set of requirements, providing guarantees of functionality and assurance of safety. But i
+% Conventional V\&V is principally concerned with assessing the system against a set of requirements, providing guarantees of functionality and assurance of safety.
+%
 If autonomous systems are to be fully accepted into society, there must be acknowledgement of, and evidence to show, compliance with a broad range of \emph{trustworthiness qualities}. 
 % 
 A major challenge in verifying this broad category of trustworthiness qualities, are the lack of standards and regulations against which they can be evaluated. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of developing robust assessment methodologies and metrics for these more nuanced trustworthiness qualities. 
@@ -23,6 +24,10 @@ A major challenge in verifying this broad category of trustworthiness qualities,
 % [maybe cut] For example, there are well defined rules for driving conduct and expected behaviour [UKHC] which could be verified using simulation based verification [harper22] but standards for social interaction, aesthetics or ethical behaviour are either non-existent or just emerging [EU directive for AI ethics]. 
 %
 This paper focuses on reviewing what trustworthiness means in the fields of AS, robotics, HRI and Cyber-Physical Systems (CPS). An assessment process is presented along with the challenges associated with practical application.
+
+% ****************************************
+% ***** V&V for AS in complex environments
+% ****************************************
 
 \subsection{V\&V for AS in complex environments} 
 
@@ -32,7 +37,6 @@ But even this may not be enough for the diverse operational domains of some AS, 
 %
 The use of \emph{serious games} can be another interesting opportunity for building trustworthiness in complex autonomous systems and has been used in the context of mission planning for NASA~\cite{Allen2018} and in a self-driving vehicle controller leveraging the power of crowdsourcing for test generation [ref test gen game, need to make github page, add code and youtube videos]. 
 
-
 \begin{figure*}[]
     \centering
     \includegraphics[width=0.98\linewidth]{\pathToOtherFiles/figures/tas_ver.jpg}
@@ -40,28 +44,19 @@ The use of \emph{serious games} can be another interesting opportunity for build
     \label{fig:tas_ver}
 \end{figure*}
 
-
 Further to this issue, are the lack of \emph{standards} against which some trustworthy qualities should be appraised and the \emph{methods} by which they should be evaluated. For example, there are standards for correct road driving conduct~\cite{highwayCode} but no ethical standards by which those driving decisions should be made [ref like trolley problem?]. 
 %
 Although headway is being made into developing standards for non-functional properties, such as guidelines for ethical AI [ref EU AI high level expert group], checklists for HRI best practice ~\cite{kraus2022trustworthy} and transparency~\cite{winfield2021ieee}, there are still areas that need attention, such as standards for adaptability, cooperation and fairness~\cite{Abeywickrama2022}. 
 %
-Additionally, there is more that can be done at the design stage to improve \emph{verifiability} [add ref]. Evidence for system correctness is essential, but this must be supported with decision explanation~\cite{koopman2018toward} whilst maintaining intellectual property rights around, for example, sensitive software algorithms [ref]. 
+Where standards are lacking or immature will require engagement with \emph{trust stakeholders}, expert steering groups that can define and prioritise the necessary trustworthiness qualities for each subject domain or application. 
 
-
-
-%
-To present a defensible safety argument for AS and SCAS...
-trust stakeholders
-\emph{trust qualities}
-application specific
-What human factors are considered eg. ISO29119
-
+Additionally, there is more that can be done at the design stage to improve \emph{verifiability} [add ref]. Evidence for functional correctness is essential, but this must be supported with decision explanation~\cite{koopman2018toward} whilst maintaining intellectual property rights around, for example, sensitive software algorithms and trade secrets [ref]. 
 
 In addition to assessing the AS trustworthiness, there must also be consideration to gain, calibrate and maintain user trust in the system~\cite{kok2020trust, Chiou2021}, as miscalibration of trust between system and user can have serious consequences~\cite{kok2020trust}. 
 
 
 %\subsection{Document Structure}
-In the following, related work is reviewed in Section
+% In the following, related work is reviewed in Section
 
 
 % ****************************************
@@ -84,7 +79,7 @@ There has been much academic deliberation on the specific qualities that compris
 %
 Devitt argues that reliability and accuracy are the two central pillars of trustworthiness of AS and that all other properties stem from these, for example, stating that adaptability and redundancy are higher-order properties of reliability~\cite{devitt2018trustworthiness}. 
 
-ts_foundation state 5 facets of trustworthy software: Safety: The ability of the software to operate without causing harm to anything or anyone.Reliability: The ability of the software to operate correctly. Availability: The ability of the software to operate when required.
+\cite{ts_foundation} state 5 facets of trustworthy software: Safety: The ability of the software to operate without causing harm to anything or anyone.Reliability: The ability of the software to operate correctly. Availability: The ability of the software to operate when required.
 Resilience: The ability of the software to recover from errors quickly and completely. Security: The ability of the software to remain protected against the hazards posed by malware, hackers or accidental misuse.
 
 There is, in fact, a spectrum of qualities that comprise user trust in an autonomous system...(leads into categories)
@@ -94,14 +89,37 @@ A summary of AS trustworthy qualities in the literature can be found at [https:/
 
 
 
-
+% ****************************************
+% ************************ Ontology of AS
+% ****************************************
 
 \subsection{Ontology of AS Trustworthiness Qualities}
 
+An ontology of trustworthiness qualities is presented. This is an independent set of characteristics, where one category is not necessary influenced or related to its neighbours, that supports clarity of the assessment [connett 2018]
 
 (Lee \& See 2004) performance, process, purpose, which although are broadly capturing of all trustworthy qualities miss some nuance to give a complete and expressive account of trustworthiness. 
 
-why categorise? sets of independent characteristics not necessary "influencing, or influenced by, neighboring functions" can support clarity of assessment [connett 2018]
+\begin{table*}[t]
+\centering
+\begin{tabular}{cl}
+\toprule
+Trustworthiness  & Definition                \\ 
+Quality   &   \\ \midrule
+Functionality  & the ability of a system to not enter a failure mode, to be able to execute tasks required of it without fault (competence, ability, expertise), to achieve a goal state (liveness), and do so within permitted use of resources (time, materials, energy)\\
+Compatibility  & degree to which the system can exchange information with (or be transferred to) other systems, users and infrastructure, and ability to share the same environment with other autonomous or sentient agents
+Usability &  extent to which the system can be used to achieve specified goals with effectiveness (accessible, usable), efficiency (available, responsive) and satisfaction (satisfying) in a specified context\\
+Reliability &degree to which the system performs specified functions under specified conditions for a specified period of time, dependable, consistency
+Security &   1. protection against intentional subversion or forced failure, malicious access, use, modification, destruction, or disclosure 2. defining, achieving, and maintaining confidentiality, integrity, availability, non‐repudiation, accountability, authenticity, and reliability of a system 3. degree to which the system protects information and data so that users of the system have the degree of data access appropriate to their types and levels of authorization, confidentiality, integrity and accountability\\
+Robustness & ease with which a software system or component can overcome adverse conditions, be maintained, modified to change or add capabilities or expand to new scales, correct faults or defects, improve performance or other attributes\\
+Ethical &beneficence (doing good), non-maleficence (not harming), autonomy (preserving human decision making), justice (fair and reasonable), and explicability (easily understood)\\
+Regulatability & ease in which the system is readable, explainable, transparent and understandable. System state information is presented in a conducive manner to support regulation and/or is readily comparable to specifications providing evidence of correct operation and supporting appropriate metrics.\\
+
+\bottomrule
+\end{tabular}
+\caption{Trustworthiness qualities ontology}
+\label{tab:ontology}
+\end{table*}
+
 
 avizienis2004basic a set of general concepts are required for dependable and secure computing, which may cover a wide range of applications and system failures, which comprise; availability (readiness for correct service), reliability (continuity of correct service), safety (absence of catastrophic consequences on the user(s) and the environment), integrity (absence of improper system alterations) and maintainability (ability to undergo modifications and repairs). 
 
@@ -112,7 +130,7 @@ Thiebes et al. argue for five foundational principles of trustworthy AS: benefic
 % ****************************************
 % *************************** Related Work
 % ****************************************
-\section{Related Work}\label{Related_work}
+% \section{Related Work}\label{Related_work}
 
 
 
@@ -165,6 +183,8 @@ Ethical framework for AI~\cite{Floridi2018} ``offer 20 concrete recommendations 
 Porter2022 presents an ethical assurance argument for AS, extending the assurance case considered for safety to include ethical standards
 
 devitt2018trustworthiness 
+
+What human factors are considered eg. ISO29119
 
 \textcolor{red}{Dhaminda to contribute here?}
 

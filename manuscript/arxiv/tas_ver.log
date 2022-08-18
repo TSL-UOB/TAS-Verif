@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  18 AUG 2022 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  18 AUG 2022 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,6 +804,27 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count347
 )
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
+\@cmidla=\count348
+\@cmidlb=\count349
+\@aboverulesep=\dimen199
+Normal \dimen register pool exhausted, switching to extended pool.
+\@belowrulesep=\dimen256
+\@thisruleclass=\count350
+\@lastruleclass=\count351
+\@thisrulewidth=\dimen257
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip81
@@ -815,50 +836,50 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
-\ex@=\dimen189
+\ex@=\dimen258
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen190
+\pmbraise@=\dimen259
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count348
+\inf@bad=\count352
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count349
-\leftroot@=\count350
+\uproot@=\count353
+\leftroot@=\count354
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count351
-\DOTSCASE@=\count352
+\classnum@=\count355
+\DOTSCASE@=\count356
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box73
 \strutbox@=\box74
-\big@size=\dimen191
+\big@size=\dimen260
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 
 
 Package amsmath Warning: Unable to redefine math accent \vec.
 
-\macc@depth=\count353
-\c@MaxMatrixCols=\count354
+\macc@depth=\count357
+\c@MaxMatrixCols=\count358
 \dotsspace@=\muskip11
-\c@parentequation=\count355
-\dspbrk@lvl=\count356
+\c@parentequation=\count359
+\dspbrk@lvl=\count360
 \tag@help=\toks35
-\row@=\count357
-\column@=\count358
-\maxfields@=\count359
+\row@=\count361
+\column@=\count362
+\maxfields@=\count363
 \andhelp@=\toks36
-\eqnshift@=\dimen192
-\alignsep@=\dimen193
-\tagshift@=\dimen194
-\tagwidth@=\dimen195
-\totwidth@=\dimen196
-\lineht@=\dimen197
+\eqnshift@=\dimen261
+\alignsep@=\dimen262
+\tagshift@=\dimen263
+\tagwidth@=\dimen264
+\totwidth@=\dimen265
+\lineht@=\dimen266
 \@envbody=\toks37
 \multlinegap=\skip82
 \multlinetaggap=\skip83
@@ -874,14 +895,13 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen198
-\captionmargin@=\dimen199
-Normal \dimen register pool exhausted, switching to extended pool.
-\captionwidth=\dimen256
-\caption@tempdima=\dimen257
-\caption@indent=\dimen258
-\caption@parindent=\dimen259
-\caption@hangindent=\dimen260
+\captionmargin=\dimen267
+\captionmargin@=\dimen268
+\captionwidth=\dimen269
+\caption@tempdima=\dimen270
+\caption@indent=\dimen271
+\caption@parindent=\dimen272
+\caption@hangindent=\dimen273
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -894,10 +914,10 @@ Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
 tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
 fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
 tempboxa \hfil }\fi \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count360
+\c@ContinuedFloat=\count364
 )
-\c@subfigure=\count361
-\c@subtable=\count362
+\c@subfigure=\count365
+\c@subtable=\count366
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -936,14 +956,14 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen261
-\Hy@linkcounter=\count363
-\Hy@pagecounter=\count364
+\@linkdim=\dimen274
+\Hy@linkcounter=\count367
+\Hy@pagecounter=\count368
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count365
+\Hy@SavedSpaceFactor=\count369
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -955,12 +975,12 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count366
+\c@Hy@tempcnt=\count370
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen262
-\Fld@menulength=\count367
-\Field@Width=\dimen263
-\Fld@charsize=\dimen264
+\XeTeXLinkMargin=\dimen275
+\Fld@menulength=\count371
+\Field@Width=\dimen276
+\Fld@charsize=\dimen277
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -970,16 +990,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count368
-\c@Item=\count369
-\c@Hfootnote=\count370
+\Hy@abspage=\count372
+\c@Item=\count373
+\c@Hfootnote=\count374
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count371
-\c@bookmark@seq@number=\count372
+\Fld@listcount=\count375
+\c@bookmark@seq@number=\count376
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -990,7 +1010,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen265
+\oldvsize=\dimen278
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
@@ -999,13 +1019,13 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip85
 \@affilsep=\skip86
-\c@Maxaffil=\count373
-\c@authors=\count374
-\c@affil=\count375
+\c@Maxaffil=\count377
+\c@authors=\count378
+\c@affil=\count379
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count376
+\c@float@type=\count380
 \float@exts=\toks39
 \float@box=\box75
 \@float@everytoks=\toks40
@@ -1017,8 +1037,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count377
-\@quotereset=\count378
+\@quotelevel=\count381
+\@quotereset=\count382
 
 (/home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.aux)
 \openout1 = `tas_ver.aux'.
@@ -1086,16 +1106,16 @@ Package biblatex Info: Reference segment=0 on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count379
-\scratchdimen=\dimen266
+\scratchcounter=\count383
+\scratchdimen=\dimen279
 \scratchbox=\box77
-\nofMPsegments=\count380
-\nofMParguments=\count381
+\nofMPsegments=\count384
+\nofMParguments=\count385
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count382
-\MPscratchDim=\dimen267
-\MPnumerator=\count383
-\makeMPintoPDFobject=\count384
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen280
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
 \everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1128,7 +1148,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count385
+\c@section@level=\count389
 )
 LaTeX Info: Redefining \ref on input line 62.
 LaTeX Info: Redefining \pageref on input line 62.
@@ -1149,121 +1169,117 @@ Package hyperref Warning: Ignoring empty anchor on input line 87.
 (/home/is18902/git/TAS-Verif/manuscript/arxiv/../source/abstract.tex)
 (/home/is18902/git/TAS-Verif/manuscript/arxiv/../source/body.tex
 
-LaTeX Warning: Citation 'mediumaiphones' on page 1 undefined on input line 8.
+LaTeX Warning: Citation 'mediumaiphones' on page 1 undefined on input line 9.
 
 
-LaTeX Warning: Citation 'kuo2020towards' on page 1 undefined on input line 8.
+LaTeX Warning: Citation 'kuo2020towards' on page 1 undefined on input line 9.
 
 
 LaTeX Warning: Citation 'kononenko2001machine' on page 1 undefined on input lin
-e 9.
+e 10.
 
 
-LaTeX Warning: Citation 'avci2021review' on page 1 undefined on input line 9.
+LaTeX Warning: Citation 'avci2021review' on page 1 undefined on input line 10.
 
 
-LaTeX Warning: Citation 'alpha_fold' on page 1 undefined on input line 9.
+LaTeX Warning: Citation 'alpha_fold' on page 1 undefined on input line 10.
 
 
-LaTeX Warning: Citation 'Abeywickrama2022' on page 1 undefined on input line 15
+LaTeX Warning: Citation 'Abeywickrama2022' on page 1 undefined on input line 16
 .
 
 
-LaTeX Warning: Citation 'Butler1993' on page 1 undefined on input line 29.
+LaTeX Warning: Citation 'Butler1993' on page 1 undefined on input line 34.
 
 
 LaTeX Warning: Citation 'webster2020corroborative' on page 1 undefined on input
- line 29.
+ line 34.
 
 
-LaTeX Warning: Citation 'Leucker2009' on page 1 undefined on input line 31.
+LaTeX Warning: Citation 'Leucker2009' on page 1 undefined on input line 36.
 
 
-LaTeX Warning: Citation 'CyRes20' on page 1 undefined on input line 31.
+LaTeX Warning: Citation 'CyRes20' on page 1 undefined on input line 36.
 
 
-LaTeX Warning: Citation 'eder2021cyres' on page 1 undefined on input line 31.
+LaTeX Warning: Citation 'eder2021cyres' on page 1 undefined on input line 36.
 
 
-LaTeX Warning: Citation 'Allen2018' on page 1 undefined on input line 33.
+LaTeX Warning: Citation 'Allen2018' on page 1 undefined on input line 38.
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 29--34
+Underfull \hbox (badness 1142) in paragraph at lines 34--39
 \OT1/cmr/m/n/10 A widely held tenet is that there can never be a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 \OT1/cmr/m/n/10 suit-able amount of ver-i-fi-ca-tion that gives com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 \OT1/cmr/m/n/10 plete as-sur-ance for com-plex, safety-critical au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 \OT1/cmr/m/n/10 tonomous sys-tems, al-though lim-its on re-li-a-bil-ity
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 29--34
+Underfull \hbox (badness 1087) in paragraph at lines 34--39
 \OT1/cmr/m/n/10 V&V [[]] at-tempts to im-
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 29--34
+Underfull \hbox (badness 1596) in paragraph at lines 34--39
 \OT1/cmr/m/n/10 cloud-based ver-i-fi-ca-tion [[], []].
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 29--34
+Underfull \hbox (badness 1533) in paragraph at lines 34--39
 \OT1/cmr/m/n/10 op-por-tu-nity for build-ing trust-wor-thi-ness in com-plex
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 36.
+               Default added (so using `htbp') on input line 40.
 
-<../other/figures/tas_ver.jpg, id=11, 934.99312pt x 443.40656pt>
+<../other/figures/tas_ver.jpg, id=11, 944.7797pt x 475.7775pt>
 File: ../other/figures/tas_ver.jpg Graphic file (type jpg)
 <use ../other/figures/tas_ver.jpg>
-Package pdftex.def Info: ../other/figures/tas_ver.jpg  used on input line 38.
-(pdftex.def)             Requested size: 495.77003pt x 235.11261pt.
+Package pdftex.def Info: ../other/figures/tas_ver.jpg  used on input line 42.
+(pdftex.def)             Requested size: 495.77003pt x 249.6635pt.
 
-LaTeX Warning: Citation 'highwayCode' on page 1 undefined on input line 44.
+LaTeX Warning: Citation 'highwayCode' on page 1 undefined on input line 47.
 
 
 LaTeX Warning: Citation 'kraus2022trustworthy' on page 1 undefined on input lin
-e 46.
+e 49.
 
 
-LaTeX Warning: Citation 'winfield2021ieee' on page 1 undefined on input line 46
+LaTeX Warning: Citation 'winfield2021ieee' on page 1 undefined on input line 49
 .
 
 
-LaTeX Warning: Citation 'Abeywickrama2022' on page 1 undefined on input line 46
+LaTeX Warning: Citation 'Abeywickrama2022' on page 1 undefined on input line 49
 .
 
 
-LaTeX Warning: Citation 'koopman2018toward' on page 1 undefined on input line 4
-8.
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 44--49
+Underfull \hbox (badness 1968) in paragraph at lines 47--52
 []\OT1/cmr/m/n/10 Further to this is-sue, are the lack of \OT1/cmr/m/it/10 stan
 -dards
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 44--49
+Underfull \hbox (badness 1205) in paragraph at lines 47--52
 \OT1/cmr/m/n/10 praised and the \OT1/cmr/m/it/10 meth-ods \OT1/cmr/m/n/10 by wh
 ich they should be
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 44--49
+Underfull \hbox (badness 1383) in paragraph at lines 47--52
 \OT1/cmr/m/n/10 [ref EU AI high level ex-pert group], check-lists for
  []
 
@@ -1272,149 +1288,201 @@ Underfull \hbox (badness 1383) in paragraph at lines 44--49
 
 ]
 
-LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 60.
+LaTeX Warning: Citation 'koopman2018toward' on page 2 undefined on input line 5
+3.
 
 
-LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'Hancock2021' on page 2 undefined on input line 73.
-
-
-LaTeX Warning: Citation 'Floridi2019' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'Lee2004' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'Kohn2021' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
-e 77.
-
-
-LaTeX Warning: Citation 'Thiebes2021' on page 2 undefined on input line 81.
-
-
-LaTeX Warning: Citation 'Wing2021' on page 2 undefined on input line 81.
-
-
-LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
-e 81.
-
-
-LaTeX Warning: Citation 'atkinson2012trust' on page 2 undefined on input line 8
-1.
-
-
-LaTeX Warning: Citation 'devitt2018trustworthiness' on page 2 undefined on inpu
-t line 83.
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 73--85
-\OT1/cmr/m/n/10 Trust can be ex-pressed in a num-ber of ways and
+Underfull \hbox (badness 5133) in paragraph at lines 53--54
+[]\OT1/cmr/m/n/10 Additionally, there is more that can be done
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 73--85
+Underfull \hbox (badness 4072) in paragraph at lines 53--54
+\OT1/cmr/m/n/10 at the de-sign stage to im-prove \OT1/cmr/m/it/10 ver-i-fi-a-bi
+l-ity \OT1/cmr/m/n/10 [add
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 53--54
+\OT1/cmr/m/n/10 but this must be sup-ported with de-ci-sion ex-pla-na-
+ []
+
+
+LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation 'Yazdanpanah2021' on page 2 undefined on input line 68.
+
+
+
+LaTeX Warning: Citation 'Hancock2021' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'Floridi2019' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'Lee2004' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'Kohn2021' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
+e 74.
+
+
+LaTeX Warning: Citation 'Thiebes2021' on page 2 undefined on input line 78.
+
+
+LaTeX Warning: Citation 'Wing2021' on page 2 undefined on input line 78.
+
+
+LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
+e 78.
+
+
+LaTeX Warning: Citation 'atkinson2012trust' on page 2 undefined on input line 7
+8.
+
+
+LaTeX Warning: Citation 'devitt2018trustworthiness' on page 2 undefined on inpu
+t line 80.
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 70--81
 \OT1/cmr/m/n/10 di-rec-tions; trust the user has in the sys-tem, the
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 73--85
+Underfull \hbox (badness 3189) in paragraph at lines 70--81
 \OT1/cmr/m/n/10 com-mu-nity [[], [], [],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--85
+Underfull \hbox (badness 10000) in paragraph at lines 70--81
 []\OT1/cmr/m/n/10 , [], []].
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 73--85
+Underfull \hbox (badness 2343) in paragraph at lines 70--81
 \OT1/cmr/m/n/10 specif-i-cally for AI [[], []] and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--85
+Underfull \hbox (badness 10000) in paragraph at lines 70--81
 \OT1/cmr/m/n/10 HRI [[], []]
  []
 
 
-LaTeX Warning: Citation 'Thiebes2021' on page 2 undefined on input line 100.
+LaTeX Warning: Citation 'ts_foundation' on page 2 undefined on input line 82.
 
 
-LaTeX Warning: Citation 'Floridi2018' on page 2 undefined on input line 100.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <../other/figures/tas_ver.jpg>]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.110 Usability &
+                   extent to which the system can be used to achieve specifi...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.112 Security &
+                   1. protection against intentional subversion or forced fa...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ê in font cmr9!
+
+Overfull \hbox (2651.17465pt too wide) in paragraph at lines 104--119
+ [][] 
+ []
 
 
-LaTeX Warning: Citation 'jobin2019global' on page 2 undefined on input line 100
+LaTeX Warning: Citation 'Thiebes2021' on page 3 undefined on input line 126.
+
+
+LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 126.
+
+
+LaTeX Warning: Citation 'jobin2019global' on page 3 undefined on input line 126
 .
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 100--101
+Underfull \hbox (badness 1308) in paragraph at lines 126--127
 []\OT1/cmr/m/n/10 Thiebes et al. ar-gue for five foun-da-tional prin-ci-
  []
 
-[2 <../other/figures/tas_ver.jpg>]
 
-LaTeX Warning: Citation 'Rudas2020' on page 3 undefined on input line 125.
+LaTeX Warning: Citation 'Rudas2020' on page 3 undefined on input line 151.
 
 
-LaTeX Warning: Citation 'Wang2020' on page 3 undefined on input line 125.
+LaTeX Warning: Citation 'Wang2020' on page 3 undefined on input line 151.
 
 
 LaTeX Warning: Citation 'garbuk2018intellimetry' on page 3 undefined on input l
-ine 127.
+ine 153.
 
 
 LaTeX Warning: Citation 'kaur2021trustworthy' on page 3 undefined on input line
- 129.
+ 155.
 
 
-LaTeX Warning: Citation 'cho2019stram' on page 3 undefined on input line 131.
+LaTeX Warning: Citation 'cho2019stram' on page 3 undefined on input line 157.
 
 
-LaTeX Warning: Citation 'Bolster2014' on page 3 undefined on input line 133.
+LaTeX Warning: Citation 'Bolster2014' on page 3 undefined on input line 159.
 
 
 LaTeX Warning: Citation 'kress2021formalizing' on page 3 undefined on input lin
-e 138.
+e 164.
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 137--139
+Underfull \hbox (badness 1577) in paragraph at lines 163--165
 \OT1/cmr/m/n/10 down into four ap-proaches: syn-the-sis of correct-by-
  []
 
 
-LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 155.
+LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 181.
 
 
-LaTeX Warning: Citation 'Riaz2018' on page 3 undefined on input line 165.
+LaTeX Warning: Citation 'Riaz2018' on page 3 undefined on input line 193.
 
 
 LaTeX Warning: Citation 'hechter2001social' on page 3 undefined on input line 1
-65.
+93.
 
 
-LaTeX Warning: Citation 'highwayCode' on page 3 undefined on input line 167.
+LaTeX Warning: Citation 'highwayCode' on page 3 undefined on input line 195.
 
 
-LaTeX Warning: Citation 'harper2021safety' on page 3 undefined on input line 16
-7.
+LaTeX Warning: Citation 'harper2021safety' on page 3 undefined on input line 19
+5.
 
+[3]
 
-LaTeX Warning: Citation 'koopman2018toward' on page 3 undefined on input line 1
-77.
+LaTeX Warning: Citation 'koopman2018toward' on page 4 undefined on input line 2
+05.
 
 )
 
@@ -1423,10 +1491,10 @@ LaTeX Warning: Empty bibliography on input line 109.
 
 AED: lastpage setting LastPage
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
+Overfull \vbox (1.94444pt too high) has occurred while \output is active []
 
-[3]
+
+[4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (/home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.aux)
@@ -1448,26 +1516,27 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25552 strings out of 492982
- 472993 string characters out of 6134896
- 916887 words of memory out of 5000000
- 28695 multiletter control sequences out of 15000+600000
+ 25611 strings out of 492982
+ 473778 string characters out of 6134896
+ 920632 words of memory out of 5000000
+ 28749 multiletter control sequences out of 15000+600000
  8937 words of font info for 32 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  62i,8n,94p,835b,1259s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti9.pfb>
-Output written on /home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.pdf (3 p
-ages, 399466 bytes).
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti9.pfb>
+Output written on /home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.pdf (4 p
+ages, 395424 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
