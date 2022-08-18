@@ -1,9 +1,9 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'tas_ver.blg'
-[27] biber:313> INFO - === Mon Aug 15, 2022, 16:03:39
-[45] Biber.pm:371> INFO - Reading 'tas_ver.bcf'
-[102] Biber.pm:857> INFO - Found 31 citekeys in bib section 0
-[114] Biber.pm:3981> INFO - Processing section 0
-[135] Biber.pm:4154> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
-[136] Utils.pm:185> ERROR - Data file '../source/TASverif.bib' cannot be read in encoding 'ascii': ascii "\xE2" does not map to Unicode at /usr/share/perl5/File/Slurper.pm line 59.
-[136] Biber.pm:114> INFO - ERRORS: 1
+[38] biber:313> INFO - === Thu Aug 18, 2022, 11:46:17
+[62] Biber.pm:371> INFO - Reading 'tas_ver.bcf'
+[143] Biber.pm:857> INFO - Found 38 citekeys in bib section 0
+[162] Biber.pm:3981> INFO - Processing section 0
+[179] Biber.pm:4154> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
+[179] Utils.pm:185> ERROR - Data file '../source/TASverif.bib' cannot be read in encoding 'ascii': ascii "\xE2" does not map to Unicode at /usr/share/perl5/File/Slurper.pm line 59.
+[179] Biber.pm:114> INFO - ERRORS: 1
