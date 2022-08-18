@@ -70,6 +70,8 @@ In the following, related work is reviewed in Section
 
 \subsection{Trustworthiness Qualities}
 
+As computing and automation has developed, systems are now both more capable and users more reliant on them. This extension of capability has resulted in a broadening of the terms which encompass trustworthiness, as, for example, the important trustworthiness qualities of a calculator may be less numerous than those of a medical decision support system. Advancement in automation then, has led us to question and challenge these new capabilities, or, with more automation comes more responsibility~\cite{Yazdanpanah2021}. 
+
 Trust can be expressed in a number of ways and directions; trust the user has in the system, the objective trustworthiness of the system and the context in which the interaction between the two takes place~\cite{Hancock2021}. 
 %
 Trustworthiness can also been described as a the probability that a system holds some established property or quality, and that greater trustworthiness begets greater likelihood that the system may exhibit that quality. 
@@ -81,10 +83,11 @@ Trustworthiness of autonomous systems in the context of this work then, results 
 There has been much academic deliberation on the specific qualities that comprise trustworthiness of AS, specifically for AI~\cite{Thiebes2021,Wing2021} and HRI~\cite{kraus2022trustworthy,atkinson2012trust}
 %
 Devitt argues that reliability and accuracy are the two central pillars of trustworthiness of AS and that all other properties stem from these, for example, stating that adaptability and redundancy are higher-order properties of reliability~\cite{devitt2018trustworthiness}. 
-%
 
-%
-There is, in fact, a spectrum of qualities that comprise user trust in an autonomous system...
+ts_foundation state 5 facets of trustworthy software: Safety: The ability of the software to operate without causing harm to anything or anyone.Reliability: The ability of the software to operate correctly. Availability: The ability of the software to operate when required.
+Resilience: The ability of the software to recover from errors quickly and completely. Security: The ability of the software to remain protected against the hazards posed by malware, hackers or accidental misuse.
+
+There is, in fact, a spectrum of qualities that comprise user trust in an autonomous system...(leads into categories)
 
 A summary of AS trustworthy qualities in the literature can be found at [https://github.com/TSL-UOB/TAS-Verif]
 
@@ -95,7 +98,12 @@ A summary of AS trustworthy qualities in the literature can be found at [https:/
 
 \subsection{Ontology of AS Trustworthiness Qualities}
 
+
 (Lee \& See 2004) performance, process, purpose, which although are broadly capturing of all trustworthy qualities miss some nuance to give a complete and expressive account of trustworthiness. 
+
+why categorise? sets of independent characteristics not necessary "influencing, or influenced by, neighboring functions" can support clarity of assessment [connett 2018]
+
+avizienis2004basic a set of general concepts are required for dependable and secure computing, which may cover a wide range of applications and system failures, which comprise; availability (readiness for correct service), reliability (continuity of correct service), safety (absence of catastrophic consequences on the user(s) and the environment), integrity (absence of improper system alterations) and maintainability (ability to undergo modifications and repairs). 
 
 Thiebes et al. argue for five foundational principles of trustworthy AS: beneficence (doing good), non-maleficence (not harming), autonomy (preserving human decision making), justice (fair and reasonable), and explicability (easily understood)~\cite{Thiebes2021}. These are based on and related to other discussion on ethically principled foundations of trustworthiness, Floridi 2018~\cite{Floridi2018}, and should be weighted appropriate to the strong international contribution to this area Jobin 2019~\cite{jobin2019global} but fail to capture the full trustworthiness spectrum of qualities presented here.
 
