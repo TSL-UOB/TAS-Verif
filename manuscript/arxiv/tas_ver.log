@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  18 AUG 2022 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  19 AUG 2022 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1392,97 +1392,75 @@ LaTeX Warning: Citation 'ts_foundation' on page 2 undefined on input line 82.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2 <../other/figures/tas_ver.jpg>]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.110 Usability &
-                   extent to which the system can be used to achieve specifi...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.112 Security &
-                   1. protection against intentional subversion or forced fa...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ê in font cmr9!
 
-Overfull \hbox (2651.17465pt too wide) in paragraph at lines 104--119
- [][] 
- []
+
+LaTeX Warning: Citation 'Thiebes2021' on page 3 undefined on input line 145.
 
 
-LaTeX Warning: Citation 'Thiebes2021' on page 3 undefined on input line 126.
+LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 145.
 
 
-LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 126.
-
-
-LaTeX Warning: Citation 'jobin2019global' on page 3 undefined on input line 126
+LaTeX Warning: Citation 'jobin2019global' on page 3 undefined on input line 145
 .
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 126--127
+Underfull \hbox (badness 1308) in paragraph at lines 145--146
 []\OT1/cmr/m/n/10 Thiebes et al. ar-gue for five foun-da-tional prin-ci-
  []
 
 
-LaTeX Warning: Citation 'Rudas2020' on page 3 undefined on input line 151.
+LaTeX Warning: Citation 'Rudas2020' on page 3 undefined on input line 170.
 
 
-LaTeX Warning: Citation 'Wang2020' on page 3 undefined on input line 151.
+LaTeX Warning: Citation 'Wang2020' on page 3 undefined on input line 170.
 
 
 LaTeX Warning: Citation 'garbuk2018intellimetry' on page 3 undefined on input l
-ine 153.
+ine 172.
 
 
 LaTeX Warning: Citation 'kaur2021trustworthy' on page 3 undefined on input line
- 155.
+ 174.
 
 
-LaTeX Warning: Citation 'cho2019stram' on page 3 undefined on input line 157.
+LaTeX Warning: Citation 'cho2019stram' on page 3 undefined on input line 176.
 
 
-LaTeX Warning: Citation 'Bolster2014' on page 3 undefined on input line 159.
+LaTeX Warning: Citation 'Bolster2014' on page 3 undefined on input line 178.
 
 
 LaTeX Warning: Citation 'kress2021formalizing' on page 3 undefined on input lin
-e 164.
+e 183.
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 163--165
+Underfull \hbox (badness 1577) in paragraph at lines 182--184
 \OT1/cmr/m/n/10 down into four ap-proaches: syn-the-sis of correct-by-
  []
 
 
-LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 181.
+LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 200.
 
 
-LaTeX Warning: Citation 'Riaz2018' on page 3 undefined on input line 193.
+LaTeX Warning: Citation 'Riaz2018' on page 3 undefined on input line 212.
 
 
-LaTeX Warning: Citation 'hechter2001social' on page 3 undefined on input line 1
-93.
+LaTeX Warning: Citation 'hechter2001social' on page 3 undefined on input line 2
+12.
 
 
-LaTeX Warning: Citation 'highwayCode' on page 3 undefined on input line 195.
+LaTeX Warning: Citation 'highwayCode' on page 3 undefined on input line 214.
 
 
-LaTeX Warning: Citation 'harper2021safety' on page 3 undefined on input line 19
-5.
+LaTeX Warning: Citation 'harper2021safety' on page 3 undefined on input line 21
+4.
 
 [3]
 
 LaTeX Warning: Citation 'koopman2018toward' on page 4 undefined on input line 2
-05.
+24.
 
 )
 
@@ -1526,17 +1504,16 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti9.pfb>
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti9.pfb>
 Output written on /home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.pdf (4 p
-ages, 395424 bytes).
+ages, 386267 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  18 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
