@@ -189,9 +189,6 @@
            given={Alan\bibnamedelima R},
            giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {SAGE Publications Sage CA: Los Angeles, CA}%
-      }
       \strng{namehash}{0787d157873f2e31138164ff2cdd59d1}
       \strng{fullhash}{9cbdce5f106ca5cfa0df8daf3e50fac0}
       \strng{bibnamehash}{0787d157873f2e31138164ff2cdd59d1}
@@ -262,6 +259,50 @@
       \field{year}{2021}
       \field{pages}{107077}
       \range{pages}{1}
+    \endentry
+    \entry{avizienis2004basic}{article}{}
+      \name{author}{4}{}{%
+        {{hash=38fa98062590d37d4d14772d3d2466d4}{%
+           family={Avizienis},
+           familyi={A\bibinitperiod},
+           given={Algirdas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=be52b6c37491cd69baa25dad4ea89bc6}{%
+           family={Laprie},
+           familyi={L\bibinitperiod},
+           given={J-C},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=76332c6371627eade995a45d9e642654}{%
+           family={Randell},
+           familyi={R\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=186c616f1893ab90fedbb256a5d7d55d}{%
+           family={Landwehr},
+           familyi={L\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2c98a92bd60a6491075dc7e0a60207ff}
+      \strng{fullhash}{8b1ba2ff95b053b4fc2c75756c0c1f7b}
+      \strng{bibnamehash}{2c98a92bd60a6491075dc7e0a60207ff}
+      \strng{authorbibnamehash}{2c98a92bd60a6491075dc7e0a60207ff}
+      \strng{authornamehash}{2c98a92bd60a6491075dc7e0a60207ff}
+      \strng{authorfullhash}{8b1ba2ff95b053b4fc2c75756c0c1f7b}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE transactions on dependable and secure computing}
+      \field{number}{1}
+      \field{title}{Basic concepts and taxonomy of dependable and secure computing}
+      \field{volume}{1}
+      \field{year}{2004}
+      \field{pages}{11\bibrangedash 33}
+      \range{pages}{23}
     \endentry
     \entry{Bolster2014}{article}{}
       \name{author}{2}{}{%
@@ -795,6 +836,32 @@
       \field{labeltitlesource}{title}
       \field{title}{Social norms}
       \field{year}{2001}
+    \endentry
+    \entry{ISO29119}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=721e7e57feef8f6a4153c47840b51e3f}{%
+           family={\relax{International\bibnamedelimb Organization\bibnamedelimb for\bibnamedelimb Standardization}},
+           familyi={I\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{721e7e57feef8f6a4153c47840b51e3f}
+      \strng{fullhash}{721e7e57feef8f6a4153c47840b51e3f}
+      \strng{bibnamehash}{721e7e57feef8f6a4153c47840b51e3f}
+      \strng{authorbibnamehash}{721e7e57feef8f6a4153c47840b51e3f}
+      \strng{authornamehash}{721e7e57feef8f6a4153c47840b51e3f}
+      \strng{authorfullhash}{721e7e57feef8f6a4153c47840b51e3f}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{{ISO/IEC/IEEE 29119 Software and systems engineering — Software testing}}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/45142.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/45142.html
+      \endverb
     \endentry
     \entry{jobin2019global}{article}{}
       \name{author}{3}{}{%
@@ -1480,6 +1547,26 @@
       \field{howpublished}{\url{http://www.tsfdn.org/ts-framework/}}
       \field{note}{Accessed: 2022-08-17}
       \field{title}{TS Framework}
+    \endentry
+    \entry{tsl_git}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=323e1abb329335f587b711172117fbe5}{%
+           family={{\relax Trustworthy System Lab}},
+           familyi={_\bibinitperiod}}}%
+      }
+      \strng{namehash}{323e1abb329335f587b711172117fbe5}
+      \strng{fullhash}{323e1abb329335f587b711172117fbe5}
+      \strng{bibnamehash}{323e1abb329335f587b711172117fbe5}
+      \strng{authorbibnamehash}{323e1abb329335f587b711172117fbe5}
+      \strng{authornamehash}{323e1abb329335f587b711172117fbe5}
+      \strng{authorfullhash}{323e1abb329335f587b711172117fbe5}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/TSL-UOB/TAS-Verif}}
+      \field{note}{Accessed: 2022-08-22}
+      \field{title}{TAS-Verif}
     \endentry
     \entry{highwayCode}{book}{}
       \name{author}{1}{}{%
