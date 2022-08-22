@@ -2,6 +2,8 @@
 \documentclass[runningheads,twocolumn,a4paper,10pt]{llncs}
 \usepackage[maxnames=3,firstinits=true,doi=false,url=true,isbn=false]{biblatex}
 \addbibresource{../source/TASverif.bib}
+\AtBeginBibliography{\small}
+
 % \documentclass[runningheads,a4paper]{llncs}
 \usepackage{etex}
 % \reserveinserts{28}
@@ -28,6 +30,8 @@
 \usepackage{amsmath}
 \usepackage[font=footnotesize,labelfont=bf]{subcaption}
 \usepackage[hidelinks]{hyperref}
+\urlstyle{rm}
+
 % \usepackage[capitalize]{cleveref}
 % \captionsetup{compatibility=false}
 % \usepackage{tikz}
@@ -59,6 +63,14 @@
 \newcommand{\pathToSourceFiles}{../source}
 \newcommand{\pathToOtherFiles}{../other}
 
+% footnote without anchor
+\newcommand\nnfootnote[1]{%
+  \begin{NoHyper}
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \end{NoHyper}
+}
+
 \begin{document} 
 
 \title{Assessing Trustworthiness of Autonomous Systems}
@@ -71,7 +83,7 @@
 \tocauthor{Authors' Instructions}
 
 \maketitle
-\let\thefootnote\relax\footnotetext{
+\nnfootnote{
 \textit{Statements about authorship contribution.}
 % Christopher Harper (e-mail: chris.harper@brl.ac.uk),
 % Saquib Alam (e-mail:saquib764@gmail.com), 
@@ -84,7 +96,23 @@ Greg Chance (e-mail: greg.chance@bristol.ac.uk),
 % Abanoub Ghobrial (e-mail: abanoub.ghobrial@bristol.ac.uk), 
 and 
 Kerstin Eder (e-mail: kerstin.eder@bristol.ac.uk) 
-are with the Trustworthy Systems Lab, Department of Computer Science, University of Bristol, Merchant Ventures Building, Woodland Road, Bristol, BS8 1UQ, United Kingdom.}
+are with the Trustworthy Systems Lab, Department of Computer Science, University of Bristol, Merchant Ventures Building, Woodland Road, Bristol, BS8 1UQ, United Kingdom.
+}
+
+% \let\thefootnote\relax\footnotetext{
+% \textit{Statements about authorship contribution.}
+% % Christopher Harper (e-mail: chris.harper@brl.ac.uk),
+% % Saquib Alam (e-mail:saquib764@gmail.com), 
+% % S\'everin Lemaignan (e-mail: severin.lemaignan@brl.ac.uk)
+% % and
+% % Tony Pipe (e-mail: tony.pipe@brl.ac.uk), 
+% % are with the University of the West of England, Frenchay, Coldharbour Ln, Bristol, BS34 8QZ, United Kingdom.
+% %
+% Greg Chance (e-mail: greg.chance@bristol.ac.uk), 
+% % Abanoub Ghobrial (e-mail: abanoub.ghobrial@bristol.ac.uk), 
+% and 
+% Kerstin Eder (e-mail: kerstin.eder@bristol.ac.uk) 
+% are with the Trustworthy Systems Lab, Department of Computer Science, University of Bristol, Merchant Ventures Building, Woodland Road, Bristol, BS8 1UQ, United Kingdom.}
 
 %
 \makeatletter
@@ -95,12 +123,12 @@ are with the Trustworthy Systems Lab, Department of Computer Science, University
                         \rightskip=\z@ \@plus 8em\pretolerance=10000 }}
 \makeatother
 
-\textbf{\textit{Abstract}--\input{../source/abstract.tex}}
+\textbf{\textit{Abstract}--\input{\pathToSourceFiles/abstract.tex}}
 
 % ***************************************************
 %  Main Body
 % ***************************************************
-\input{../source/body.tex}
+\input{\pathToSourceFiles/body.tex}
 \balance
 
 % ***************************************************
@@ -111,7 +139,7 @@ are with the Trustworthy Systems Lab, Department of Computer Science, University
 % ***************************************************
 %  Appendix
 % ***************************************************
-% \input{../source/appendix.tex}
+% \input{\pathToSourceFiles/appendix.tex}
 
 \end{document}
 % \grid
