@@ -1,0 +1,1250 @@
+quality	frequency	col_lee	col_iso	col_gc	syns
+ability	1	performance	Functional Stability	Functionality	"capability 
+power 
+potential 
+facility 
+capacity 
+qualification 
+competence 
+proficiency 
+competency 
+potentiality 
+skill 
+talent 
+gift 
+expertise 
+faculty 
+flair 
+competence 
+energy 
+accomplishment 
+knack 
+aptitude 
+proficiency 
+dexterity 
+cleverness 
+potentiality 
+adroitness 
+adeptness 
+expertness 
+force 
+craft 
+endowment "
+accessibility	1	purpose	Regulatability	Regulatability	"approachability 
+availability 
+readiness 
+nearness 
+handiness 
+possibility 
+attainability 
+obtainability 
+friendliness 
+informality 
+cordiality 
+affability 
+openness 
+susceptibility 
+exposedness "
+accountability	2	process	Regulatability	Regulatability	"answerable 
+subject 
+responsible 
+obliged 
+to blame 
+liable 
+amenable 
+obligated 
+chargeable 
+responsibility 
+liability 
+culpability 
+answerability 
+chargeability "
+accuracy	4	performance	Functional Stability	Functionality	"precise 
+right 
+close 
+nice 
+regular 
+correct 
+careful 
+strict 
+proper 
+exact 
+faithful 
+explicit 
+authentic 
+spot-on 
+just 
+clear-cut 
+meticulous 
+truthful 
+faultless 
+scrupulous 
+unerring 
+veracious "
+adaptability	2	purpose	Portability	Robustness	"flexibility 
+versatility 
+resilience 
+variability 
+convertibility 
+plasticity 
+malleability 
+pliability 
+changeability 
+pliancy 
+adjustability 
+compliancy 
+modifiability 
+adaptableness 
+alterability "
+adept	1	performance	Functional Stability	Functionality	"skilful 
+able 
+skilled 
+expert 
+masterly 
+practised 
+accomplished 
+versed 
+tasty 
+masterful 
+proficient 
+adroit 
+dexterous 
+competent 
+competency"
+aesthetic	1	process	Compatibility	Compatibility	"ornamental 
+artistic 
+pleasing 
+pretty 
+fancy 
+enhancing 
+decorative 
+tasteful 
+beautifying "
+analysability	1	purpose	Regulatability	Regulatability	"transparency
+obviousness 
+explicitness 
+plainness 
+distinctness 
+unambiguousness 
+apparentness 
+patentness 
+perspicuousness "
+appropriateness recognisibility	1	process	Usability	Usability	appropriate
+assurance	1	purpose	Regulatability	Regulatability	"insurance 
+cover 
+security 
+guarantee 
+protection 
+provision 
+coverage 
+safeguard 
+warranty 
+indemnity 
+indemnification "
+authenticity	1	purpose	Security	Security	"accuracy 
+truth 
+certainty 
+validity 
+reliability 
+legitimacy 
+verity 
+actuality 
+faithfulness 
+truthfulness 
+dependability 
+trustworthiness 
+authoritativeness 
+factualness "
+autonomy	3	process	Usability	Ethical	"independence 
+freedom 
+sovereignty 
+self-determination 
+self-government 
+self-rule 
+self-sufficiency "
+availability	1	performance	Reliability	Usability	"accessibility 
+readiness 
+handiness 
+attainability 
+obtainability "
+beneficence	2	purpose	Compatibility	Ethical	"generosity 
+love 
+virtue 
+goodness 
+goodwill 
+compassion 
+kindness 
+altruism 
+benevolence 
+helpfulness 
+unselfishness 
+liberality "
+benevolence	1	purpose	Compatibility	Ethical	"kindness 
+understanding 
+charity 
+grace 
+sympathy 
+humanity 
+tolerance 
+goodness 
+goodwill 
+compassion 
+generosity 
+indulgence 
+decency 
+altruism 
+clemency 
+gentleness 
+philanthropy 
+magnanimity 
+fellow feeling 
+beneficence 
+kindliness 
+kind-heartedness "
+capacity	1	process	Performance Efficiency	Functionality	"ability 
+power 
+strength 
+facility 
+gift 
+intelligence 
+efficiency 
+genius 
+faculty 
+capability 
+forte 
+readiness 
+aptitude 
+aptness 
+competence 
+competency "
+communicative	1	process	Usability	Usability	"talkative
+open
+frank
+forthcoming
+outgoing
+informative
+candid
+expansive
+chatty
+voluble
+loquacious
+unreserved
+instructive
+revealing
+educational
+forthcoming
+illuminating
+enlightening
+chatty
+edifying"
+competency	1	performance	Functional Stability	Functionality	"ability 
+skill 
+talent 
+capacity 
+expertise 
+proficiency 
+capability
+fitness 
+suitability 
+adequacy 
+appropriateness "
+composability	2	purpose	Portability	Compatibility	modular
+concern	2	purpose	Compatibility	Ethical	"care 
+interest 
+regard 
+consideration 
+solicitude 
+attentiveness "
+confidential	7	process	Security	Security	"secret 
+private 
+intimate 
+classified 
+privy
+protected
+secretive
+trusted 
+familiar 
+faithful 
+trustworthy 
+trusty"
+congeniality	1	performance	Compatibility	Compatibility	"pleasant 
+kindly 
+pleasing 
+friendly 
+agreeable 
+cordial 
+sociable 
+genial 
+affable 
+convivial 
+companionable 
+favourable 
+complaisant "
+consistency	2	process	Functional Stability	Reliability	"agreement 
+harmony 
+correspondence 
+accordance 
+regularity 
+coherence 
+compatibility 
+uniformity 
+constancy 
+steadiness 
+steadfastness 
+evenness 
+congruity "
+controllability	1	process	Usability	Usability	"manageable
+governable
+controllable"
+cooperative	1	performance	Compatibility	Compatibility	"shared
+united
+joint
+combined
+concerted
+collective
+unified
+coordinated
+collaborative
+helpful
+obliging
+accommodating
+supportive
+responsive
+onside
+helpful 
+obliging 
+accommodating 
+supportive 
+responsive "
+coordination	1	process	Usability	Usability	"organize 
+synchronize 
+integrate 
+bring together 
+mesh 
+correlate 
+systematize "
+deferential	2	purpose	Security	Ethical	"respectful 
+civil 
+polite 
+courteous 
+considerate 
+obedient 
+submissive 
+dutiful 
+ingratiating 
+reverential 
+obsequious 
+complaisant 
+obeisant 
+regardful "
+dependability	1	process	Reliability	Reliability	"reliable 
+sure 
+responsible 
+steady 
+faithful 
+staunch 
+reputable 
+trustworthy 
+trusty "
+dependable	1	process	Functional Stability	Reliability	"reliable 
+sure 
+responsible 
+steady 
+faithful 
+staunch 
+reputable 
+trustworthy 
+trusty 
+go-to 
+unfailing "
+efficient	1	process	Performance Efficiency	Functionality	"effective 
+successful 
+structured 
+productive 
+powerful 
+systematic 
+streamlined 
+cost-effective 
+methodical 
+well-organized 
+well-planned 
+labour-saving 
+effectual "
+ethical	2	purpose	Security	Ethical	"right 
+good 
+just 
+fitting 
+fair 
+responsible 
+principled 
+correct 
+decent 
+proper 
+upright 
+honourable 
+honest 
+righteous 
+virtuous 
+"
+experienced	1	performance	Functional Stability	Functionality	"knowledgeable 
+trained 
+professional 
+skilled 
+tried 
+tested 
+seasoned 
+expert 
+master 
+qualified 
+familiar 
+capable 
+veteran 
+practised 
+accomplished 
+competent 
+skilful 
+adept 
+well-versed "
+expertise	1	performance	Functional Stability	Functionality	"skill 
+knowledge 
+know-how
+facility 
+grip 
+craft 
+judgment 
+grasp 
+mastery 
+knack 
+proficiency 
+dexterity 
+cleverness 
+deftness 
+adroitness 
+aptness 
+expertness 
+ableness 
+masterliness 
+skilfulness "
+explainability	1	process	Regulatability	Regulatability	"understandable
+interpretable
+explainable
+clear
+"
+fairness	1	purpose	Security	Ethical	"impartiality 
+justice 
+equity 
+legitimacy 
+decency 
+disinterestedness 
+uprightness 
+rightfulness 
+equitableness "
+faithfulness	1	purpose	Security	Reliability	"loyalty 
+devotion 
+fidelity 
+constancy 
+dependability 
+trustworthiness 
+fealty 
+adherence 
+accuracy 
+justice 
+truth 
+closeness 
+strictness 
+exactness "
+flexible	2	process	Compatibility	Compatibility	"compliant 
+accommodating 
+manageable 
+amenable 
+adaptable 
+open 
+variable 
+adjustable 
+pliable 
+plastic 
+yielding 
+elastic 
+supple 
+lithe 
+limber 
+springy 
+willowy 
+pliant 
+tensile 
+stretchy 
+whippy 
+ductile "
+functionality	3	performance	Functional Stability	Functionality	"working 
+operative 
+operational 
+going 
+prepared 
+ready 
+viable 
+workable 
+usable "
+governance	2	purpose	Regulatability	Regulatability	"oversight
+regulation
+supervision 
+keeping 
+control 
+charge 
+care 
+management 
+handling 
+administration 
+direction 
+custody 
+stewardship 
+superintendence "
+harmony	1	process	Compatibility	Compatibility	"balance 
+consistency 
+fitness 
+correspondence 
+coordination 
+symmetry 
+compatibility 
+suitability 
+concord 
+parallelism 
+consonance  
+congruity "
+honesty	1	purpose	Security	Security	"integrity 
+honour 
+virtue 
+morality 
+fidelity 
+probity 
+rectitude 
+veracity 
+faithfulness 
+truthfulness 
+trustworthiness 
+straightness 
+incorruptibility 
+scrupulousness 
+uprightness 
+reputability 
+frankness 
+openness 
+sincerity 
+candour 
+bluntness 
+outspokenness 
+genuineness 
+plainness 
+straightforwardness "
+independent	8	process	Security	Functionality	"self-sufficient 
+free 
+liberated 
+unconventional 
+self-contained 
+individualistic 
+unaided 
+self-reliant 
+self-supporting 
+self-governing 
+autonomous 
+separated 
+sovereign 
+self-determining "
+initialise	1	process	Portability	Usability	"serviceable 
+working 
+functional 
+available 
+current 
+practical 
+valid "
+integrity	1	purpose	Reliability	Ethical	"honesty 
+principle 
+honour 
+virtue 
+goodness 
+morality 
+purity 
+righteousness 
+probity 
+rectitude 
+truthfulness 
+trustworthiness 
+incorruptibility 
+uprightness 
+scrupulousness 
+reputability "
+intelligibility	4	process	Usability	Ethical	"clarity 
+precision 
+simplicity 
+lucidity 
+explicitness 
+plainness 
+distinctness 
+clearness 
+comprehensibility "
+intentional	1	purpose	Functional Stability	Ethical	"deliberate 
+meant 
+planned 
+studied 
+designed 
+purposed 
+intended 
+calculated 
+wilful 
+premeditated 
+prearranged 
+done on purpose 
+preconcerted "
+intentionality	1	purpose	Compatibility	Ethical	"deliberate 
+meant 
+planned 
+studied 
+designed 
+purposed 
+intended 
+calculated 
+wilful 
+premeditated 
+prearranged "
+interoperability	1	purpose	Compatibility	Compatibility	communication
+interpersonal	1	performance	Usability	Usability	"pleasant 
+pleasing 
+nice 
+attractive 
+charming 
+handsome 
+good-looking 
+winning 
+agreeable 
+amiable 
+affable 
+presentable 
+likable
+likeable "
+interpretability	3	process	Security	Ethical	"understandable
+interpretable
+explainable
+clear
+"
+justice	1	purpose	Security	Ethical	"fairness 
+equity 
+integrity 
+honesty 
+decency 
+impartiality 
+rectitude 
+reasonableness 
+uprightness 
+justness 
+rightfulness 
+right "
+learnability	1	process	Usability	Usability	openness, explainable, satisfying
+liveness	2	performance	Functional Stability	Functionality	"attainable 
+obtainable 
+winnable 
+reachable 
+realizable 
+graspable 
+gettable 
+acquirable 
+possible 
+accessible 
+probable 
+feasible 
+practicable 
+accomplishable 
+ability "
+loyalty	4	purpose	Security	Ethical	"faithfulness 
+commitment 
+devotion 
+allegiance 
+reliability 
+fidelity 
+homage 
+patriotism 
+obedience 
+constancy 
+dependability 
+trustworthiness 
+steadfastness 
+troth 
+fealty 
+staunchness 
+trueness 
+trustiness "
+maintainability	1	purpose	Maintainability	Robustness	"conserve
+support
+preserve 
+sustain 
+carry on 
+keep 
+prolong 
+uphold 
+nurture  
+perpetuate "
+maturity	2	performance	Reliability	Reliability	"responsibility 
+experience 
+sense 
+wisdom 
+sophistication 
+level-headedness 
+matureness "
+modifiability	2	purpose	Maintainability	Robustness	"adaptable
+adjustable 
+flexible 
+compliant 
+malleable 
+pliant 
+plastic 
+modifiable 
+alterable "
+modularity	1	process	Maintainability	Robustness	"robust
+compliant"
+negotiation	3	process	Compatibility	Compatibility	"bargaining 
+debate 
+discussion 
+transaction 
+dialogue 
+mediation 
+arbitration "
+non-discriminatory	1	purpose	Security	Ethical	"unbiased 
+just 
+fair 
+equal 
+objective 
+neutral 
+detached 
+open-minded 
+equitable 
+impartial 
+disinterested 
+even-handed 
+nonpartisan 
+unprejudiced 
+nondiscriminating "
+non‑maleficence	1	purpose	Security	Ethical	"moral
+caring"
+openness	1	process	Regulatability	Regulatability	"frankness 
+honesty 
+truthfulness 
+naturalness 
+bluntness 
+forthrightness 
+ingenuousness 
+artlessness 
+guilelessness 
+candidness 
+freeness 
+open-heartedness 
+candour 
+sincerity 
+sincereness 
+unreservedness "
+operability	3	performance	Usability	Usability	"practicable 
+user-friendly"
+persistence	2	process	Reliability	Robustness	"determination 
+resolution 
+pluck 
+stamina 
+grit 
+endurance 
+tenacity 
+diligence 
+perseverance 
+constancy 
+steadfastness 
+doggedness 
+pertinacity 
+indefatigability 
+tirelessness "
+predictable	1	performance	Reliability	Reliability	"likely 
+expected 
+sure 
+certain 
+anticipated 
+reliable 
+foreseen 
+on the cards 
+foreseeable 
+sure-fire  
+calculable "
+principled	5	purpose	Compatibility	Ethical	"moral 
+ethical 
+upright 
+honourable 
+just 
+correct 
+decent 
+righteous 
+conscientious 
+virtuous 
+scrupulous 
+right-minded 
+high-minded "
+privacy	3	process	Security	Security	"secrecy 
+confidentiality 
+confidential 
+concealment 
+clandestineness "
+reasonable	4	purpose	Compatibility	Ethical	"sensible 
+reasoned 
+sound 
+practical 
+wise 
+intelligent 
+rational 
+logical 
+sober 
+credible 
+plausible 
+sane 
+judicious 
+grounded "
+reciprocity	1	purpose	Compatibility	Ethical	"relation
+complementarity
+correlation
+correlativity
+interdependence
+interdependency
+mutuality
+mutualness
+reciprocal
+interchange
+reciprocation
+give-and-take"
+redundancy	4	purpose	Maintainability	Robustness	"superfluity 
+excess 
+surplus 
+surfeit 
+uselessness 
+superabundance 
+expendability 
+backup
+reserve
+relief 
+assistance 
+reinforcement 
+auxiliaries 
+substitute 
+reserve  
+stand-in 
+replacement "
+regulation	14	process	Regulatability	Regulatability	"oversight
+regulation
+supervision 
+keeping 
+control 
+charge 
+care 
+management 
+handling 
+administration 
+direction 
+custody 
+stewardship 
+superintendence "
+reliability	3	performance	Reliability	Reliability	"dependable 
+trustworthy 
+honest 
+responsible 
+sure 
+sound 
+true 
+certain 
+regular 
+stable 
+faithful 
+predictable 
+upright 
+staunch 
+reputable 
+trusty 
+unfailing 
+safe
+failesafe
+definitive 
+attested "
+replaceability	2	purpose	Portability	Robustness	"substitute 
+change 
+exchange 
+switch 
+swap "
+resilient	1	performance	Reliability	Robustness	"suppleness 
+give 
+spring 
+flexibility 
+elasticity 
+plasticity 
+pliability 
+springiness 
+strength 
+toughness 
+adaptability 
+hardiness "
+responsibility	1	purpose	Reliability	Ethical	"duty 
+business 
+job 
+role 
+task 
+function 
+burden 
+liability 
+accountability 
+onus 
+answerability 
+fault 
+blame  
+guilt 
+culpability 
+burden 
+obligation   
+charge 
+care 
+authority 
+power 
+control 
+management 
+leadership 
+importance"
+responsive	1	performance	Usability	Usability	"sensitive 
+open 
+aware 
+sharp 
+alive 
+forthcoming 
+sympathetic 
+awake 
+susceptible 
+receptive 
+reactive 
+perceptive 
+impressionable 
+"
+responsivity	1	purpose	Reliability	Compatibility	"sensitive 
+open 
+aware 
+sharp 
+alive 
+forthcoming 
+sympathetic 
+awake 
+susceptible 
+receptive 
+reactive 
+perceptive 
+impressionable 
+"
+reusability	1	process	Maintainability	Robustness	sustainable
+robustness	2	performance	Portability	Robustness	"strong 
+tough 
+powerful 
+athletic 
+well 
+sound 
+fit 
+healthy 
+strapping 
+hardy 
+rude 
+vigorous 
+rugged 
+muscular 
+swole 
+hench  
+sturdy 
+hale 
+stout 
+staunch 
+hearty "
+safe	1	process	Functional Stability	Security	"protected
+secure
+in safety
+fine
+intact
+unscathed
+unhurt
+unharmed
+cautious
+prudent
+sure
+conservative
+reliable
+realistic
+discreet
+dependable
+trustworthy
+circumspect
+on the safe side
+unadventurous "
+satisfying	4	purpose	Usability	Usability	"satisfactory 
+pleasing 
+enjoyable 
+gratifying 
+pleasurable 
+cheering"
+scalability	1	process	Portability	Robustness	"broad
+comprehensive"
+security	1	process	Security	Security	"safe
+strengthen
+fortify
+safety 
+protection 
+safekeeping 
+unassailability 
+precautions 
+defence 
+safeguards 
+guards  
+surveillance "
+sensible	1	process	Reliability	Ethical	"wise 
+practical 
+prudent 
+shrewd 
+well-informed 
+judicious 
+well-advised 
+intelligent 
+practical 
+reasonable 
+rational 
+sound 
+realistic 
+sober 
+discriminating 
+discreet 
+sage  
+down-to-earth 
+matter-of-fact  
+sane 
+canny  
+far-sighted 
+sagacious 
+grounded "
+sensitive	2	purpose	Usability	Compatibility	"thoughtful 
+kind 
+understanding 
+feeling 
+kindly 
+concerned 
+patient 
+responsive 
+intuitive 
+receptive 
+attentive 
+perceptive 
+considerate 
+tactful 
+unselfish"
+sincerity	1	process	Compatibility	Ethical	"honesty 
+truth 
+candour 
+frankness 
+seriousness 
+good faith 
+probity  
+bona fides  
+genuineness 
+straightforwardness 
+artlessness 
+guilelessness "
+SLEEC	4	purpose	Usability	Ethical	"right 
+good 
+just 
+fitting 
+fair 
+responsible 
+principled 
+correct 
+decent 
+proper 
+upright 
+honourable 
+honest 
+righteous 
+virtuous 
+"
+specialist	1	performance	Functional Stability	Functionality	"expert 
+authority 
+professional 
+master 
+consultant 
+guru 
+buff  
+whizz  
+connoisseur 
+boffin "
+survivability	2	purpose	Reliability	Robustness	"live 
+last 
+exist 
+endure 
+subsist "
+sustainability	5	purpose	Maintainability	Robustness	"balanced
+harmonious"
+tactfulness	5	process	Compatibility	Compatibility	"diplomatic 
+politic 
+discreet 
+prudent 
+understanding 
+sensitive 
+polished 
+careful 
+subtle 
+delicate 
+polite 
+thoughtful 
+perceptive 
+considerate 
+judicious "
+testability	1	process	Maintainability	Regulatability	"assessable
+measurable 
+estimable 
+determinable 
+computable 
+appraisable 
+gaugeable 
+judgeable 
+ratable "
+timely	1	performance	Performance Efficiency	Functionality	"opportune  
+appropriate 
+well-timed 
+prompt 
+suitable 
+convenient 
+judicious 
+punctual 
+propitious 
+seasonable "
+tolerance	6	performance	Reliability	Robustness	"broad-mindedness 
+charity 
+sympathy 
+patience 
+indulgence 
+forbearance 
+permissiveness 
+magnanimity 
+open-mindedness 
+sufferance 
+lenity 
+endurance 
+resistance 
+stamina 
+fortitude 
+resilience 
+toughness 
+hardness 
+hardiness
+resistance 
+immunity 
+resilience "
+traceability	3	purpose	Regulatability	Regulatability	"comprehensible 
+clear 
+straightforward 
+coherent 
+lucid 
+user-friendly 
+unambiguous 
+intelligible 
+digestible "
+transparency	1	purpose	Regulatability	Regulatability	"understandable
+interpretable
+explainable
+clear "
+trustworthy	3	default	default	default	"dependable 
+responsible 
+principled 
+mature 
+sensible 
+reliable 
+ethical 
+upright 
+true 
+honourable 
+honest 
+staunch 
+righteous 
+reputable 
+truthful 
+trusty 
+steadfast 
+responsible 
+faithful
+honest"
+understandability	1	purpose	Regulatability	Regulatability	"understandable
+interpretable
+explainable
+clear
+"
+understanding	2	process	Compatibility	Compatibility	"
+compassionate
+sympathetic
+sensitive
+considerate
+tender
+kind
+kindly
+kind-hearted
+thoughtful
+tolerant
+patient
+forbearing
+lenient
+merciful
+forgiving
+humane
+human
+good-natured
+approachable
+supportive
+reassuring
+tactful
+diplomatic
+perceptive
+subtle
+prudent"
+usability	1	performance	Usability	Usability	"fit
+convenient"
+utility	1	process	Functional Stability	Functionality	"functional 
+useful 
+practical 
+plain 
+efficient 
+sensible 
+pragmatic 
+unpretentious 
+soulless 
+serviceable 
+unadorned 
+workaday"
+validate	1	process	Security	Security	"confirm 
+prove 
+certify 
+substantiate 
+corroborate 
+authorize 
+endorse 
+ratify 
+legalize 
+authenticate "
+volitional	1	purpose	Reliability	Functionality	"free
+spontaneous
+uncompelled
+unforced
+voluntary
+willful
+voluntary
+willing"
+well-behaved	2	process	Compatibility	Ethical	"obedient 
+good 
+disciplined 
+restrained 
+orderly 
+respectful 
+law-abiding 
+compliant 
+amenable 
+submissive 
+docile 
+dutiful 
+deferential 
+tractable 
+acquiescent 
+biddable "
