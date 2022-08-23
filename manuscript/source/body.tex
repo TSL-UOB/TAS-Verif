@@ -37,13 +37,6 @@ But even this may not be enough for the diverse operational domains of some AS, 
 %
 The use of \emph{serious games} can be another interesting opportunity for building trustworthiness in complex autonomous systems and has been used in the context of mission planning for NASA~\cite{Allen2018} and in a self-driving vehicle controller leveraging the power of crowdsourcing for test generation [ref test gen game, need to make github page, add code and youtube videos]. 
 
-\begin{figure*}[]
-    \centering
-    \includegraphics[width=0.98\linewidth]{\pathToOtherFiles/figures/tas_ver.jpg}
-    \caption{AS trustworthiness assessment process}
-    \label{fig:tas_ver}
-\end{figure*}
-
 Further to this issue, are the lack of \emph{standards} against which some trustworthy qualities should be appraised and the \emph{methods} by which they should be evaluated. For example, there are standards for correct road driving conduct~\cite{highwayCode} but no ethical standards by which those driving decisions should be made [ref like trolley problem?]. 
 %
 Although headway is being made into developing standards for non-functional properties, such as guidelines for ethical AI [ref EU AI high level expert group], checklists for HRI best practice ~\cite{kraus2022trustworthy} and transparency~\cite{winfield2021ieee}, there are still areas that need attention, such as standards for adaptability, cooperation and fairness~\cite{Abeywickrama2022}. 
@@ -99,6 +92,12 @@ Thiebes et al. argue for five foundational principles of trustworthy AS: benefic
 
 Cho et al. propose a STRAM ontology for measuring the trustworthiness of computer systems, based around four sub-metrics of: security (availability, confidentiality, integrity), trust (predictability, safety, reliability), resilience (adaptability, fault-tolerance, recoverability) and agility (efficiency, usability, timeliness), although again functional aspects are missing with the main focus being on security.
 
+\begin{figure*}[]
+    \centering
+    \includegraphics[width=0.98\linewidth, trim=2cm 4.5cm 2.5cm 2.5cm, clip]{\pathToOtherFiles/figures/trust_spectrum.jpg}
+    \caption{Analysis of trust quality terms in the literature placed into categories, breakout box shows most cited words from each category.}
+    \label{fig:trust_spectrum}
+\end{figure*}
 
 % ****************************************
 % ********************* Existing Standards
@@ -198,8 +197,14 @@ Regulatability & Ease in which the system is verifiable, readable, explainable, 
 % ****************************************
 \section{Assessment Framework Vision}\label{Assessment_Framework_Vision}
 
+\begin{figure*}[]
+    \centering
+    \includegraphics[width=0.98\linewidth]{\pathToOtherFiles/figures/tas_ver.jpg}
+    \caption{AS trustworthiness assessment process}
+    \label{fig:tas_ver}
+\end{figure*}
 
-Below is a checklist for assessemnt of AS trustworthiness:
+Below is a checklist for assessment of AS trustworthiness:
 
 
 \noindent\textbf{Metrics}
@@ -214,6 +219,10 @@ Kaur et al. suggest explainability metrics based on the euclidean distance betwe
 trustworthiness of computer systems using metrics designed to assess security, trust, resilience and agility~\cite{cho2019stram}
 
 Bolster and Marshall proposes the idea of \emph{multi-vector trust metrics} for networks of autonomous systems, indicating that the use of \emph{grey relational analysis}, a theory to describe and model uncertainty, could be beneficial for combining temporally sparse, low fidelity metrics with unknown statistical distributions~\cite{Bolster2014}. 
+
+For data-centric and highly objective measures of trust, operators such as accuracy, precision and recall can be useful for functionality metrics. Questions over what is the ground truth is, a sample of the real world, artificially augmented, and if the data is ethically sourced are all additional factors to be considered. We may even be more abstract and use \emph{task completion} - this will confluence with other assessment areas.
+
+
 
 
 

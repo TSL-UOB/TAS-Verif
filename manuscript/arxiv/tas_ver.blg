@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'tas_ver.blg'
-[40] biber:322> INFO - === Mon Aug 22, 2022, 15:17:41
-[48] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
+[40] biber:322> INFO - === Tue Aug 23, 2022, 15:57:07
+[47] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
 [83] Biber.pm:943> INFO - Found 43 citekeys in bib section 0
-[90] Biber.pm:4256> INFO - Processing section 0
+[89] Biber.pm:4256> INFO - Processing section 0
 [90] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
 [90] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
 [95] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
-[97] bibtex.pm:1653> INFO - LaTeX decoding ...
-[130] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
-[339] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[339] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[339] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[340] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[366] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
-[383] bbl.pm:755> INFO - Output to tas_ver.bbl
+[96] bibtex.pm:1653> INFO - LaTeX decoding ...
+[129] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
+[345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[345] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[345] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[371] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
+[388] bbl.pm:755> INFO - Output to tas_ver.bbl

@@ -1,14 +1,15 @@
 # Fdb version 3
-["biber tas_ver"] 1661177861 "tas_ver.bcf" "tas_ver.bbl" "tas_ver" 1661177922
+["biber tas_ver"] 1661266627 "tas_ver.bcf" "tas_ver.bbl" "tas_ver" 1661266728
   "../source/TASverif.bib" 1661177859 19906 2a070e9fca1e24ccb84cb457325b2aed ""
-  "tas_ver.bcf" 1661177893 104518 e61522213c1dc937254e0d73aff204f7 "pdflatex"
+  "tas_ver.bcf" 1661266728 104518 e61522213c1dc937254e0d73aff204f7 "pdflatex"
   (generated)
-  "tas_ver.bbl"
   "tas_ver.blg"
-["pdflatex"] 1661177892 "tas_ver.tex" "tas_ver.pdf" "tas_ver" 1661177922
+  "tas_ver.bbl"
+["pdflatex"] 1661266728 "tas_ver.tex" "tas_ver.pdf" "tas_ver" 1661266728
   "../other/figures/tas_ver.jpg" 1661156492 251506 74ebf1ae08950ddd2b551115b8eedda1 ""
+  "../other/figures/trust_spectrum.jpg" 1661227042 65688 398541dd4bbb9c2a19db6e18b0ec7d5c ""
   "../source/abstract.tex" 1661156492 1227 5c815df6955eee275c5bcb7d25dc2fdc ""
-  "../source/body.tex" 1661177921 29150 f767c38f87bac20d63f41df78df9f571 ""
+  "../source/body.tex" 1661266727 30858 d9c40f00012f5879eaf96da3826152c7 ""
   "/etc/texmf/web2c/texmf.cnf" 1634644949 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -188,15 +189,15 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1634717812 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1634717833 8255474 d24170a33739acf17c6f63863a007bb6 ""
   "llncs.cls" 1634642103 42896 f6a4d06405fdcfda24598954aa02c31a ""
-  "tas_ver.aux" 1661177893 10725 55ca21c784ce085e2a3e4d87593ccfe9 "pdflatex"
-  "tas_ver.bbl" 1661177861 77395 e6e2331c2c81c1549b0de604ef93571e "biber tas_ver"
-  "tas_ver.out" 1661177893 82 c917589d9e12cf4c86f6bee23e706d51 "pdflatex"
-  "tas_ver.run.xml" 1661177893 2334 4b0bf1fc29c309329e4bc717d4ea8845 "pdflatex"
-  "tas_ver.tex" 1661164526 5050 9ae904156614f93b00a538f7a3933d9b ""
+  "tas_ver.aux" 1661266728 11258 a8da3d2bd05882f07a4cab215a0827df "pdflatex"
+  "tas_ver.bbl" 1661266627 77395 e6e2331c2c81c1549b0de604ef93571e "biber tas_ver"
+  "tas_ver.out" 1661266728 82 c917589d9e12cf4c86f6bee23e706d51 "pdflatex"
+  "tas_ver.run.xml" 1661266728 2334 4b0bf1fc29c309329e4bc717d4ea8845 "pdflatex"
+  "tas_ver.tex" 1661266728 5095 e517dd0eebbbcd546a5c36b3a4e783b7 ""
   (generated)
   "tas_ver.log"
+  "tas_ver.out"
   "tas_ver.pdf"
   "tas_ver.run.xml"
   "tas_ver.aux"
-  "tas_ver.out"
   "tas_ver.bcf"

@@ -6,11 +6,11 @@
 
 % \documentclass[runningheads,a4paper]{llncs}
 \usepackage{etex}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
+\usepackage[linesnumbered,lined,boxed,commentsnumbered,ruled]{algorithm2e}
 % \reserveinserts{28}
 % \pdfoutput=1
 % \setcounter{tocdepth}{3}
-\usepackage[a4paper, total={7in, 10in}]{geometry}
-\usepackage[linesnumbered,lined,boxed,commentsnumbered,ruled]{algorithm2e}
 % \renewcommand{\algorithmcfname}{ALGORITHM}
 % \SetAlFnt{\small}
 % \SetAlCapFnt{\small}
@@ -20,8 +20,8 @@
 % \usepackage{ textcomp }
 % \usepackage{ comment }
 \usepackage[color=yellow!60,textsize=footnotesize,obeyDraft,draft]{todonotes}
-% \usepackage{colortbl}
 \usepackage{booktabs}
+% \usepackage{colortbl}
 % \usepackage{capt-of}
 % \usepackage{makecell}
 % \usepackage{multirow}
@@ -47,9 +47,9 @@
 \usepackage{balance} %balance columns
 \usepackage{lastpage}
 \hyphenation{op-tical net-works semi-conduc-tor}
-% \usepackage{dblfloatfix}
 \usepackage{authblk}
 % \usepackage[disable]{todonotes}
+% \usepackage{dblfloatfix}
 % \usepackage{siunitx}
 % \usepackage{xurl} %for long URLs
 % \usepackage[shortlabels]{enumitem}
@@ -58,7 +58,7 @@
 \usepackage{float}
 % \floatstyle{plaintop}
 % \restylefloat{table}
-% \setcounter{secnumdepth}{3}
+\setcounter{secnumdepth}{3} %set heading number depth (default=2, eg. 1.5)
 
 \newcommand{\pathToSourceFiles}{../source}
 \newcommand{\pathToOtherFiles}{../other}

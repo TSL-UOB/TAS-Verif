@@ -302,10 +302,13 @@ INPUT ../source/body.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT ../other/figures/tas_ver.jpg
-INPUT ../other/figures/tas_ver.jpg
-INPUT ../other/figures/tas_ver.jpg
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ../other/figures/trust_spectrum.jpg
+INPUT ../other/figures/trust_spectrum.jpg
+INPUT ../other/figures/trust_spectrum.jpg
+INPUT ../other/figures/tas_ver.jpg
+INPUT ../other/figures/tas_ver.jpg
+INPUT ../other/figures/tas_ver.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT tas_ver.aux
 INPUT ./tas_ver.out
