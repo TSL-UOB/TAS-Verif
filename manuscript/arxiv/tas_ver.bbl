@@ -519,6 +519,28 @@
       \field{pages}{161\bibrangedash 184}
       \range{pages}{24}
     \endentry
+    \entry{Englisch2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0756f27ca9ade505a577fcdbfde2969b}{%
+           family={DIN},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0756f27ca9ade505a577fcdbfde2969b}
+      \strng{fullhash}{0756f27ca9ade505a577fcdbfde2969b}
+      \strng{bibnamehash}{0756f27ca9ade505a577fcdbfde2969b}
+      \strng{authorbibnamehash}{0756f27ca9ade505a577fcdbfde2969b}
+      \strng{authornamehash}{0756f27ca9ade505a577fcdbfde2969b}
+      \strng{authorfullhash}{0756f27ca9ade505a577fcdbfde2969b}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{April}
+      \field{title}{Din spec 92001-1 Artificial Intelligence - Life Cycle Processes and Quality Requirements}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+    \endentry
     \entry{eder2021cyres}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=7c6ad14b250cf6c8ba8e92e4ad94f196}{%

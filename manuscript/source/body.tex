@@ -56,9 +56,9 @@ In addition to assessing the AS trustworthiness, there must also be consideratio
 % ************** Trustworthiness Qualities
 % ****************************************
 
-\subsection{Trustworthiness Qualities}
+\section{Trustworthiness of AS Qualities (TASQ)}
 
-As computing and automation has developed, systems are now both more capable and users more reliant on them. This extension of capability has resulted in a broadening of the terms which encompass trustworthiness, as, for example, the important trustworthiness qualities of a calculator may be less numerous than those of a medical decision support system. Advancement in automation then, has led us to question and challenge these new capabilities, or, with more automation comes more responsibility~\cite{Yazdanpanah2021}. 
+As computing and automation has developed, systems are now both more capable and users more reliant on them. This extension of capability has resulted in a broadening of the terms which encompass trustworthiness, as, for example, the important trustworthiness qualities of a calculator may be less numerous than those of a medical decision support system. Advancement in automation then, has led us to question and challenge these new capabilities, or, as some commentary has noted: with more automation comes more responsibility~\cite{Yazdanpanah2021}. 
 
 Trust can be expressed in a number of ways and directions; trust the user has in the system, the objective trustworthiness of the system and the context in which the interaction between the two takes place~\cite{Hancock2021}. 
 %
@@ -88,7 +88,7 @@ Lee \& Moray propose the categories for trust in automation: performance (consis
 
 Avizienis et al. proposes that a set of general concepts are required for dependable and secure computing, which may cover a wide range of applications and system failures, comprising; availability (readiness for correct service), reliability (continuity of correct service), safety (absence of catastrophic consequences on the user and the environment), integrity (absence of improper system alterations) and maintainability (ability to undergo modifications and repairs)~\cite{avizienis2004basic}. The focus here is on functionality and usability, but these categories may be too specific to computing and neglect verifiability and ethical considerations around AI.
 
-Thiebes et al. argue for five foundational principles of trustworthy AS: beneficence (doing good), non-maleficence (not harming), autonomy (preserving human decision making), justice (fair and reasonable), and explicability (easily understood)~\cite{Thiebes2021}. These are based on and related to numerous other discussion on ethically principled foundations of trustworthiness and show evidence of strong international collaboration and motivation in this area~\cite{Floridi2018,jobin2019global}. Whilst these categories are very important and capture ethical and regulatory considerations, they fail to capture the aspects of functionality and dependability of other voices in the community.
+Thiebes et al. argue for five foundational principles of trustworthy AS: beneficence (doing good), non-maleficence (not harming), autonomy (preserving human decision making), justice (fair and reasonable), and explicability (easily understood)~\cite{Thiebes2021}. These are based on and related to numerous other discussion on ethically principled foundations of trustworthiness and there is evidence of strong international collaboration and motivation in this area~\cite{Floridi2018,jobin2019global}. Whilst these categories are very important and capture ethical and regulatory considerations, they fail to capture the aspects of functionality and dependability of other voices in the community.
 
 Cho et al. propose a STRAM ontology for measuring the trustworthiness of computer systems, based around four sub-metrics of: security (availability, confidentiality, integrity), trust (predictability, safety, reliability), resilience (adaptability, fault-tolerance, recoverability) and agility (efficiency, usability, timeliness), although again functional aspects are missing with the main focus being on security.
 
@@ -108,14 +108,12 @@ Cho et al. propose a STRAM ontology for measuring the trustworthiness of compute
 The international standard ISO/IEC/IEEE 29119 describes software and systems engineering and part-4 covers software testing techniques and outlines 8 areas that testing should focus around: Functional Stability, Performance Efficiency, Compatibility
 Usability, Reliability, Security, Maintainability, Portability~\cite{ISO29119}. 
 %
-My criticism of this standard is that some of these categories were very specific to computing systems and were not repeated in any other literature, also use of jargon and therefore less user-friendly. 
-
-Part-11 of ISO29119 sets out standards specifically for testing AI-based software systems which extends these quality characteristics to include AI-specific qualities such as flexibility (range of behaviours), adaptability (ease of modification or achieving flexibility), autonomy (unsupervised ability and level of control), evolution (behaviour adaptation over time), bias (e.g. due to discrimination, historic bias, uneven sampling), transparency (access to data and algorithms and decision interpretability) and deterministic (same output for given input) as well as consideration to ethical specifications and side-effects such as reward hacking. 
+This standard is primarily focused on software testing and so some of these categories, although useful, includes jargon specific to computing systems which were not repeated in any other literature pertaining to AS more generally and therefore less user-friendly. However, part-11 of ISO29119 sets out standards specifically for testing AI-based software systems which extends these quality characteristics to include AI-specific qualities such as: flexibility (range of behaviours), adaptability (ease of modification or achieving flexibility), autonomy (unsupervised ability and level of control), evolution (behaviour adaptation over time), bias (e.g. due to discrimination, historic bias, uneven sampling), transparency (access to data and algorithms and decision interpretability) and deterministic (same output for given input) as well as consideration to ethical specifications and side-effects such as reward hacking. 
 
 FUTURE:ISO standard on "quality model for AI-based systems"
 
 
-DIN SPEC 92001 is a standard to help ensure quality in AI systems. Part 2 of the standard (92001-2) describe three pillars responsible for AI quality, namely: functionality ad performance, robustness and comprehensibility - look into
+DIN SPEC 92001 is a standard to help ensure quality in AI systems. Part 2 of the standard (92001-2) describe three pillars responsible for AI quality, namely: functionality and performance, robustness and comprehensibility - look into
 
 
 % notes:
@@ -179,14 +177,28 @@ Regulatability & Ease in which the system is verifiable, readable, explainable, 
 \end{table*}
 
 
+% ****************************************
+% **************** Application Criticality
+% ****************************************
+\section{Application Criticality}\label{application_criticality}
+
+What is not considered a great deal in the literature is application criticality; what application the AS is used for and if this should change the significance of specific trustworthiness qualities. Applications will need more emphasis on certain trustworthy qualities depending on where the system is most vulnerable to violating trust. 
+%
+\textcolor{red}{Arianna, is there a focus in ethics on where the power is held? and whom can be prejudiced/discriminated against?} 
+%
+For example, a self-driving vehicle, or indeed any safety critical system, must have emphasis on safety, possibly to the detriment of other qualities.
+
+DIN SPEC 92001-1 describes a \emph{quality meta model} and distinguishes between high risk systems that have safety, security, privacy and ethical relevance and those that do not (low risk), delineating applications into two risk classes~\cite{Englisch2019} which can be assessed using an appropriate risk assessment process, e.g. HAZOP, FMEA, SHARD. High risk applications must commit evidence of system trustworthiness based on these categories (or must be justified) whilst low risk systems are less strict.
+
+Whilst this DIN SPEC approach is commendable, it does not go far enough to filter trust qualities based on the application and identify the key qualities required for assessment. The risk assessment process can be used to identify those qualities which are most pertinent to the application which can be prioritised, included or discarded entirely. For example, there may be an application with strong safety requirements but little to none regarding privacy. 
 
 
 
 
 % ****************************************
-% *************************** Related Work
+% *********************** Automation Level
 % ****************************************
-% \section{Related Work}\label{Related_work}
+% \section{Automation Level}\label{automation_level}
 
 
 

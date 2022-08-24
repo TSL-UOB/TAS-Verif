@@ -1,65 +1,8 @@
 quality	frequency	col_lee	col_iso	col_gc	syns
-ability	1	performance	Functional Stability	Functionality	"capability 
-power 
-potential 
-facility 
-capacity 
-qualification 
-competence 
-proficiency 
-competency 
-potentiality 
-skill 
-talent 
-gift 
-expertise 
-faculty 
-flair 
-competence 
-energy 
-accomplishment 
-knack 
-aptitude 
-proficiency 
-dexterity 
-cleverness 
-potentiality 
-adroitness 
-adeptness 
-expertness 
-force 
-craft 
-endowment "
-accessibility	1	purpose	Regulatability	Regulatability	"approachability 
-availability 
-readiness 
-nearness 
-handiness 
-possibility 
-attainability 
-obtainability 
-friendliness 
-informality 
-cordiality 
-affability 
-openness 
-susceptibility 
-exposedness "
-accountability	2	process	Regulatability	Regulatability	"answerable 
-subject 
-responsible 
-obliged 
-to blame 
-liable 
-amenable 
-obligated 
-chargeable 
-responsibility 
-liability 
-culpability 
-answerability 
-chargeability "
-accuracy	4	performance	Functional Stability	Functionality	"precise 
+tramps	2	performance	Functional Stability	Functionality	"capability"
+accessibility	2	purpose	Usability	Usability	"approachability"
+accountability	4	process	Regulatability	Regulatability	"answerable"
+accuracy	2	performance	Functional Stability	Functionality	"precise 
 right 
 close 
 nice 
@@ -81,7 +24,7 @@ faultless
 scrupulous 
 unerring 
 veracious "
-adaptability	2	purpose	Portability	Robustness	"flexibility 
+adaptability	3	purpose	Portability	Robustness	"flexibility 
 versatility 
 resilience 
 variability 
@@ -111,7 +54,7 @@ adroit
 dexterous 
 competent 
 competency"
-aesthetic	1	process	Compatibility	Compatibility	"ornamental 
+aesthetic	2	process	Compatibility	Compatibility	"ornamental 
 artistic 
 pleasing 
 pretty 
@@ -130,7 +73,7 @@ apparentness
 patentness 
 perspicuousness "
 appropriateness recognisibility	1	process	Usability	Usability	appropriate
-assurance	1	purpose	Regulatability	Regulatability	"insurance 
+assurance	2	purpose	Regulatability	Regulatability	"insurance 
 cover 
 security 
 guarantee 
@@ -155,19 +98,19 @@ dependability
 trustworthiness 
 authoritativeness 
 factualness "
-autonomy	3	process	Usability	Ethical	"independence 
+autonomy	2	process	Usability	Ethical	"independence 
 freedom 
 sovereignty 
 self-determination 
 self-government 
 self-rule 
 self-sufficiency "
-availability	1	performance	Reliability	Usability	"accessibility 
+availability	6	process	Usability	Usability	"accessibility 
 readiness 
 handiness 
 attainability 
 obtainability "
-beneficence	2	purpose	Compatibility	Ethical	"generosity 
+beneficence	1	purpose	Compatibility	Ethical	"generosity 
 love 
 virtue 
 goodness 
@@ -217,7 +160,7 @@ aptitude
 aptness 
 competence 
 competency "
-communicative	1	process	Usability	Usability	"talkative
+communicative	3	process	Usability	Usability	"talkative
 open
 frank
 forthcoming
@@ -237,7 +180,7 @@ illuminating
 enlightening
 chatty
 edifying"
-competency	1	performance	Functional Stability	Functionality	"ability 
+competency	8	performance	Functional Stability	Functionality	"ability 
 skill 
 talent 
 capacity 
@@ -248,14 +191,14 @@ fitness
 suitability 
 adequacy 
 appropriateness "
-composability	2	purpose	Portability	Compatibility	modular
-concern	2	purpose	Compatibility	Ethical	"care 
+composability	1	purpose	Portability	Compatibility	modular
+concern	1	purpose	Compatibility	Ethical	"care 
 interest 
 regard 
 consideration 
 solicitude 
 attentiveness "
-confidential	7	process	Security	Security	"secret 
+confidential	4	process	Security	Security	"secret 
 private 
 intimate 
 classified 
@@ -267,7 +210,7 @@ familiar
 faithful 
 trustworthy 
 trusty"
-congeniality	1	performance	Compatibility	Compatibility	"pleasant 
+congeniality	2	performance	Compatibility	Compatibility	"pleasant 
 kindly 
 pleasing 
 friendly 
@@ -280,7 +223,7 @@ convivial
 companionable 
 favourable 
 complaisant "
-consistency	2	process	Functional Stability	Reliability	"agreement 
+consistency	1	process	Functional Stability	Reliability	"agreement 
 harmony 
 correspondence 
 accordance 
@@ -296,7 +239,7 @@ congruity "
 controllability	1	process	Usability	Usability	"manageable
 governable
 controllable"
-cooperative	1	performance	Compatibility	Compatibility	"shared
+cooperative	4	performance	Compatibility	Compatibility	"shared
 united
 joint
 combined
@@ -316,14 +259,14 @@ obliging
 accommodating 
 supportive 
 responsive "
-coordination	1	process	Usability	Usability	"organize 
+coordination	3	process	Usability	Usability	"organize 
 synchronize 
 integrate 
 bring together 
 mesh 
 correlate 
 systematize "
-deferential	2	purpose	Security	Ethical	"respectful 
+deferential	1	purpose	Security	Ethical	"respectful 
 civil 
 polite 
 courteous 
@@ -337,7 +280,7 @@ obsequious
 complaisant 
 obeisant 
 regardful "
-dependability	1	process	Reliability	Reliability	"reliable 
+dependability	5	process	Reliability	Reliability	"reliable 
 sure 
 responsible 
 steady 
@@ -346,7 +289,7 @@ staunch
 reputable 
 trustworthy 
 trusty "
-dependable	1	process	Functional Stability	Reliability	"reliable 
+dependable	3	process	Functional Stability	Reliability	"reliable 
 sure 
 responsible 
 steady 
@@ -405,7 +348,7 @@ competent
 skilful 
 adept 
 well-versed "
-expertise	1	performance	Functional Stability	Functionality	"skill 
+expertise	4	performance	Functional Stability	Functionality	"skill 
 knowledge 
 know-how
 facility 
@@ -425,12 +368,12 @@ expertness
 ableness 
 masterliness 
 skilfulness "
-explainability	1	process	Regulatability	Regulatability	"understandable
+explainability	2	process	Regulatability	Regulatability	"understandable
 interpretable
 explainable
 clear
 "
-fairness	1	purpose	Security	Ethical	"impartiality 
+fairness	2	purpose	Security	Ethical	"impartiality 
 justice 
 equity 
 legitimacy 
@@ -439,7 +382,7 @@ disinterestedness
 uprightness 
 rightfulness 
 equitableness "
-faithfulness	1	purpose	Security	Reliability	"loyalty 
+faithfulness	4	purpose	Security	Reliability	"loyalty 
 devotion 
 fidelity 
 constancy 
@@ -475,7 +418,7 @@ tensile
 stretchy 
 whippy 
 ductile "
-functionality	3	performance	Functional Stability	Functionality	"working 
+functionality	1	performance	Functional Stability	Functionality	"working 
 operative 
 operational 
 going 
@@ -484,7 +427,7 @@ ready
 viable 
 workable 
 usable "
-governance	2	purpose	Regulatability	Regulatability	"oversight
+governance	1	purpose	Regulatability	Regulatability	"oversight
 regulation
 supervision 
 keeping 
@@ -535,7 +478,7 @@ outspokenness
 genuineness 
 plainness 
 straightforwardness "
-independent	8	process	Security	Functionality	"self-sufficient 
+independent	1	process	Security	Functionality	"self-sufficient 
 free 
 liberated 
 unconventional 
@@ -556,7 +499,7 @@ available
 current 
 practical 
 valid "
-integrity	1	purpose	Reliability	Ethical	"honesty 
+integrity	7	process	Security	Security	"honesty 
 principle 
 honour 
 virtue 
@@ -572,7 +515,7 @@ incorruptibility
 uprightness 
 scrupulousness 
 reputability "
-intelligibility	4	process	Usability	Ethical	"clarity 
+intelligibility	1	process	Usability	Ethical	"clarity 
 precision 
 simplicity 
 lucidity 
@@ -581,7 +524,7 @@ plainness
 distinctness 
 clearness 
 comprehensibility "
-intentional	1	purpose	Functional Stability	Ethical	"deliberate 
+intentional	2	purpose	Functional Stability	Ethical	"deliberate 
 meant 
 planned 
 studied 
@@ -606,7 +549,7 @@ wilful
 premeditated 
 prearranged "
 interoperability	1	purpose	Compatibility	Compatibility	communication
-interpersonal	1	performance	Usability	Usability	"pleasant 
+interpersonal	2	performance	Usability	Usability	"pleasant 
 pleasing 
 nice 
 attractive 
@@ -620,7 +563,7 @@ affable
 presentable 
 likable
 likeable "
-interpretability	3	process	Security	Ethical	"understandable
+interpretability	1	process	Security	Ethical	"understandable
 interpretable
 explainable
 clear
@@ -638,7 +581,7 @@ justness
 rightfulness 
 right "
 learnability	1	process	Usability	Usability	openness, explainable, satisfying
-liveness	2	performance	Functional Stability	Functionality	"attainable 
+liveness	1	performance	Functional Stability	Functionality	"attainable 
 obtainable 
 winnable 
 reachable 
@@ -653,7 +596,7 @@ feasible
 practicable 
 accomplishable 
 ability "
-loyalty	4	purpose	Security	Ethical	"faithfulness 
+loyalty	2	purpose	Security	Ethical	"faithfulness 
 commitment 
 devotion 
 allegiance 
@@ -671,7 +614,7 @@ fealty
 staunchness 
 trueness 
 trustiness "
-maintainability	1	purpose	Maintainability	Robustness	"conserve
+maintainability	2	purpose	Maintainability	Robustness	"conserve
 support
 preserve 
 sustain 
@@ -681,14 +624,14 @@ prolong
 uphold 
 nurture  
 perpetuate "
-maturity	2	performance	Reliability	Reliability	"responsibility 
+maturity	1	performance	Reliability	Reliability	"responsibility 
 experience 
 sense 
 wisdom 
 sophistication 
 level-headedness 
 matureness "
-modifiability	2	purpose	Maintainability	Robustness	"adaptable
+modifiability	1	purpose	Maintainability	Robustness	"adaptable
 adjustable 
 flexible 
 compliant 
@@ -699,7 +642,7 @@ modifiable
 alterable "
 modularity	1	process	Maintainability	Robustness	"robust
 compliant"
-negotiation	3	process	Compatibility	Compatibility	"bargaining 
+negotiation	1	process	Compatibility	Compatibility	"bargaining 
 debate 
 discussion 
 transaction 
@@ -723,7 +666,7 @@ unprejudiced
 nondiscriminating "
 non‑maleficence	1	purpose	Security	Ethical	"moral
 caring"
-openness	1	process	Regulatability	Regulatability	"frankness 
+openness	3	process	Regulatability	Regulatability	"frankness 
 honesty 
 truthfulness 
 naturalness 
@@ -739,9 +682,9 @@ candour
 sincerity 
 sincereness 
 unreservedness "
-operability	3	performance	Usability	Usability	"practicable 
+operability	1	performance	Usability	Usability	"practicable 
 user-friendly"
-persistence	2	process	Reliability	Robustness	"determination 
+persistence	1	process	Reliability	Robustness	"determination 
 resolution 
 pluck 
 stamina 
@@ -756,7 +699,7 @@ doggedness
 pertinacity 
 indefatigability 
 tirelessness "
-predictable	1	performance	Reliability	Reliability	"likely 
+predictable	4	performance	Reliability	Reliability	"likely 
 expected 
 sure 
 certain 
@@ -767,7 +710,7 @@ on the cards
 foreseeable 
 sure-fire  
 calculable "
-principled	5	purpose	Compatibility	Ethical	"moral 
+principled	1	purpose	Compatibility	Ethical	"moral 
 ethical 
 upright 
 honourable 
@@ -780,12 +723,12 @@ virtuous
 scrupulous 
 right-minded 
 high-minded "
-privacy	3	process	Security	Security	"secrecy 
+privacy	2	process	Security	Security	"secrecy 
 confidentiality 
 confidential 
 concealment 
 clandestineness "
-reasonable	4	purpose	Compatibility	Ethical	"sensible 
+reasonable	2	purpose	Reliability	Ethical	"sensible 
 reasoned 
 sound 
 practical 
@@ -811,7 +754,7 @@ reciprocal
 interchange
 reciprocation
 give-and-take"
-redundancy	4	purpose	Maintainability	Robustness	"superfluity 
+redundancy	1	purpose	Maintainability	Robustness	"superfluity 
 excess 
 surplus 
 surfeit 
@@ -828,8 +771,7 @@ substitute
 reserve  
 stand-in 
 replacement "
-regulation	14	process	Regulatability	Regulatability	"oversight
-regulation
+regulation	1	process	Regulatability	Regulatability	"oversight
 supervision 
 keeping 
 control 
@@ -842,7 +784,7 @@ direction
 custody 
 stewardship 
 superintendence "
-reliability	3	performance	Reliability	Reliability	"dependable 
+reliability	14	performance	Reliability	Reliability	"dependable 
 trustworthy 
 honest 
 responsible 
@@ -863,12 +805,12 @@ safe
 failesafe
 definitive 
 attested "
-replaceability	2	purpose	Portability	Robustness	"substitute 
+replaceability	1	purpose	Portability	Robustness	"substitute 
 change 
 exchange 
 switch 
 swap "
-resilient	1	performance	Reliability	Robustness	"suppleness 
+resilient	2	performance	Reliability	Robustness	"suppleness 
 give 
 spring 
 flexibility 
@@ -934,7 +876,7 @@ perceptive
 impressionable 
 "
 reusability	1	process	Maintainability	Robustness	sustainable
-robustness	2	performance	Portability	Robustness	"strong 
+robustness	4	performance	Portability	Robustness	"strong 
 tough 
 powerful 
 athletic 
@@ -955,7 +897,7 @@ hale
 stout 
 staunch 
 hearty "
-safe	1	process	Functional Stability	Security	"protected
+safe	5	process	Functional Stability	Security	"protected
 secure
 in safety
 fine
@@ -975,7 +917,7 @@ trustworthy
 circumspect
 on the safe side
 unadventurous "
-satisfying	4	purpose	Usability	Usability	"satisfactory 
+satisfying	1	purpose	Usability	Usability	"satisfactory 
 pleasing 
 enjoyable 
 gratifying 
@@ -983,7 +925,7 @@ pleasurable
 cheering"
 scalability	1	process	Portability	Robustness	"broad
 comprehensive"
-security	1	process	Security	Security	"safe
+security	5	process	Security	Security	"safe
 strengthen
 fortify
 safety 
@@ -1019,7 +961,7 @@ canny
 far-sighted 
 sagacious 
 grounded "
-sensitive	2	purpose	Usability	Compatibility	"thoughtful 
+sensitive	1	purpose	Usability	Compatibility	"thoughtful 
 kind 
 understanding 
 feeling 
@@ -1046,7 +988,7 @@ genuineness
 straightforwardness 
 artlessness 
 guilelessness "
-SLEEC	4	purpose	Usability	Ethical	"right 
+SLEEC	1	purpose	Usability	Ethical	"right 
 good 
 just 
 fitting 
@@ -1072,14 +1014,14 @@ buff
 whizz  
 connoisseur 
 boffin "
-survivability	2	purpose	Reliability	Robustness	"live 
+survivability	1	purpose	Reliability	Robustness	"live 
 last 
 exist 
 endure 
 subsist "
-sustainability	5	purpose	Maintainability	Robustness	"balanced
+sustainability	1	purpose	Maintainability	Robustness	"balanced
 harmonious"
-tactfulness	5	process	Compatibility	Compatibility	"diplomatic 
+tactfulness	1	process	Compatibility	Compatibility	"diplomatic 
 politic 
 discreet 
 prudent 
@@ -1103,7 +1045,7 @@ appraisable
 gaugeable 
 judgeable 
 ratable "
-timely	1	performance	Performance Efficiency	Functionality	"opportune  
+timely	3	performance	Performance Efficiency	Functionality	"opportune  
 appropriate 
 well-timed 
 prompt 
@@ -1113,7 +1055,7 @@ judicious
 punctual 
 propitious 
 seasonable "
-tolerance	6	performance	Reliability	Robustness	"broad-mindedness 
+tolerance	2	performance	Reliability	Robustness	"broad-mindedness 
 charity 
 sympathy 
 patience 
@@ -1135,7 +1077,7 @@ hardiness
 resistance 
 immunity 
 resilience "
-traceability	3	purpose	Regulatability	Regulatability	"comprehensible 
+traceability	1	purpose	Regulatability	Regulatability	"comprehensible 
 clear 
 straightforward 
 coherent 
@@ -1144,11 +1086,11 @@ user-friendly
 unambiguous 
 intelligible 
 digestible "
-transparency	1	purpose	Regulatability	Regulatability	"understandable
+transparency	3	purpose	Regulatability	Regulatability	"understandable
 interpretable
 explainable
 clear "
-trustworthy	3	default	default	default	"dependable 
+trustworthy	1	default	default	default	"dependable 
 responsible 
 principled 
 mature 
@@ -1168,12 +1110,12 @@ steadfast
 responsible 
 faithful
 honest"
-understandability	1	purpose	Regulatability	Regulatability	"understandable
+understandability	2	purpose	Regulatability	Regulatability	"understandable
 interpretable
 explainable
 clear
 "
-understanding	2	process	Compatibility	Compatibility	"
+understanding	3	process	Compatibility	Compatibility	"
 compassionate
 sympathetic
 sensitive
@@ -1200,7 +1142,7 @@ diplomatic
 perceptive
 subtle
 prudent"
-usability	1	performance	Usability	Usability	"fit
+usability	2	performance	Usability	Usability	"fit
 convenient"
 utility	1	process	Functional Stability	Functionality	"functional 
 useful 

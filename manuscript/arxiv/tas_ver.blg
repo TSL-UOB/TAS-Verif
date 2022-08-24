@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'tas_ver.blg'
-[40] biber:322> INFO - === Tue Aug 23, 2022, 15:57:07
-[47] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
-[83] Biber.pm:943> INFO - Found 43 citekeys in bib section 0
-[89] Biber.pm:4256> INFO - Processing section 0
-[90] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
-[90] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
-[95] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
-[96] bibtex.pm:1653> INFO - LaTeX decoding ...
-[129] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
-[345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[345] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[345] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[371] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
-[388] bbl.pm:755> INFO - Output to tas_ver.bbl
+[38] biber:322> INFO - === Wed Aug 24, 2022, 16:53:15
+[44] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
+[81] Biber.pm:943> INFO - Found 44 citekeys in bib section 0
+[87] Biber.pm:4256> INFO - Processing section 0
+[87] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
+[87] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
+[92] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
+[94] bibtex.pm:1653> INFO - LaTeX decoding ...
+[127] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
+[329] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[330] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[330] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[330] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[355] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
+[372] bbl.pm:755> INFO - Output to tas_ver.bbl
