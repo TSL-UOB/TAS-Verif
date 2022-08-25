@@ -249,6 +249,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bbding/bbding.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bbding/bbding.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT tas_ver.aux
@@ -309,12 +311,16 @@ INPUT ../other/figures/trust_spectrum.jpg
 INPUT ../other/figures/tas_ver.jpg
 INPUT ../other/figures/tas_ver.jpg
 INPUT ../other/figures/tas_ver.jpg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbding/bbding10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT tas_ver.aux
 INPUT ./tas_ver.out
 INPUT ./tas_ver.out
 INPUT tas_ver.run.xml
 OUTPUT tas_ver.run.xml
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb

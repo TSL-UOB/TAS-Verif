@@ -211,12 +211,33 @@ Whilst this DIN SPEC approach is commendable, it does not go far enough to filte
 
 \begin{figure*}[]
     \centering
-    \includegraphics[width=0.98\linewidth]{\pathToOtherFiles/figures/tas_ver.jpg}
+    \includegraphics[width=0.98\linewidth, trim=0.3cm 1.0cm 0.5cm 0.5cm, clip]{\pathToOtherFiles/figures/tas_ver.jpg}
     \caption{AS trustworthiness assessment process}
     \label{fig:tas_ver}
 \end{figure*}
 
 Below is a checklist for assessment of AS trustworthiness:
+
+\noindent\textbf{TASQ Categories}
+
+After reviewing the literature, a comprehensive ontology has been derived based on TASQ. 
+
+\noindent\textbf{Application Criticality Analysis}
+
+Which TASQ to include in your application? Are all qualities relevant? How can quality relevance be objectively assessed? What inputs are required from trust stakeholders? How does automation level affect the choice?    
+
+\noindent\textbf{TASQ Assessment with Corroborative V\&V}
+
+
+Kress-Gazit et al. state that assessment in the correctness of AS can be broken down into four approaches: synthesis of correct-by-construction systems, formal verification at design time, runtime verification or monitoring, and test-based methods~\cite{kress2021formalizing}. 
+%
+This assessment uses all four approaches both at design time, during operation (runtime) and as a consequence of development iteration or update. 
+
+
+
+\noindent\textbf{Standards and Regulations}
+
+What standard for each quality? Is there a relation/pattern? Can we map standards to qualities or is it application based? 
 
 
 \noindent\textbf{Metrics}
@@ -236,10 +257,50 @@ For data-centric and highly objective measures of trust, operators such as accur
 
 
 
+\noindent\textbf{Analysis \& Visualising Trust}
+
+Metrics for development and regulation may be different to those that are public facing although contain the spirit of the same information but presented in a user-friendly manner that will attain and hold trust in the user [ref].
+
+As suggested by Floridi, public confidence in AI-based systems could be bolstered with an internationally recognised index for trustworthy AI, such as a \emph{trust comparison index} or AI \emph{star rating}. A vision of this rating is shown in Table XXX. 
 
 
-\noindent\textbf{Verification Methods}: %
-Kress-Gazit et al. state that assessment in the correctness of AS can be broken down into four approaches: synthesis of correct-by-construction systems, formal verification at design time, runtime verification or monitoring, and test-based methods~\cite{kress2021formalizing}. 
+Corroborative, mutually consistent evidence from diverse methodologies provides assurance that is greater in quality than evidence from single sources and is the only process that can result in the highest TASQ rating. Evidence that fails to corroborate, although does not fail in itself, may be considered equivalent to single-source evidence and therefore, although not a failure, can only provide evidence for low risk applications.
+
+
+\begin{table*}[t]
+\caption{Trustworthiness Autonomous Systems Quality (TASQ) star rating comparison index}\label{tab:tasq_rating}
+\centering
+\begin{tabular}{lll}
+\toprule
+TASQ  &  Assessment & Application \\ 
+Rating & Description & Class \\ \midrule
+
+\FiveStar & Single assessment method, meets minimum compliance  & low risk applications only\\
+&with standards for low risk applications & \\
+
+\FiveStar\FiveStar & 1-2 assessment methods where appropriate, meets recommended & low-moderate risk applications\\
+& compliance level and attempt to calibrate user trust & \\
+
+\FiveStar\FiveStar\FiveStar & evidence from at least 2 diverse assessment methods,  & any risk level applications\\
+&meets full compliance guidelines and extensive  &\\
+&user trust calibration&\\
+
+\bottomrule
+\end{tabular}
+
+\label{tab:tasq_rating}
+\end{table*}
+
+
+
+\noindent\textbf{Insufficient Trust: Update \& Reassessment}
+
+
+
+\noindent\textbf{Sufficient Trust: Monitoring}
+
+
+
 
 
 
