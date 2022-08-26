@@ -4,10 +4,9 @@
 % *************************** Introduction
 % ****************************************
 
-\section{Introduction}
+\section{Introduction}\label{sec:intro}
 
-Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{mediumaiphones}, insurance pricing~\cite{kuo2020towards} and self-driving vehicles %vacuum cleaners~\cite{tf_vacuum} 
-to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
+Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{mediumaiphones}, insurance pricing~\cite{kuo2020towards}, vacuum cleaners~\cite{tf_vacuum} and self-driving vehicles to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
 %
 For successful adoption of these systems then there needs to be demonstrable assurance of their trustworthy operation which becomes increasingly difficult in complex and changing environments.  
 %
@@ -29,7 +28,7 @@ This paper focuses on reviewing what trustworthiness means in the fields of AS, 
 % ***** V&V for AS in complex environments
 % ****************************************
 
-\subsection{V\&V for AS in complex environments} 
+\subsection{V\&V for AS in complex environments} \label{sec:intro-vav}
 
 A widely held tenet is that there can never be a suitable amount of verification that gives complete assurance for complex, safety-critical autonomous systems, although limits on reliability rates have been proposed~\cite{Butler1993}. Corroborative V\&V~\cite{webster2020corroborative} attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, testing. 
 %
@@ -56,7 +55,7 @@ In addition to assessing the AS trustworthiness, there must also be consideratio
 % ************** Trustworthiness Qualities
 % ****************************************
 
-\section{Trustworthiness of AS Qualities (TASQ)}
+\section{Trustworthiness of AS Qualities (TASQ)}\label{sec:tasq}
 
 As computing and automation has developed, systems are now both more capable and users more reliant on them. This extension of capability has resulted in a broadening of the terms which encompass trustworthiness, as, for example, the important trustworthiness qualities of a calculator may be less numerous than those of a medical decision support system. Advancement in automation then, has led us to question and challenge these new capabilities, or, as some commentary has noted: with more automation comes more responsibility~\cite{Yazdanpanah2021}. 
 
@@ -80,7 +79,7 @@ Resilience: The ability of the software to recover from errors quickly and compl
 % ************************ Ontology of AS
 % ****************************************
 
-\subsection{Ontology of AS Trustworthiness Qualities}
+\subsection{Ontology of AS Trustworthiness Qualities}\label{sec:tasq-ont}
 
 A trust ontology can be a useful definition to identify an independent set of important quality characteristics, where one category is not necessary influenced or related to its neighbours. These categories can be used to support clarity of communication and understanding of issues pertaining to, and of judgement in the assessment of, trustworthiness of autonomous systems. 
 
@@ -103,7 +102,7 @@ Cho et al. propose a STRAM ontology for measuring the trustworthiness of compute
 % ********************* Existing Standards
 % ****************************************
 
-\subsubsection{Ontologies within Existing Standards}
+\subsubsection{Ontologies within Existing Standards}\label{sec:tasq-ont-stds}
 
 The international standard ISO/IEC/IEEE 29119 describes software and systems engineering and part-4 covers software testing techniques and outlines 8 areas that testing should focus around: Functional Stability, Performance Efficiency, Compatibility
 Usability, Reliability, Security, Maintainability, Portability~\cite{ISO29119}. 
@@ -185,25 +184,51 @@ Regulatability & Ease in which the system is verifiable, readable, explainable, 
 % ****************************************
 % **************** Application Criticality
 % ****************************************
-\section{Application Criticality}\label{application_criticality}
+\section{Application Criticality} \label{sec:appcrit}
 
 What is not considered a great deal in the literature is application criticality; what application the AS is used for and if this should change the significance of specific trustworthiness qualities. Applications will need more emphasis on certain trustworthy qualities depending on where the system is most vulnerable to violating trust. 
 %
 \textcolor{red}{Arianna, is there a focus in ethics on where the power is held? and whom can be prejudiced/discriminated against?} 
 %
-For example, a self-driving vehicle, or indeed any safety critical system, must have emphasis on safety, possibly to the detriment of other qualities.
+For example, a self-driving vehicle, or indeed any safety critical system, must have emphasis on safety, possibly to the detriment of other qualities. 
 
 DIN SPEC 92001-1 describes a \emph{quality meta model} and distinguishes between high risk systems that have safety, security, privacy and ethical relevance and those that do not (low risk), delineating applications into two risk classes~\cite{Englisch2019} which can be assessed using an appropriate risk assessment process, e.g. HAZOP, FMEA, SHARD. High risk applications must commit evidence of system trustworthiness based on these categories (or must be justified) whilst low risk systems are less strict.
 
 Whilst this DIN SPEC approach is commendable, it does not go far enough to filter trust qualities based on the application and identify the key qualities required for assessment. The risk assessment process can be used to identify those qualities which are most pertinent to the application which can be prioritised, included or discarded entirely. For example, there may be an application with strong safety requirements but little to none regarding privacy. 
 
+Fisher 2021 asks if there are some rules that are more important that others, are all rules born equal? Context and application, social and cultural norms will all influence this answer. An example may be the ease with which breaking the speeding limit is observed in driving behaviour, but other driving conduct rules are broken less often, such as driving through a red traffic signal light.
 
+\subsection{Decision Making Complexity} \label{sec:appcrit-dec}
+
+Within application criticality comes decision making complexity, the complexity of the process the AS must navigate in order to achieve the task goal. This could be considered in terms of the system and the constraints in the environment or action space to allow or prevent the system reaching a number of potential future states. A autonomous vacuum cleaner, for example, is physically constrained to a small 2-dimensional plane (area to be cleaned) and can successfully function with a small action space (stop, rotate, drive) where decisions are reactively made based on a few simple sensor inputs (avoid close object). 
+%
+Contrast this to, for example, any system that requires a perception stack to interpret dynamic physical scenes, such as a self-driving vehicle, which must identify and extrapolate objects and their future states (pedestrians), environmental conditions (road furniture, fog) and static or temporary rules that require interpreting (road signs, traffic cones) which will all contribute to a decision, which is also exacerbated by the potential harm that can result if a wrong decision is made. 
+%
+Decision making complexity needs to be considered when judging the risk level of the application, and the associated trust qualities should be elevated accordingly, where applications that have high risk associated with particular qualities, those qualities should be elevated to higher risk levels and be assessed accordingly (see Section~\ref{sec:AssFramVis}).  
+
+\subsection{Potential harm (from failure)} \label{sec:app-harm}
+
+Qualities that are principally connected to the functionality of the AS, are required for trustworthiness. A vacuum cleaner with poor coordination can do limited harm to users, but the same lacking quality in a robotic assistant, say, may fail to be accepted as trustworthy and also cause potential harm. Therefore, the trust quality must be elevated to a high risk level.
+%
+A risk assessment process should be able to identify such critical properties that can follow through the verification process. 
 
 
 % ****************************************
 % *********************** Automation Level
 % ****************************************
-% \section{Automation Level}\label{automation_level}
+\section{Automation Level} \label{sec:autlev}
+
+The level of automation is an important consideration which relates to what qualities the system should present, our reliance and vulnerability to the system and hence the criticality of the application. A good description of automation levels are given by SAE International~\cite{SAEJ3016}. 
+%
+Fisher et al. describe \emph{automation scope} which, alongside the level of automation, describes the sophistication of potential system actions and the ability to achieve complex task goals~\cite{Fisher2021}. 
+%
+Alongside scope, agency (independent acting or decision making) and whether to be reactive (responding to a situation or stimulus) or proactive (creating a situation) in action decision are also factors to consider within automation level.
+%
+Greater scope, greater responsibility [ref]
+%
+% The example given is that two automated vacuum cleaners can both clean and avoid obstacles, but one schedules action to avoid human disruption. 
+%
+But automation scope is simply an aspect of non-functional AS qualities, of which compatibility, which includes co-existence and harmony, are aspects of automation that would naturally extend the scope of the system. 
 
 
 
@@ -212,7 +237,7 @@ Whilst this DIN SPEC approach is commendable, it does not go far enough to filte
 % ****************************************
 % ******************* Assessment Framework
 % ****************************************
-\section{Assessment Framework Vision}\label{Assessment_Framework_Vision}
+\section{Assessment Framework Vision} \label{sec:AssFramVis}
 
 \begin{figure*}[]
     \centering
@@ -304,7 +329,7 @@ Rating & Description & Class \\ \midrule
 
 
 
-\noindent\textbf{Sufficient Trust: Monitoring}
+\subsection{Sufficient Trust: Monitoring}
 
 
 
@@ -316,7 +341,7 @@ Rating & Description & Class \\ \midrule
 
 
 
-\subsection{Future Challenges in Standards}
+\subsection{Future Challenges in Standards} \label{sec:AssFramVis-fut}
 
 Riaz et al.~\cite{Riaz2018} suggest the idea of using social norms and human emotions as a standard by which better self-driving controllers may be developed. This idea sets the way for not just development of higher functioning AS, but also standards of trustworthiness by which they can be judged. Although there is much scholarly work on the theory and modelling of social norms, e.g.~\cite{hechter2001social}, there is yet to be published a standard that could be used to objectively assess an autonomous system. 
 
@@ -327,7 +352,7 @@ In some cases, e.g. driving, legislation on appropriate conduct is presented to 
 % ********************* Existing Standards
 % ****************************************
 
-\subsection{Assessment Methods \& Corroborative Evidence}
+\subsection{Assessment Methods \& Corroborative Evidence} \label{sec:AssFramVis-AssMthds}
 Gaining reliability assurance of SCASs using testing alone is unfeasible given the often high-dimensional operational state space. Multiple testing methodologies should be employed where appropriate, e.g. verification, falsification and testing, [Harper Corroborative 2022] combining mutually consistent evidence from multiple and diverse assessment methods will raise the confidence in system trustworthiness.
 
 Knowledge of the internal state of the system is often hidden, e.g. blackbox, due to IP and commercial sensitivity, but whitebox access will be essential for certain aspects of trustworthiness assessment. This may not need to reveal sensitive algorithms but just enough information through observability points in the software architecture could go a long way to understanding if automated decisions are made for the right reason~\cite{koopman2018toward}. 
@@ -338,7 +363,7 @@ Knowledge of the internal state of the system is often hidden, e.g. blackbox, du
 % ********************* Existing Standards
 % ****************************************
 
-\section{Conclusion}\label{conclusion}
+\section{Conclusion} \label{sec:conc}
 
 
 
