@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  26 AUG 2022 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  26 AUG 2022 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1458,6 +1458,11 @@ LaTeX Warning: Citation 'kress2021formalizing' on page 4 undefined on input lin
 e 262.
 
 
+Underfull \hbox (badness 2261) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 What stan-dard for each qual-ity? Is there a re-la-
+ []
+
+
 LaTeX Warning: Citation 'Rudas2020' on page 4 undefined on input line 276.
 
 
@@ -1496,10 +1501,7 @@ LaTeX Warning: Citation 'highwayCode' on page 5 undefined on input line 348.
 LaTeX Warning: Citation 'harper2021safety' on page 5 undefined on input line 34
 8.
 
-
-Underfull \vbox (badness 5592) has occurred while \output is active []
-
- [5]
+[5]
 
 LaTeX Warning: Citation 'koopman2018toward' on page 6 undefined on input line 3
 58.
@@ -1511,8 +1513,8 @@ LaTeX Warning: Empty bibliography on input line 138.
 
 AED: lastpage setting LastPage
 
-Overfull \vbox (1.94444pt too high) has occurred while \output is active []
-
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 [6 <../other/figures/tas_ver.jpg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
@@ -1540,8 +1542,8 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25782 strings out of 492982
- 476387 string characters out of 6134896
+ 25790 strings out of 492982
+ 476516 string characters out of 6134896
  922862 words of memory out of 5000000
  28902 multiletter control sequences out of 15000+600000
  9082 words of font info for 33 fonts, out of 8000000 for 9000
@@ -1557,10 +1559,10 @@ t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti9.pfb>
 Output written on /home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.pdf (6 p
-ages, 340494 bytes).
+ages, 340823 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 26 named destinations out of 1000 (max. 500000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 34 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
