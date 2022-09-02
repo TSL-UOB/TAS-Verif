@@ -102,6 +102,54 @@ Cho et al. propose a STRAM ontology for measuring the trustworthiness of compute
 % ********************* Existing Standards
 % ****************************************
 
+%----------------------------------------------------------------------------------Contributed by Dhaminda (Start)------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Standards for Autonomous Systems and Trustworthiness Properties}
+% Contributed by: Dhaminda Abeywickrama
+% 2 September 2022
+Autonomous systems are systems that involve software applications, machines and people, which are capable of taking actions with no or little human supervision~\cite{Murukannaiah2020}. 
+The functionality of an autonomous system (i.e. what it is meant to do, what it does, and what it could do) evolves or changes over time. 
+One of the main issues of adopting current standards and regulations with autonomous systems is the lack of consideration to the notions of \textit{uncertainty} and \textit{autonomy} \cite{Fisher2020}. 
+Most conventional processes for defining system requirements assume that these are fixed and can be defined in a complete and precise manner before the system goes into operation \cite{Abeywickrama2022}. 
+Also, in existing standards and regulations, the notion of autonomy is not their most characterizing feature where they are neither driven nor strongly influenced by it \cite{Fisher2020}. 
+Most existing standards are either implicitly or explicitly based on the V\&V model, which moves from requirements through design onto implementation and testing before deployment~\cite{Jia2021}. 
+However, this model is unlikely to be suitable for systems with the ability to adapt their functionality in operation; e.g.\ through interaction with other agents and the environment (e.g. as is the case with swarms); or through experience-driven adaptation as is the case with machine learning \cite{Abeywickrama2022}. 
+Autonomous systems with evolving functionality follow a different, much more iterative life-cycle. 
+Thus, there is a need for new standards and assurance processes that extend beyond design time and allow continuous certification at runtime~\cite{Rushby2008}. 
+In this context, lately, there have been several standards and guidance introduced by several industry committees and research groups. 
+Now we provide an overview of several key efforts with any trustworthiness properties or ontologies supported by them.
+
+In 2016, the British Standards Institution introduced the \textit{BS 8611} standard that provides a guide to the ethical design and application of robots and robotic systems \cite{BS8611}. 
+Then, IEEE through its initiative Global Initiative on Ethics of Autonomous and Intelligent Systems initiated the development of a series of standards to address autonomy, ethical issues, transparency, data privacy and trustworthiness (IEEE P70XX, for e.g. IEEE P7001, P7007, P7010). 
+\textit{IEEE P7001} standard describes measurable, testable levels of transparency for autonomous systems so that they can be objectively assessed and levels of compliance determined\cite{IEEE-P7001}. 
+This standard outlines five stakeholder groups, and for each group it explains the structure of the normative definitions of levels of transparency. 
+\textit{IEEE P7001} can be applied to assess the transparency of an existing system using a process of System Transparency Assessment, or to specify transparency requirements for a system prior to its implementation using a System Transparency Specification.
+Meanwhile, the goal of \textit{IEEE P7007} standard is to assist in the ethically-driven methodologies for the design of robots and automation systems \cite{IEEE-P7007}.
+For this, it provides a set of ontologies with different abstraction levels of concepts, definitions, axioms and use cases. 
+IEEE P7001 mentions about a transparency concern, which is a property representing an explanation topic (e.g. fairness, safety, legality, reliability, accountability, responsibility, predictability, comprehensibility, justifiability, viability, coordination) describing the reason for explanations of agent behaviours. 
+\textit{IEEE P7010} standard is used to measure the impact of AI or autonomous and intelligent systems on humans \cite{IEEE-P7010}. 
+
+There are several standards and guidance related to machine learning in aeronautics, automotive, railway and industrial domains, e.g. AMLAS, EASA concept paper, DEEL white paper, AVSI report, LNE certification and UL 4600 standard \cite{Kaakai2022}.
+
+\textit{Assurance of Machine Learning for use in Autonomous Systems (AMLAS)} provides guidance on how to systematically integrate safety assurance into the development of the machine learning components based on offline supervised learning \cite{Hawkins2021}. 
+%AMLAS provides an explicit and structured safety case that the system is safe to operate in its intended context of use. 
+AMLAS contains six stages, and the assurance activities are performed in parallel to the development of machine learning component. 
+The process is iterative by design and feedback is used to update previous stages. 
+In AMLAS, the safety requirements are always based on performance and robustness of the machine learning model. 
+In a related work to AMLAS \cite{Ashmore2021}, the authors identify several phases in a machine learning life cycle (data management, model learning, verification and deployment) with their associated data. From an assurance view point, they consider several key properties the models generated by learning should exhibit: performance, robustness, reusability and interpretability.% (see Table\ref{table:1}).
+
+The \textit{concept paper} by the \textit{European Union Aviation Safety Agency (EASA)} provides its first usable guidance for level 1 (human assistance) safety-related machine learning applications \cite{EASA2021}. 
+%It provides means of compliance for the certification of safety-critical systems which rely on machine learning-based algorithms for their operation. 
+This guidance provides a roadmap to create a framework for AI trustworthiness (\cite{EASA2021}, pg. 8). The framework describes three techniques for analysing trustworthiness (safety, security and ethics-based), which are linked with the ethical guidelines developed by the EU commission (accountability, robustness, safety, oversight, privacy and data governance, non-discrimination and fairness, transparency, and societal and environmental well being). 
+
+The \textit{DEpendable and Explainable Learning (DEEL) white paper} aims to identify challenges in the certification of systems using machine learning and to define a set of high-level properties for that purpose, such as auditability, data quality, explainability, maintainability, resilience, robustness, specifiability and verifiability (\cite{Mamalet2021}, pg. 22–23). 
+
+The \textit{Aerospace Vehicle System Institute (AVSI) report} on machine learning summarises their findings on safety and certification aspects of emerging machine learning technologies that are applied to safety-critical aerospace systems \cite{AFE2020}. This report provides several recommendations with respect to robustness, safety assurance, runtime assurance and interpretability when using machine learning in safety-critical applications. 
+
+The \textit{UL 4600 standard} guides a user through the development of safety cases for fully automated vehicles (i.e. vehicles with no driver or supervisor) \cite{UL4600}. It is more of a standard of care and not a procedure for certification of fully automated vehicles. The \textit{Laboratoire National de Métrologie et d'Essais (LNE) certification} \cite{LNE2021} is a quality assurance standard for machine learning processes. The aim is to provide guidance for an applicant when obtaining certifications for their design, development, evaluation and maintenance in operational conditions. 
+%----------------------------------------------------------------------------------Contributed by Dhaminda (End)------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 \subsubsection{Ontologies within Existing Standards}\label{sec:tasq-ont-stds}
 
 The international standard ISO/IEC/IEEE 29119 describes software and systems engineering and part-4 covers software testing techniques and outlines 8 areas that testing should focus around: Functional Stability, Performance Efficiency, Compatibility
@@ -135,7 +183,7 @@ The NIST Framework for Cyber-Physical Systems [ref] details a list of trustworth
 
 % What human factors are considered eg. ISO29119
 
-\textcolor{red}{Dhaminda to contribute here?}
+%\textcolor{red}{Dhaminda to contribute here?}
 
 
 A spectrum of qualities is presented that captures the broad definition of trustworthiness of AS from the literature, see Table~\ref{tab:quals}. A full list of the quality terms reviewed can be found at~\cite{tsl_git}.
