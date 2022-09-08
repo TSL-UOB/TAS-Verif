@@ -6,9 +6,11 @@
 
 \section{Introduction}\label{sec:intro}
 
+Autonomous systems are systems that involve software applications, machines and people, which are capable of taking actions with no or little human supervision~\cite{Murukannaiah2020}.
+%
 Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{mediumaiphones}, insurance pricing~\cite{kuo2020towards}, vacuum cleaners~\cite{tf_vacuum} and self-driving vehicles to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
 %
-For successful adoption of these systems then there needs to be demonstrable assurance of their trustworthy operation which becomes increasingly difficult in complex and changing environments.  
+For successful adoption of, and reliance upon AS there needs to be demonstrable assurance of their trustworthy operation which becomes increasingly difficult for complex systems and changing environments.  
 %
 There is also growing use of machine learning in a range of safety-critical systems (SCSs), for example in the aerospace and automotive industry where low reliability of these systems could result in catastrophic failure and potentially loss of life or damage to property and the environment. These safety-critical autonomous systems present a complex but essential challenge to the safety assurance and verification community. 
 
@@ -17,12 +19,16 @@ Verification and validation (V\&V) is the process to gain confidence in the corr
 % Conventional V\&V is principally concerned with assessing the system against a set of requirements, providing guarantees of functionality and assurance of safety.
 %
 If autonomous systems are to be fully accepted into society, there must be acknowledgement of, and evidence to show, compliance with a broad range of \emph{trustworthiness qualities}. 
+%
+A trustworthiness quality is defined here as a non-functional system property that enables adoption or promotes reliance in that system with \emph{trust stakeholders}. A trust stakeholder is a collection of entities or bodies that have a vested interest in the reliable operation of the system or otherwise seek assurance specific system properties. 
 % 
 A major challenge in verifying this broad category of trustworthiness qualities, are the lack of standards and regulations against which they can be evaluated. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of developing robust assessment methodologies and metrics for these more nuanced trustworthiness qualities. 
 %
 % [maybe cut] For example, there are well defined rules for driving conduct and expected behaviour [UKHC] which could be verified using simulation based verification [harper22] but standards for social interaction, aesthetics or ethical behaviour are either non-existent or just emerging [EU directive for AI ethics]. 
 %
-This paper focuses on reviewing what trustworthiness means in the fields of AS, robotics, HRI and Cyber-Physical Systems (CPS). An assessment process is presented along with the challenges associated with practical application.
+This paper focuses on reviewing what trustworthiness means in the fields of AS, robotics, HRI and Cyber-Physical Systems (CPS) and how the application, criticality and level of autonomy influence trust priorities. 
+%
+We are aware of other factors contributing to trust, such as the broader epistemological or sociotechnical aspects of trust but will not consider these here, nor the process of gaining, maintaining or preventing the erosion of trust, e.g. see~\cite{Chiou2021}. We focus on technical aspects of trustworthiness relating to the system and outline the challenges associated with practical application of a presented assessment process. 
 
 % ****************************************
 % ***** V&V for AS in complex environments
@@ -107,13 +113,16 @@ Cho et al. propose a STRAM ontology for measuring the trustworthiness of compute
 \subsection{Standards for Autonomous Systems and Trustworthiness Properties}
 % Contributed by: Dhaminda Abeywickrama
 % 2 September 2022
-Autonomous systems are systems that involve software applications, machines and people, which are capable of taking actions with no or little human supervision~\cite{Murukannaiah2020}. 
+% Autonomous systems are systems that involve software applications, machines and people, which are capable of taking actions with no or little human supervision~\cite{Murukannaiah2020}. %moved up to intro
 The functionality of an autonomous system (i.e. what it is meant to do, what it does, and what it could do) evolves or changes over time. 
 One of the main issues of adopting current standards and regulations with autonomous systems is the lack of consideration to the notions of \textit{uncertainty} and \textit{autonomy} \cite{Fisher2020}. 
 Most conventional processes for defining system requirements assume that these are fixed and can be defined in a complete and precise manner before the system goes into operation \cite{Abeywickrama2022}. 
 Also, in existing standards and regulations, the notion of autonomy is not their most characterizing feature where they are neither driven nor strongly influenced by it \cite{Fisher2020}. 
 Most existing standards are either implicitly or explicitly based on the V\&V model, which moves from requirements through design onto implementation and testing before deployment~\cite{Jia2021}. 
 However, this model is unlikely to be suitable for systems with the ability to adapt their functionality in operation; e.g.\ through interaction with other agents and the environment (e.g. as is the case with swarms); or through experience-driven adaptation as is the case with machine learning \cite{Abeywickrama2022}. 
+%
+\textcolor{red}{we have not yet mentioned systems with evolving functionality, this can be put in the introduction}
+%
 Autonomous systems with evolving functionality follow a different, much more iterative life-cycle. 
 Thus, there is a need for new standards and assurance processes that extend beyond design time and allow continuous certification at runtime~\cite{Rushby2008}. 
 In this context, lately, there have been several standards and guidance introduced by several industry committees and research groups. 

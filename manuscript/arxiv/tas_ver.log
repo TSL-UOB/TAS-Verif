@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  26 AUG 2022 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.16)  8 SEP 2022 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,117 +1172,122 @@ Package lastpage Info: Please have a look at the pageslts package at
 (/home/is18902/git/TAS-Verif/manuscript/arxiv/../source/abstract.tex)
 (/home/is18902/git/TAS-Verif/manuscript/arxiv/../source/body.tex
 
-LaTeX Warning: Citation 'mediumaiphones' on page 1 undefined on input line 9.
+LaTeX Warning: Citation 'Murukannaiah2020' on page 1 undefined on input line 9.
 
 
-LaTeX Warning: Citation 'kuo2020towards' on page 1 undefined on input line 9.
+
+LaTeX Warning: Citation 'mediumaiphones' on page 1 undefined on input line 11.
 
 
-LaTeX Warning: Citation 'tf_vacuum' on page 1 undefined on input line 9.
+LaTeX Warning: Citation 'kuo2020towards' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'tf_vacuum' on page 1 undefined on input line 11.
 
 
 LaTeX Warning: Citation 'kononenko2001machine' on page 1 undefined on input lin
-e 9.
+e 11.
 
 
-LaTeX Warning: Citation 'avci2021review' on page 1 undefined on input line 9.
+LaTeX Warning: Citation 'avci2021review' on page 1 undefined on input line 11.
 
 
-LaTeX Warning: Citation 'alpha_fold' on page 1 undefined on input line 9.
+LaTeX Warning: Citation 'alpha_fold' on page 1 undefined on input line 11.
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 9--14
+Underfull \hbox (badness 1354) in paragraph at lines 9--16
+\OT1/cmr/m/n/10 Autonomous sys-tems are sys-tems that in-volve soft-
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 9--16
+\OT1/cmr/m/n/10 ware ap-pli-ca-tions, ma-chines and peo-ple, which are
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 9--16
+\OT1/cmr/m/n/10 ca-pa-ble of tak-ing ac-tions with no or lit-tle hu-man
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 9--16
+\OT1/cmr/m/n/10 su-per-vi-sion [[]]. Au-tonomous sys-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 9--16
+\OT1/cmr/m/n/10 to be-come even more so with cur-rent tech-no-log-i-cal
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 9--16
+\OT1/cmr/m/n/10 pli-ca-tions from mo-bile phones [[]],
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 9--16
 \OT1/cmr/m/n/10 in-sur-ance pric-ing [[]], vac-uum clean-
  []
 
 
-LaTeX Warning: Citation 'Abeywickrama2022' on page 1 undefined on input line 15
+LaTeX Warning: Citation 'Abeywickrama2022' on page 1 undefined on input line 17
 .
 
 
-LaTeX Warning: Citation 'Butler1993' on page 1 undefined on input line 33.
+LaTeX Warning: Citation 'Chiou2021' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Butler1993' on page 1 undefined on input line 39.
 
 
 LaTeX Warning: Citation 'webster2020corroborative' on page 1 undefined on input
- line 33.
+ line 39.
 
 
-LaTeX Warning: Citation 'Leucker2009' on page 1 undefined on input line 35.
+LaTeX Warning: Citation 'Leucker2009' on page 1 undefined on input line 41.
 
 
-LaTeX Warning: Citation 'CyRes20' on page 1 undefined on input line 35.
+LaTeX Warning: Citation 'CyRes20' on page 1 undefined on input line 41.
 
 
-LaTeX Warning: Citation 'eder2021cyres' on page 1 undefined on input line 35.
+LaTeX Warning: Citation 'eder2021cyres' on page 1 undefined on input line 41.
 
 
-LaTeX Warning: Citation 'Allen2018' on page 1 undefined on input line 37.
+LaTeX Warning: Citation 'Allen2018' on page 1 undefined on input line 43.
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 33--38
+Underfull \hbox (badness 1142) in paragraph at lines 39--44
 \OT1/cmr/m/n/10 A widely held tenet is that there can never be a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 \OT1/cmr/m/n/10 suit-able amount of ver-i-fi-ca-tion that gives com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 \OT1/cmr/m/n/10 plete as-sur-ance for com-plex, safety-critical au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 \OT1/cmr/m/n/10 tonomous sys-tems, al-though lim-its on re-li-a-bil-ity
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 33--38
+Underfull \hbox (badness 1087) in paragraph at lines 39--44
 \OT1/cmr/m/n/10 V&V [[]] at-tempts to im-
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 33--38
+Underfull \hbox (badness 1596) in paragraph at lines 39--44
 \OT1/cmr/m/n/10 cloud-based ver-i-fi-ca-tion [[], []].
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 33--38
+Underfull \hbox (badness 1533) in paragraph at lines 39--44
 \OT1/cmr/m/n/10 op-por-tu-nity for build-ing trust-wor-thi-ness in com-plex
- []
-
-
-LaTeX Warning: Citation 'highwayCode' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation 'kraus2022trustworthy' on page 1 undefined on input lin
-e 41.
-
-
-LaTeX Warning: Citation 'winfield2021ieee' on page 1 undefined on input line 41
-.
-
-
-LaTeX Warning: Citation 'Abeywickrama2022' on page 1 undefined on input line 41
-.
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 39--44
-[]\OT1/cmr/m/n/10 Further to this is-sue, are the lack of \OT1/cmr/m/it/10 stan
--dards
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 39--44
-\OT1/cmr/m/n/10 praised and the \OT1/cmr/m/it/10 meth-ods \OT1/cmr/m/n/10 by wh
-ich they should be
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 39--44
-\OT1/cmr/m/n/10 [ref EU AI high level ex-pert group], check-lists for
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1290,221 +1295,326 @@ Underfull \hbox (badness 1383) in paragraph at lines 39--44
 
 ]
 
-LaTeX Warning: Citation 'koopman2018toward' on page 2 undefined on input line 4
-5.
+LaTeX Warning: Citation 'highwayCode' on page 2 undefined on input line 45.
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 45--46
+LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
+e 47.
+
+
+LaTeX Warning: Citation 'winfield2021ieee' on page 2 undefined on input line 47
+.
+
+
+LaTeX Warning: Citation 'Abeywickrama2022' on page 2 undefined on input line 47
+.
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 45--50
+[]\OT1/cmr/m/n/10 Further to this is-sue, are the lack of \OT1/cmr/m/it/10 stan
+-dards
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 45--50
+\OT1/cmr/m/n/10 praised and the \OT1/cmr/m/it/10 meth-ods \OT1/cmr/m/n/10 by wh
+ich they should be
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 45--50
+\OT1/cmr/m/n/10 [ref EU AI high level ex-pert group], check-lists for
+ []
+
+
+LaTeX Warning: Citation 'koopman2018toward' on page 2 undefined on input line 5
+1.
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 51--52
 []\OT1/cmr/m/n/10 Additionally, there is more that can be done
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 45--46
+Underfull \hbox (badness 4072) in paragraph at lines 51--52
 \OT1/cmr/m/n/10 at the de-sign stage to im-prove \OT1/cmr/m/it/10 ver-i-fi-a-bi
 l-ity \OT1/cmr/m/n/10 [add
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 45--46
+Underfull \hbox (badness 1253) in paragraph at lines 51--52
 \OT1/cmr/m/n/10 but this must be sup-ported with de-ci-sion ex-pla-na-
  []
 
 
-LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 47.
+LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 53.
 
 
-LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 47.
+LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 53.
 
 
-LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 47.
+LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 53.
 
 
-LaTeX Warning: Citation 'Yazdanpanah2021' on page 2 undefined on input line 60.
+LaTeX Warning: Citation 'Yazdanpanah2021' on page 2 undefined on input line 66.
 
 
 
-LaTeX Warning: Citation 'Hancock2021' on page 2 undefined on input line 62.
+LaTeX Warning: Citation 'Hancock2021' on page 2 undefined on input line 68.
 
 
-LaTeX Warning: Citation 'Floridi2019' on page 2 undefined on input line 66.
+LaTeX Warning: Citation 'Floridi2019' on page 2 undefined on input line 72.
 
 
-LaTeX Warning: Citation 'Lee2004' on page 2 undefined on input line 66.
+LaTeX Warning: Citation 'Lee2004' on page 2 undefined on input line 72.
 
 
-LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 66.
+LaTeX Warning: Citation 'kok2020trust' on page 2 undefined on input line 72.
 
 
-LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 66.
+LaTeX Warning: Citation 'Chiou2021' on page 2 undefined on input line 72.
 
 
-LaTeX Warning: Citation 'Kohn2021' on page 2 undefined on input line 66.
-
-
-LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
-e 66.
-
-
-LaTeX Warning: Citation 'Thiebes2021' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'Wing2021' on page 2 undefined on input line 70.
+LaTeX Warning: Citation 'Kohn2021' on page 2 undefined on input line 72.
 
 
 LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
-e 70.
+e 72.
+
+
+LaTeX Warning: Citation 'Thiebes2021' on page 2 undefined on input line 76.
+
+
+LaTeX Warning: Citation 'Wing2021' on page 2 undefined on input line 76.
+
+
+LaTeX Warning: Citation 'kraus2022trustworthy' on page 2 undefined on input lin
+e 76.
 
 
 LaTeX Warning: Citation 'atkinson2012trust' on page 2 undefined on input line 7
-0.
+6.
 
 
 LaTeX Warning: Citation 'devitt2018trustworthiness' on page 2 undefined on inpu
-t line 72.
+t line 78.
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 62--73
+Underfull \hbox (badness 2698) in paragraph at lines 68--79
 \OT1/cmr/m/n/10 di-rec-tions; trust the user has in the sys-tem, the
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 62--73
+Underfull \hbox (badness 3189) in paragraph at lines 68--79
 \OT1/cmr/m/n/10 com-mu-nity [[], [], [],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--73
+Underfull \hbox (badness 10000) in paragraph at lines 68--79
 []\OT1/cmr/m/n/10 , [], []].
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 62--73
+Underfull \hbox (badness 2343) in paragraph at lines 68--79
 \OT1/cmr/m/n/10 specif-i-cally for AI [[], []] and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--73
+Underfull \hbox (badness 10000) in paragraph at lines 68--79
 \OT1/cmr/m/n/10 HRI [[], []]
  []
 
 
-LaTeX Warning: Citation 'ts_foundation' on page 2 undefined on input line 74.
+LaTeX Warning: Citation 'ts_foundation' on page 2 undefined on input line 80.
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 86--87
+Underfull \hbox (badness 1460) in paragraph at lines 92--93
 \OT1/cmr/m/n/10 pro-cess (qual-i-ties or char-ac-ter-is-tics that gov-ern be-
  []
 
 
 LaTeX Warning: Citation 'avizienis2004basic' on page 2 undefined on input line 
-88.
-
-
-LaTeX Warning: Citation 'Thiebes2021' on page 2 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'Floridi2018' on page 2 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'jobin2019global' on page 2 undefined on input line 90.
-
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 90--91
-[]\OT1/cmr/m/n/10 Thiebes et al. ar-gue for five foun-da-tional prin-ci-
- []
+94.
 
 [2]
 
+LaTeX Warning: Citation 'Thiebes2021' on page 3 undefined on input line 96.
+
+
+LaTeX Warning: Citation 'Floridi2018' on page 3 undefined on input line 96.
+
+
+LaTeX Warning: Citation 'jobin2019global' on page 3 undefined on input line 96.
+
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10 Thiebes et al. ar-gue for five foun-da-tional prin-ci-
+ []
+
+
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 94.
+               Default added (so using `htbp') on input line 100.
 
 <../other/figures/trust_spectrum.jpg, id=33, 963.6pt x 542.025pt>
 File: ../other/figures/trust_spectrum.jpg Graphic file (type jpg)
 <use ../other/figures/trust_spectrum.jpg>
 Package pdftex.def Info: ../other/figures/trust_spectrum.jpg  used on input lin
-e 96.
+e 102.
 (pdftex.def)             Requested size: 495.77003pt x 203.43407pt.
 
-LaTeX Warning: Citation 'ISO29119' on page 3 undefined on input line 108.
+LaTeX Warning: Citation 'Fisher2020' on page 3 undefined on input line 118.
 
 
-LaTeX Warning: Citation 'tsl_git' on page 3 undefined on input line 141.
+LaTeX Warning: Citation 'Abeywickrama2022' on page 3 undefined on input line 11
+9.
 
+
+LaTeX Warning: Citation 'Fisher2020' on page 3 undefined on input line 120.
+
+
+LaTeX Warning: Citation 'Jia2021' on page 3 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Abeywickrama2022' on page 3 undefined on input line 12
+2.
+
+
+LaTeX Warning: Citation 'Rushby2008' on page 3 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'BS8611' on page 3 undefined on input line 131.
+
+
+LaTeX Warning: Citation 'IEEE-P7001' on page 3 undefined on input line 133.
+
+
+LaTeX Warning: Citation 'IEEE-P7007' on page 3 undefined on input line 136.
+
+
+LaTeX Warning: Citation 'IEEE-P7010' on page 3 undefined on input line 139.
+
+
+LaTeX Warning: Citation 'Kaakai2022' on page 3 undefined on input line 141.
+
+
+LaTeX Warning: Citation 'Hawkins2021' on page 3 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Ashmore2021' on page 3 undefined on input line 148.
+
+
+LaTeX Warning: Citation 'EASA2021' on page 3 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'EASA2021' on page 3 undefined on input line 152.
+
+[3]
+
+LaTeX Warning: Citation 'Mamalet2021' on page 4 undefined on input line 154.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+LaTeX Warning: Citation 'AFE2020' on page 4 undefined on input line 156.
+
+
+LaTeX Warning: Citation 'UL4600' on page 4 undefined on input line 158.
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+
+LaTeX Warning: Citation 'LNE2021' on page 4 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'ISO29119' on page 4 undefined on input line 165.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation 'tsl_git' on page 4 undefined on input line 198.
+
+
+Underfull \vbox (badness 3302) has occurred while \output is active []
+
+ [4 <../other/figures/trust_spectrum.jpg>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ê in font cmr9!
 
-LaTeX Warning: Citation 'Englisch2019' on page 3 undefined on input line 195.
 
-[3]
-
-LaTeX Warning: Citation 'SAEJ3016' on page 4 undefined on input line 221.
+LaTeX Warning: Citation 'Englisch2019' on page 5 undefined on input line 252.
 
 
-LaTeX Warning: Citation 'Fisher2021' on page 4 undefined on input line 223.
+LaTeX Warning: Citation 'SAEJ3016' on page 5 undefined on input line 278.
+
+
+LaTeX Warning: Citation 'Fisher2021' on page 5 undefined on input line 280.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 242.
+               Default added (so using `htbp') on input line 299.
 
-<../other/figures/tas_ver.jpg, id=46, 963.6pt x 542.025pt>
+<../other/figures/tas_ver.jpg, id=49, 963.6pt x 542.025pt>
 File: ../other/figures/tas_ver.jpg Graphic file (type jpg)
 <use ../other/figures/tas_ver.jpg>
-Package pdftex.def Info: ../other/figures/tas_ver.jpg  used on input line 244.
+Package pdftex.def Info: ../other/figures/tas_ver.jpg  used on input line 301.
 (pdftex.def)             Requested size: 495.77003pt x 263.12817pt.
+[5]
 
-LaTeX Warning: Citation 'kress2021formalizing' on page 4 undefined on input lin
-e 262.
+LaTeX Warning: Citation 'kress2021formalizing' on page 6 undefined on input lin
+e 319.
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 270--271
+Underfull \hbox (badness 2261) in paragraph at lines 327--328
 \OT1/cmr/m/n/10 What stan-dard for each qual-ity? Is there a re-la-
  []
 
 
-LaTeX Warning: Citation 'Rudas2020' on page 4 undefined on input line 276.
+LaTeX Warning: Citation 'Rudas2020' on page 6 undefined on input line 333.
 
 
-LaTeX Warning: Citation 'Wang2020' on page 4 undefined on input line 276.
+LaTeX Warning: Citation 'Wang2020' on page 6 undefined on input line 333.
 
 
-LaTeX Warning: Citation 'garbuk2018intellimetry' on page 4 undefined on input l
-ine 278.
+LaTeX Warning: Citation 'garbuk2018intellimetry' on page 6 undefined on input l
+ine 335.
 
 
-LaTeX Warning: Citation 'kaur2021trustworthy' on page 4 undefined on input line
- 280.
+LaTeX Warning: Citation 'kaur2021trustworthy' on page 6 undefined on input line
+ 337.
 
 
-LaTeX Warning: Citation 'cho2019stram' on page 4 undefined on input line 282.
+LaTeX Warning: Citation 'cho2019stram' on page 6 undefined on input line 339.
 
-[4 <../other/figures/trust_spectrum.jpg>]
 
-LaTeX Warning: Citation 'Bolster2014' on page 5 undefined on input line 284.
+LaTeX Warning: Citation 'Bolster2014' on page 6 undefined on input line 341.
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 310.
-(/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
+[6]
+LaTeX Font Info:    Try loading font information for U+ding on input line 367.
+ (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
 
-LaTeX Warning: Citation 'Riaz2018' on page 5 undefined on input line 346.
+LaTeX Warning: Citation 'Riaz2018' on page 7 undefined on input line 403.
 
 
-LaTeX Warning: Citation 'hechter2001social' on page 5 undefined on input line 3
-46.
+LaTeX Warning: Citation 'hechter2001social' on page 7 undefined on input line 4
+03.
 
 
-LaTeX Warning: Citation 'highwayCode' on page 5 undefined on input line 348.
+LaTeX Warning: Citation 'highwayCode' on page 7 undefined on input line 405.
 
 
-LaTeX Warning: Citation 'harper2021safety' on page 5 undefined on input line 34
-8.
+LaTeX Warning: Citation 'harper2021safety' on page 7 undefined on input line 40
+5.
 
-[5]
 
-LaTeX Warning: Citation 'koopman2018toward' on page 6 undefined on input line 3
-58.
+LaTeX Warning: Citation 'koopman2018toward' on page 7 undefined on input line 4
+15.
 
 )
 
@@ -1516,7 +1626,7 @@ AED: lastpage setting LastPage
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[6 <../other/figures/tas_ver.jpg>]
+[7 <../other/figures/tas_ver.jpg>] [8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
 
@@ -1542,9 +1652,9 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25790 strings out of 492982
- 476516 string characters out of 6134896
- 922862 words of memory out of 5000000
+ 25793 strings out of 492982
+ 476544 string characters out of 6134896
+ 921862 words of memory out of 5000000
  28902 multiletter control sequences out of 15000+600000
  9082 words of font info for 33 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1558,11 +1668,11 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti9.pfb>
-Output written on /home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.pdf (6 p
-ages, 340823 bytes).
+Output written on /home/is18902/git/TAS-Verif/manuscript/arxiv/tas_ver.pdf (8 p
+ages, 354629 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 34 named destinations out of 1000 (max. 500000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
