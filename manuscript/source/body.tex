@@ -255,6 +255,13 @@ Whilst this DIN SPEC approach is commendable, it does not go far enough to filte
 
 Fisher 2021 asks if there are some rules that are more important that others, are all rules born equal? Context and application, social and cultural norms will all influence this answer. An example may be the ease with which breaking the speeding limit is observed in driving behaviour, but other driving conduct rules are broken less often, such as driving through a red traffic signal light.
 
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.98\linewidth, trim=6.5cm 2.0cm 10cm 3cm, clip]{\pathToOtherFiles/figures/crit_auto.jpg}
+    \caption{Application criticality and automation level.}
+    \label{fig:critauto}
+\end{figure}
+
 \subsection{Decision Making Complexity} \label{sec:appcrit-dec}
 
 Within application criticality comes decision making complexity, the complexity of the process the AS must navigate in order to achieve the task goal. This could be considered in terms of the system and the constraints in the environment or action space to allow or prevent the system reaching a number of potential future states. A autonomous vacuum cleaner, for example, is physically constrained to a small 2-dimensional plane (area to be cleaned) and can successfully function with a small action space (stop, rotate, drive) where decisions are reactively made based on a few simple sensor inputs (avoid close object). 
@@ -309,9 +316,17 @@ Below is a checklist for assessment of AS trustworthiness:
 
 After reviewing the literature, a comprehensive ontology has been derived based on TASQ. 
 
-\subsection{Application Criticality Analysis}
+\subsection{Application \& Criticality Filtering and Prioritisation}
+% Which TASQ to include in your application? Are all qualities relevant? How can quality relevance be objectively assessed? What inputs are required from trust stakeholders? How does automation level affect the choice?    
 
-Which TASQ to include in your application? Are all qualities relevant? How can quality relevance be objectively assessed? What inputs are required from trust stakeholders? How does automation level affect the choice?    
+Not all TAS qualities are relevant to all applications, so the first stage of the process is to identify the qualities that are relevant to the specified application and filter out those that are irrelevant or inappropriate.
+
+A criticality assessment is applied at this stage, using a process akin to a hazard analysis for each of the filtered qualities to assess safety, potential harm or impact of failing to uphold the quality in operation.
+
+The consensus on which qualities to include and how important they are, will be decided by the \emph{trust stakeholders}, a collection of individuals, groups and organisations who may include regulators, developers, end users and incidental users for example. 
+%
+An important factor that the stakeholders will consider is the scope of the automation; how automated the system is or will be in the future, the application criticality including the potential harm from the system not upholding the trustworthy attribute/quality.
+
 
 \subsection{TASQ Assessment with Corroborative V\&V}
 

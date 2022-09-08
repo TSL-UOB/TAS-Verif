@@ -292,6 +292,9 @@ INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/is18902/git/TAS-Verif/manuscript/arxiv/../other/figures/trust_spectrum.jpg
 INPUT ../other/figures/trust_spectrum.jpg
 INPUT ../other/figures/trust_spectrum.jpg
+INPUT /home/is18902/git/TAS-Verif/manuscript/arxiv/../other/figures/crit_auto.jpg
+INPUT ../other/figures/crit_auto.jpg
+INPUT ../other/figures/crit_auto.jpg
 INPUT /home/is18902/git/TAS-Verif/manuscript/arxiv/../other/figures/tas_ver.jpg
 INPUT ../other/figures/tas_ver.jpg
 INPUT ../other/figures/tas_ver.jpg
