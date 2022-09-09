@@ -296,6 +296,31 @@ But automation scope is simply an aspect of non-functional AS qualities, of whic
 
 
 
+\section{Trustworthy Metrics}
+
+It is not sufficient for systems to just be trustworthy, they must be clearly identifiable as such. By developing useful and informative metrics specific to each trustworthy property, developers, verification engineers, regulators and end users can be better informed of the systems trustworthiness.
+
+At the system level, Floridi suggests the need for agreed upon metrics for trustworthiness of AI systems and suggests an  AI Trust comparison index, metrics are needed for benchmarking AI suitability to the public. 
+%
+Rudas and Haidegger also supports the idea of agreed upon metrics from the verification community that can be used to ensure reliability of complex autonomous systems~\cite{Rudas2020}. Wang et al. go further and propose a  theoretical framework of \emph{tripartite trustworthiness} covering; \emph{to-be trust} (trustfulness of an entity or structure), \emph{to-do trust} (trust in an action or behaviour) and \emph{system trust} (a statistical runtime evaluation of performance) and set out 18 formal definitions~\cite{Wang2020}. 
+%
+Garbuk presents the idea of \emph{applied intellimetry} to assess the quality of AI systems by formulating a list quality characteristics in a functional characteristic vector~\cite{garbuk2018intellimetry}. 
+%
+Kaur et al. suggest explainability metrics based on the euclidean distance between the system output compared to a panel of experts~\cite{kaur2021trustworthy}. 
+%
+trustworthiness of computer systems using metrics designed to assess security, trust, resilience and agility~\cite{cho2019stram}
+
+
+In addition to system level trust, there must be metrics that provide transparency on specific trustworthy qualities. 
+%
+Bolster and Marshall proposes the idea of \emph{multi-vector trust metrics} for networks of autonomous systems, indicating that the use of \emph{grey relational analysis}, a theory to describe and model uncertainty, could be beneficial for combining temporally sparse, low fidelity metrics with unknown statistical distributions~\cite{Bolster2014}. 
+
+For data-centric and highly objective measures of trust, operators such as accuracy, precision and recall can be useful for functionality metrics. Questions over what is the ground truth, a sample of the real world, artificially augmented, and if the data is ethically sourced are all additional factors to be considered. We may even be more abstract and use \emph{task completion} - this will confluence with other assessment areas. 
+%
+Other, more subjective qualities will use metrics appropriate for the discipline. Qualities such as fairness, cooperation and beneficence may require questionnaires, polls and user feedback to get the correct level of detail. 
+%
+\textcolor{red}{Pete and Arianna - can you add to this last point?}
+
 
 
 % ****************************************
@@ -310,52 +335,49 @@ But automation scope is simply an aspect of non-functional AS qualities, of whic
     \label{fig:tas_ver}
 \end{figure*}
 
-Below is a checklist for assessment of AS trustworthiness:
+Below are the stages proposed for AS trustworthiness assessment process.
+%
+From reviewing the literature, a comprehensive ontology has been derived based on trustworthy AS qualities. This index of qualities have been categorised and this can be used as a reference to begin the assessment. 
 
-\subsection{TASQ Categories}
+% \subsection{TASQ Categories}
 
-After reviewing the literature, a comprehensive ontology has been derived based on TASQ. 
-
-\subsection{Application \& Criticality Filtering and Prioritisation}
+\subsection{Stage 1: Application Filtering \& Criticality Analysis}
 % Which TASQ to include in your application? Are all qualities relevant? How can quality relevance be objectively assessed? What inputs are required from trust stakeholders? How does automation level affect the choice?    
 
-Not all TAS qualities are relevant to all applications, so the first stage of the process is to identify the qualities that are relevant to the specified application and filter out those that are irrelevant or inappropriate.
-
-A criticality assessment is applied at this stage, using a process akin to a hazard analysis for each of the filtered qualities to assess safety, potential harm or impact of failing to uphold the quality in operation.
+Not all TAS qualities are relevant to all applications, so the first stage of the process is to identify the qualities that are relevant to the specified application and filter out those that are irrelevant or inappropriate. 
+%
+A criticality assessment is applied at this stage, using a process akin to a hazard analysis for each of the selected qualities not forgetting to assess the impact that automation scope may have on the final outcome, and what potential harm or impact of failing to uphold the specific quality will have on the outcomes of the system and it's users. 
 
 The consensus on which qualities to include and how important they are, will be decided by the \emph{trust stakeholders}, a collection of individuals, groups and organisations who may include regulators, developers, end users and incidental users for example. 
 %
-An important factor that the stakeholders will consider is the scope of the automation; how automated the system is or will be in the future, the application criticality including the potential harm from the system not upholding the trustworthy attribute/quality.
-
-
-\subsection{TASQ Assessment with Corroborative V\&V}
-
-
-Kress-Gazit et al. state that assessment in the correctness of AS can be broken down into four approaches: synthesis of correct-by-construction systems, formal verification at design time, runtime verification or monitoring, and test-based methods~\cite{kress2021formalizing}. 
+Important factors that the stakeholders will consider are the scope of the automation; how automated the system is or the ambitions it has to be in the future, and the application criticality including the potential harm from the system not upholding the trustworthy attribute or quality. 
 %
-This assessment uses all four approaches both at design time, during operation (runtime) and as a consequence of development iteration or update. 
+This should result in a list of qualities for the given application each with an assigned criticality rating, e.g. high, medium and low risk, that will be used in the assessment stage. 
 
 
+\subsection{Stage 2: Identify Standards and Metrics}
 
-\subsection{Standards and Regulations}
-
-What standard for each quality? Is there a relation/pattern? Can we map standards to qualities or is it application based? 
-
-
-\subsection{Metrics}
-Floridi suggests the need for agreed upon metrics for trustworthiness of AI systems and suggests an  AI Trust comparison index, metrics are needed for benchmarking AI suitability to the public. 
+Stage 2 of the process is where each quality is assessed according to the appropriate standards and regulations relevant to that property, or the specifications on expected behaviour if such standards are immature or missing. 
 %
-Rudas and Haidegger also supports the idea of agreed upon metrics from the verification community that can be used to ensure reliability of complex autonomous systems~\cite{Rudas2020}. Wang et al. go further and propose a  theoretical framework of \emph{tripartite trustworthiness} covering; \emph{to-be trust} (trustfulness of an entity or structure), \emph{to-do trust} (trust in an action or behaviour) and \emph{system trust} (a statistical runtime evaluation of performance) and set out 18 formal definitions~\cite{Wang2020}. 
+At this point quality metrics should be considered that clearly visualise each of the trustworthiness qualities under scrutiny. 
 %
-Garbuk presents the idea of \emph{applied intellimetry} to assess the quality of AI systems by formulating a list quality characteristics in a functional characteristic vector~\cite{garbuk2018intellimetry}. 
+Many metrics already exist, e.g. precision and recall for predictive analytics, but some will need to be generated and agreed upon by the community, e.g. cooperation, fairness. 
 %
-Kaur et al. suggest explainability metrics based on the euclidean distance between the system output compared to a panel of experts~\cite{kaur2021trustworthy}. 
-%
-trustworthiness of computer systems using metrics designed to assess security, trust, resilience and agility~\cite{cho2019stram}
+This is where the verifiability of a trustworthy quality, when thought about at the design stage, can pay off in the later assessment and verification stages, such as designing in status indicating LEDs into consumer electronics to visualise operational trustworthiness. 
 
-Bolster and Marshall proposes the idea of \emph{multi-vector trust metrics} for networks of autonomous systems, indicating that the use of \emph{grey relational analysis}, a theory to describe and model uncertainty, could be beneficial for combining temporally sparse, low fidelity metrics with unknown statistical distributions~\cite{Bolster2014}. 
 
-For data-centric and highly objective measures of trust, operators such as accuracy, precision and recall can be useful for functionality metrics. Questions over what is the ground truth is, a sample of the real world, artificially augmented, and if the data is ethically sourced are all additional factors to be considered. We may even be more abstract and use \emph{task completion} - this will confluence with other assessment areas.
+\subsection{Stage 3: TASQ Assessment with Corroborative V\&V}
+
+Stage 3 assesses each of the qualities from stage 1 using one or more verification approaches. 
+%
+Kress-Gazit et al. state that assessing the trustworthiness of AS can be broken down into four approaches: \emph{synthesis} of correct-by-construction systems, \emph{formal} verification at design time, \emph{runtime} verification or monitoring, and \emph{testing} methods~\cite{kress2021formalizing}. 
+%
+Initially each quality will be assessed using either synthesis, testing or formal methods (runtime monitoring is considered in stage 4). However, the higher the risk criticality then a greater number of methods should be used. For example, a quality deemed low risk may use a single method to provide sufficient evidence of trustworthiness, but for higher risk categories corroborative evidence from multiple approaches is recommended. 
+%
+During each assessment, the quality will be verified against the respective set of standards, regulations or specifications as appropriate and the quality metrics will be used to visualise the outcomes. 
+%
+For example, a robot swarm may be monitored for efficiency by monitoring idle individuals and representing this to the tester, regulator or end user as a utilisation score. 
+
 
 
 
@@ -371,7 +393,7 @@ Corroborative, mutually consistent evidence from diverse methodologies provides 
 
 If the risk assessment analysis deems the quality not to be critical then the minimum threshold for the specific metric of that quality can be relaxed for a passing grade. 
 
-\begin{table*}[t]
+\begin{table*}[]
 \caption{Trustworthiness Autonomous Systems Quality (TASQ) star rating comparison index}\label{tab:tasq_rating}
 \centering
 \begin{tabular}{lll}
@@ -421,7 +443,7 @@ In some cases, e.g. driving, legislation on appropriate conduct is presented to 
 
 
 % ****************************************
-% ********************* Existing Standards
+% ***************************** Assessment
 % ****************************************
 
 \subsection{Assessment Methods \& Corroborative Evidence} \label{sec:AssFramVis-AssMthds}
@@ -432,7 +454,7 @@ Knowledge of the internal state of the system is often hidden, e.g. blackbox, du
 
 
 % ****************************************
-% ********************* Existing Standards
+% ***************************** Conclusion
 % ****************************************
 
 \section{Conclusion} \label{sec:conc}
