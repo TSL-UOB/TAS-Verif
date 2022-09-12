@@ -108,16 +108,14 @@ Cho et al. propose a STRAM ontology for measuring the trustworthiness of compute
 % ********************* Existing Standards
 % ****************************************
 
-%----------------------------------------------------------------------------------Contributed by Dhaminda (Start)------------------------------------------------------------------------------------
-%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Standards for Autonomous Systems and Trustworthiness Properties}
 % Contributed by: Dhaminda Abeywickrama
 % 2 September 2022
 % Autonomous systems are systems that involve software applications, machines and people, which are capable of taking actions with no or little human supervision~\cite{Murukannaiah2020}. %moved up to intro
 The functionality of an autonomous system (i.e. what it is meant to do, what it does, and what it could do) evolves or changes over time. 
-One of the main issues of adopting current standards and regulations with autonomous systems is the lack of consideration to the notions of \textit{uncertainty} and \textit{autonomy} \cite{Fisher2020}. 
+One of the main issues of adopting current standards and regulations with autonomous systems is the lack of consideration to the notions of \textit{uncertainty} and \textit{autonomy} \cite{Fisher2021}. 
 Most conventional processes for defining system requirements assume that these are fixed and can be defined in a complete and precise manner before the system goes into operation \cite{Abeywickrama2022}. 
-Also, in existing standards and regulations, the notion of autonomy is not their most characterizing feature where they are neither driven nor strongly influenced by it \cite{Fisher2020}. 
+Also, in existing standards and regulations, the notion of autonomy is not their most characterizing feature where they are neither driven nor strongly influenced by it \cite{Fisher2021}. 
 Most existing standards are either implicitly or explicitly based on the V\&V model, which moves from requirements through design onto implementation and testing before deployment~\cite{Jia2021}. 
 However, this model is unlikely to be suitable for systems with the ability to adapt their functionality in operation; e.g.\ through interaction with other agents and the environment (e.g. as is the case with swarms); or through experience-driven adaptation as is the case with machine learning \cite{Abeywickrama2022}. 
 %
@@ -156,8 +154,6 @@ The \textit{DEpendable and Explainable Learning (DEEL) white paper} aims to iden
 The \textit{Aerospace Vehicle System Institute (AVSI) report} on machine learning summarises their findings on safety and certification aspects of emerging machine learning technologies that are applied to safety-critical aerospace systems \cite{AFE2020}. This report provides several recommendations with respect to robustness, safety assurance, runtime assurance and interpretability when using machine learning in safety-critical applications. 
 
 The \textit{UL 4600 standard} guides a user through the development of safety cases for fully automated vehicles (i.e. vehicles with no driver or supervisor) \cite{UL4600}. It is more of a standard of care and not a procedure for certification of fully automated vehicles. The \textit{Laboratoire National de Métrologie et d'Essais (LNE) certification} \cite{LNE2021} is a quality assurance standard for machine learning processes. The aim is to provide guidance for an applicant when obtaining certifications for their design, development, evaluation and maintenance in operational conditions. 
-%----------------------------------------------------------------------------------Contributed by Dhaminda (End)------------------------------------------------------------------------------------
-%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \subsubsection{Ontologies within Existing Standards}\label{sec:tasq-ont-stds}
 
@@ -183,16 +179,13 @@ The NIST Framework for Cyber-Physical Systems [ref] details a list of trustworth
 
 % Safety of autonomous systems (from Hawkins 2022): UL4000 [Underwriters Laboratories. Standard for evaluation of autonomous products, 2020] or SCSC-153B [Safety of Autonomous SystemsWorking Group. Safety assurance objectives for autonomous systems, 2022. URL: https://scsc.uk/scsc-153B]
 
-
 % Ethical framework for AI~\cite{Floridi2018} ``offer 20 concrete recommendations to assess, to develop, to incentivise, and to support good AI"
 
 % Porter2022 presents an ethical assurance argument for AS, extending the assurance case considered for safety to include ethical standards
 
 % devitt2018trustworthiness 
 
-% What human factors are considered eg. ISO29119
 
-%\textcolor{red}{Dhaminda to contribute here?}
 
 
 A spectrum of qualities is presented that captures the broad definition of trustworthiness of AS from the literature, see Table~\ref{tab:quals}. A full list of the quality terms reviewed can be found at~\cite{tsl_git}.
@@ -341,6 +334,9 @@ From reviewing the literature, a comprehensive ontology has been derived based o
 
 % \subsection{TASQ Categories}
 
+% ****************************************
+% ******************************** Stage 1
+% ****************************************
 \subsection{Stage 1: Application Filtering \& Criticality Analysis}
 % Which TASQ to include in your application? Are all qualities relevant? How can quality relevance be objectively assessed? What inputs are required from trust stakeholders? How does automation level affect the choice?    
 
@@ -355,6 +351,9 @@ Important factors that the stakeholders will consider are the scope of the autom
 This should result in a list of qualities for the given application each with an assigned criticality rating, e.g. high, medium and low risk, that will be used in the assessment stage. 
 
 
+% ****************************************
+% ******************************** Stage 2
+% ****************************************
 \subsection{Stage 2: Identify Standards and Metrics}
 
 Stage 2 of the process is where each quality is assessed according to the appropriate standards and regulations relevant to that property, or the specifications on expected behaviour if such standards are immature or missing. 
@@ -366,6 +365,9 @@ Many metrics already exist, e.g. precision and recall for predictive analytics, 
 This is where the verifiability of a trustworthy quality, when thought about at the design stage, can pay off in the later assessment and verification stages, such as designing in status indicating LEDs into consumer electronics to visualise operational trustworthiness. 
 
 
+% ****************************************
+% ******************************** Stage 3
+% ****************************************
 \subsection{Stage 3: TASQ Assessment with Corroborative V\&V}
 
 Stage 3 assesses each of the qualities from stage 1 using one or more verification approaches. 
@@ -379,19 +381,48 @@ During each assessment, the quality will be verified against the respective set 
 For example, a robot swarm may be monitored for efficiency by monitoring idle individuals and representing this to the tester, regulator or end user as a utilisation score. 
 
 
+% ****************************************
+% ******************************** Stage 4
+% ****************************************
+\subsection{Stage 4: Assessment Analysis}
 
 
-\subsection{Analysis \& Visualising Trust}
+Corroborative, mutually consistent evidence from diverse methodologies provides assurance that is greater in quality than evidence from single sources. 
+%
+The assessment analysis should inspect the evidence for each trust quality relative to the risk level based on the application criticality and automation scope. Confidence in the trustworthiness of the system will require more evidence for applications where there is a greater risk level. 
+%
+Where appropriate, there may be minimum requirement levels that must be achieved to attain trustworthiness for certain quality categories, for example 98\% accuracy for an image recognition task.
+
+Evidence that fails to corroborate, although does not fail in itself, e.g. sampling different parts of the input space, may be considered equivalent to single-source evidence and therefore, although not a failure, can only provide evidence for lower risk applications.
+
+
+% ****************************************
+% ******************************** Stage 5
+% ****************************************
+\subsection{Stage 5: Visualising Trust}
+
+
+
+As suggested by Floridi, public confidence in AI-based systems could be bolstered with an internationally recognised index for trustworthy AI, such as a \emph{trust comparison index} or AI \emph{star rating}. A vision of this rating is shown in Table XXX. Much like an internet browser may convince users of their privacy on a web page through some means, e.g. padlock icons, a similar approach could be taken with AS applications either through cyber or physical means.
 
 Whereas metrics for the development and regulation community may be highly technical, those that are public facing must be presented in a user-friendly manner that will attain and hold trust in the user, whilst maintaining the meaning of salient information without clouding in jargon [ref]. 
 
-As suggested by Floridi, public confidence in AI-based systems could be bolstered with an internationally recognised index for trustworthy AI, such as a \emph{trust comparison index} or AI \emph{star rating}. A vision of this rating is shown in Table XXX. Much like an internet browser may convince users of their safety on a web page through some means, e.g. icons, coloured indicators, a similar approach could be taken with AS applications be that through cyber or physical means.
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.98\linewidth, trim=0cm 0cm 0cm 0cm, clip]{\pathToOtherFiles/figures/trust_spider.png}
+    \caption{Example of visualising trust in a fictitious swarm robot application.}
+    \label{fig:spider}
+\end{figure}
 
 
-Corroborative, mutually consistent evidence from diverse methodologies provides assurance that is greater in quality than evidence from single sources and is the only process that can result in the highest TASQ rating. Evidence that fails to corroborate, although does not fail in itself, may be considered equivalent to single-source evidence and therefore, although not a failure, can only provide evidence for low risk applications.
+\subsubsection{Insufficient Trust: Update \& Reassessment}
 
 
-If the risk assessment analysis deems the quality not to be critical then the minimum threshold for the specific metric of that quality can be relaxed for a passing grade. 
+
+\subsubsection{Sufficient Trust: Monitoring}
+
+
+
 
 \begin{table*}[]
 \caption{Trustworthiness Autonomous Systems Quality (TASQ) star rating comparison index}\label{tab:tasq_rating}
@@ -416,19 +447,6 @@ Rating & Description & Class \\ \midrule
 
 \label{tab:tasq_rating}
 \end{table*}
-
-
-
-\subsection{Insufficient Trust: Update \& Reassessment}
-
-
-
-\subsection{Sufficient Trust: Monitoring}
-
-
-
-
-
 
 
 

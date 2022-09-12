@@ -1,21 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'tas_ver.blg'
-[40] biber:322> INFO - === Mon Sep 12, 2022, 09:46:27
-[47] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
-[84] Biber.pm:943> INFO - Found 63 citekeys in bib section 0
-[91] Biber.pm:4256> INFO - Processing section 0
-[91] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
-[91] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
-[96] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
-[97] bibtex.pm:1653> INFO - LaTeX decoding ...
-[142] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
+[39] biber:322> INFO - === Mon Sep 12, 2022, 12:27:29
+[46] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
+[83] Biber.pm:943> INFO - Found 62 citekeys in bib section 0
+[90] Biber.pm:4256> INFO - Processing section 0
+[90] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
+[90] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
+[94] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
+[96] bibtex.pm:1653> INFO - LaTeX decoding ...
+[140] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
+[277] Utils.pm:293> WARN - ISBN '1387-2532' in entry 'Fisher2021' is invalid - run biber with '--validate_datamodel' for details.
 [313] Utils.pm:293> WARN - month field 'may' in entry 'Ashmore2021' is not an integer - this will probably not sort properly.
-[335] Utils.pm:293> WARN - ISBN '1387-2532' in entry 'Fisher2021' is invalid - run biber with '--validate_datamodel' for details.
-[389] Utils.pm:293> WARN - I didn't find a database entry for 'Fisher2020' (section 0)
-[432] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[432] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[432] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[432] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[470] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
-[493] bbl.pm:755> INFO - Output to tas_ver.bbl
-[493] Biber.pm:128> INFO - WARNINGS: 3
+[420] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[420] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[420] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[420] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[455] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
+[478] bbl.pm:755> INFO - Output to tas_ver.bbl
+[478] Biber.pm:128> INFO - WARNINGS: 2

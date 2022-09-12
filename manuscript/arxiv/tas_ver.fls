@@ -314,6 +314,9 @@ INPUT ../other/figures/crit_auto.jpg
 INPUT ../other/figures/tas_ver.jpg
 INPUT ../other/figures/tas_ver.jpg
 INPUT ../other/figures/tas_ver.jpg
+INPUT ../other/figures/trust_spider.png
+INPUT ../other/figures/trust_spider.png
+INPUT ../other/figures/trust_spider.png
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbding/bbding10.tfm

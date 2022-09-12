@@ -120,34 +120,30 @@
       \verb http://arxiv.org/abs/2206.11421
       \endverb
     \endentry
-    \entry{EASA2021}{misc}{}
+    \entry{AFE2020}{report}{}
       \name{author}{1}{}{%
-        {{hash=a9aa60a81816b64808ab1c93a007be3a}{%
-           family={Agency},
-           familyi={A\bibinitperiod},
-           given={European\bibnamedelimb Aviation\bibnamedelima Safety},
-           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=38915be34316a8694be8ca70e898f090}{%
+           family={\relax{AFE\bibnamedelimb 87\bibnamedelimb Project\bibnamedelimb Members}},
+           familyi={A\bibinitperiod\bibinitdelim 8\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{a9aa60a81816b64808ab1c93a007be3a}
-      \strng{fullhash}{a9aa60a81816b64808ab1c93a007be3a}
-      \strng{bibnamehash}{a9aa60a81816b64808ab1c93a007be3a}
-      \strng{authorbibnamehash}{a9aa60a81816b64808ab1c93a007be3a}
-      \strng{authornamehash}{a9aa60a81816b64808ab1c93a007be3a}
-      \strng{authorfullhash}{a9aa60a81816b64808ab1c93a007be3a}
+      \list{institution}{1}{%
+        {Aerospace Vehicle Systems Institute}%
+      }
+      \strng{namehash}{38915be34316a8694be8ca70e898f090}
+      \strng{fullhash}{38915be34316a8694be8ca70e898f090}
+      \strng{bibnamehash}{38915be34316a8694be8ca70e898f090}
+      \strng{authorbibnamehash}{38915be34316a8694be8ca70e898f090}
+      \strng{authornamehash}{38915be34316a8694be8ca70e898f090}
+      \strng{authorfullhash}{38915be34316a8694be8ca70e898f090}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{month}{4}
-      \field{title}{EASA concept paper first usable guidance for level 1 machine learning applications – Proposed issue 01}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://www.easa.europa.eu/downloads/126648/en
-      \endverb
-      \verb{url}
-      \verb https://www.easa.europa.eu/downloads/126648/en
-      \endverb
+      \field{month}{6}
+      \field{number}{87-REP-01}
+      \field{title}{AFE 87: Machine learning}
+      \field{type}{Final Report}
+      \field{year}{2020}
     \endentry
     \entry{Allen2018}{article}{}
       \name{author}{1}{}{%
@@ -231,64 +227,6 @@
       \verb https://doi.org/10.1145/3453444
       \endverb
       \keyw{machine learning workflow,assurance,Machine learning lifecycle,safety-critical systems,assurance evidence}
-    \endentry
-    \entry{IEEE-P7007}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=3ef260400c0486d43507c5daeff6996e}{%
-           family={Association},
-           familyi={A\bibinitperiod},
-           given={IEEE\bibnamedelima Standards},
-           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{fullhash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{bibnamehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{authorbibnamehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{authornamehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{authorfullhash}{3ef260400c0486d43507c5daeff6996e}
-      \field{extraname}{1}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{title}{7007-2021 – IEEE ontological standard for ethically driven robotics and automation systems}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://standards.ieee.org/ieee/7007/7070/
-      \endverb
-      \verb{url}
-      \verb https://standards.ieee.org/ieee/7007/7070/
-      \endverb
-    \endentry
-    \entry{IEEE-P7010}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=3ef260400c0486d43507c5daeff6996e}{%
-           family={Association},
-           familyi={A\bibinitperiod},
-           given={IEEE\bibnamedelima Standards},
-           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{fullhash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{bibnamehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{authorbibnamehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{authornamehash}{3ef260400c0486d43507c5daeff6996e}
-      \strng{authorfullhash}{3ef260400c0486d43507c5daeff6996e}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{title}{7010-2020 – IEEE recommended practice for assessing the impact of autonomous and intelligent systems on human well-being}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://standards.ieee.org/standard/7010-2020.html
-      \endverb
-      \verb{url}
-      \verb https://standards.ieee.org/standard/7010-2020.html
-      \endverb
     \endentry
     \entry{atkinson2012trust}{inproceedings}{}
       \name{author}{7}{}{%
@@ -475,6 +413,32 @@
       \field{pages}{17\bibrangedash 19}
       \range{pages}{3}
       \keyw{AAAI Technical Report SS-14-04}
+    \endentry
+    \entry{BS8611}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ff1d110bdd69eba3236e646dcecfc334}{%
+           family={\relax{British\bibnamedelimb Standards\bibnamedelimb Institute}},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff1d110bdd69eba3236e646dcecfc334}
+      \strng{fullhash}{ff1d110bdd69eba3236e646dcecfc334}
+      \strng{bibnamehash}{ff1d110bdd69eba3236e646dcecfc334}
+      \strng{authorbibnamehash}{ff1d110bdd69eba3236e646dcecfc334}
+      \strng{authornamehash}{ff1d110bdd69eba3236e646dcecfc334}
+      \strng{authorfullhash}{ff1d110bdd69eba3236e646dcecfc334}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{BS8611:2016 Robots and robotic devices, guide to the ethical design and application of robots and robotic systems}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://knowledge.bsigroup.com/products/robots-and-robotic-devices-guide-to-the-ethical-design-and-application-of-robots-and-robotic-systems/standard
+      \endverb
+      \verb{url}
+      \verb https://knowledge.bsigroup.com/products/robots-and-robotic-devices-guide-to-the-ethical-design-and-application-of-robots-and-robotic-systems/standard
+      \endverb
     \endentry
     \entry{Butler1993}{article}{}
       \name{author}{2}{}{%
@@ -703,6 +667,33 @@
       \field{year}{2021}
       \field{pages}{1\bibrangedash 3}
       \range{pages}{3}
+    \endentry
+    \entry{EASA2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9245476a8314813a6e29def0983b145f}{%
+           family={\relax{European\bibnamedelimb Aviation\bibnamedelimb Safety\bibnamedelimb Agency}},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9245476a8314813a6e29def0983b145f}
+      \strng{fullhash}{9245476a8314813a6e29def0983b145f}
+      \strng{bibnamehash}{9245476a8314813a6e29def0983b145f}
+      \strng{authorbibnamehash}{9245476a8314813a6e29def0983b145f}
+      \strng{authornamehash}{9245476a8314813a6e29def0983b145f}
+      \strng{authorfullhash}{9245476a8314813a6e29def0983b145f}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{month}{4}
+      \field{title}{EASA concept paper first usable guidance for level 1 machine learning applications – Proposed issue 01}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.easa.europa.eu/downloads/126648/en
+      \endverb
+      \verb{url}
+      \verb https://www.easa.europa.eu/downloads/126648/en
+      \endverb
     \endentry
     \entry{Fisher2021}{article}{}
       \name{author}{6}{}{%
@@ -1108,32 +1099,58 @@
       \field{title}{Social norms}
       \field{year}{2001}
     \endentry
-    \entry{BS8611}{misc}{}
+    \entry{IEEE-P7007}{misc}{}
       \name{author}{1}{}{%
-        {{hash=38812b629684ceebcaf6af5c6d2d97cc}{%
-           family={Institute},
-           familyi={I\bibinitperiod},
-           given={British\bibnamedelima Standards},
-           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=14dc8f2503a6616bfe9989cc69fe401a}{%
+           family={\relax{IEEE\bibnamedelimb Standards\bibnamedelimb Association}},
+           familyi={I\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \strng{namehash}{38812b629684ceebcaf6af5c6d2d97cc}
-      \strng{fullhash}{38812b629684ceebcaf6af5c6d2d97cc}
-      \strng{bibnamehash}{38812b629684ceebcaf6af5c6d2d97cc}
-      \strng{authorbibnamehash}{38812b629684ceebcaf6af5c6d2d97cc}
-      \strng{authornamehash}{38812b629684ceebcaf6af5c6d2d97cc}
-      \strng{authorfullhash}{38812b629684ceebcaf6af5c6d2d97cc}
+      \strng{namehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{fullhash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{bibnamehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{authorbibnamehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{authornamehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{authorfullhash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \field{extraname}{1}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Online}
-      \field{title}{BS8611:2016 Robots and robotic devices, guide to the ethical design and application of robots and robotic systems}
-      \field{year}{2016}
+      \field{title}{7007-2021 – IEEE ontological standard for ethically driven robotics and automation systems}
+      \field{year}{2021}
       \verb{urlraw}
-      \verb https://knowledge.bsigroup.com/products/robots-and-robotic-devices-guide-to-the-ethical-design-and-application-of-robots-and-robotic-systems/standard
+      \verb https://standards.ieee.org/ieee/7007/7070/
       \endverb
       \verb{url}
-      \verb https://knowledge.bsigroup.com/products/robots-and-robotic-devices-guide-to-the-ethical-design-and-application-of-robots-and-robotic-systems/standard
+      \verb https://standards.ieee.org/ieee/7007/7070/
+      \endverb
+    \endentry
+    \entry{IEEE-P7010}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=14dc8f2503a6616bfe9989cc69fe401a}{%
+           family={\relax{IEEE\bibnamedelimb Standards\bibnamedelimb Association}},
+           familyi={I\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{fullhash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{bibnamehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{authorbibnamehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{authornamehash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \strng{authorfullhash}{14dc8f2503a6616bfe9989cc69fe401a}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{7010-2020 – IEEE recommended practice for assessing the impact of autonomous and intelligent systems on human well-being}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://standards.ieee.org/standard/7010-2020.html
+      \endverb
+      \verb{url}
+      \verb https://standards.ieee.org/standard/7010-2020.html
       \endverb
     \endentry
     \entry{ISO29119}{misc}{}
@@ -1660,6 +1677,31 @@
       \field{title}{Towards explainability of machine learning models in insurance pricing}
       \field{year}{2020}
     \endentry
+    \entry{LNE2021}{report}{}
+      \name{author}{1}{}{%
+        {{hash=cf5344b556bf0db6352c4a2ee0d232cb}{%
+           family={\relax{LaboratoireNational\bibnamedelimb de\bibnamedelimb Metrologie\bibnamedelimb et\bibnamedelimb d’Essais}},
+           familyi={L\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {LaboratoireNational de Metrologie et d’Essais}%
+      }
+      \strng{namehash}{cf5344b556bf0db6352c4a2ee0d232cb}
+      \strng{fullhash}{cf5344b556bf0db6352c4a2ee0d232cb}
+      \strng{bibnamehash}{cf5344b556bf0db6352c4a2ee0d232cb}
+      \strng{authorbibnamehash}{cf5344b556bf0db6352c4a2ee0d232cb}
+      \strng{authornamehash}{cf5344b556bf0db6352c4a2ee0d232cb}
+      \strng{authorfullhash}{cf5344b556bf0db6352c4a2ee0d232cb}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{Certification standard of processes for AI. Design, development, evaluation and maintenance in operational conditions}
+      \field{type}{Certification Standard}
+      \field{year}{2021}
+    \endentry
     \entry{Lee2004}{article}{}
       \name{author}{2}{}{%
         {{hash=5afd73a9b515b1bc5caa35a02400d62b}{%
@@ -1863,62 +1905,6 @@
       \field{howpublished}{\url{https://medium.com/gobeyond-ai/artificial-intelligence-ai-in-mobile-phones-is-it-a-good-thing-fe044f20ea6c}}
       \field{note}{Accessed: 2022-08-02}
       \field{title}{Artificial Intelligence in Mobile Phones}
-    \endentry
-    \entry{AFE2020}{report}{}
-      \name{author}{1}{}{%
-        {{hash=4133af9007362dbd50f3aa47f98378bf}{%
-           family={Members},
-           familyi={M\bibinitperiod},
-           given={AFE\bibnamedelimb 87\bibnamedelima Project},
-           giveni={A\bibinitperiod\bibinitdelim 8\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Aerospace Vehicle Systems Institute}%
-      }
-      \strng{namehash}{4133af9007362dbd50f3aa47f98378bf}
-      \strng{fullhash}{4133af9007362dbd50f3aa47f98378bf}
-      \strng{bibnamehash}{4133af9007362dbd50f3aa47f98378bf}
-      \strng{authorbibnamehash}{4133af9007362dbd50f3aa47f98378bf}
-      \strng{authornamehash}{4133af9007362dbd50f3aa47f98378bf}
-      \strng{authorfullhash}{4133af9007362dbd50f3aa47f98378bf}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{number}{87-REP-01}
-      \field{title}{AFE 87: Machine learning}
-      \field{type}{Final Report}
-      \field{year}{2020}
-    \endentry
-    \entry{LNE2021}{report}{}
-      \name{author}{1}{}{%
-        {{hash=2044ca9ec3e3a58cb3676cc5d8043fa5}{%
-           family={Metrologie\bibnamedelimb et\bibnamedelima d’Essais},
-           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim d\bibinitperiod},
-           given={LaboratoireNational},
-           giveni={L\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {LaboratoireNational de Metrologie et d’Essais}%
-      }
-      \strng{namehash}{2044ca9ec3e3a58cb3676cc5d8043fa5}
-      \strng{fullhash}{2044ca9ec3e3a58cb3676cc5d8043fa5}
-      \strng{bibnamehash}{2044ca9ec3e3a58cb3676cc5d8043fa5}
-      \strng{authorbibnamehash}{2044ca9ec3e3a58cb3676cc5d8043fa5}
-      \strng{authornamehash}{2044ca9ec3e3a58cb3676cc5d8043fa5}
-      \strng{authorfullhash}{2044ca9ec3e3a58cb3676cc5d8043fa5}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{7}
-      \field{number}{2}
-      \field{title}{Certification standard of processes for AI. Design, development, evaluation and maintenance in operational conditions}
-      \field{type}{Certification Standard}
-      \field{year}{2021}
     \endentry
     \entry{Murukannaiah2020}{inproceedings}{}
       \name{author}{4}{}{%
@@ -2162,8 +2148,8 @@
     \entry{tf_vacuum}{misc}{}
       \name{author}{1}{}{%
         {{hash=310a755337d0b1d335e90168630ae42b}{%
-           family={{\relax TensorFlow Blog}},
-           familyi={_\bibinitperiod}}}%
+           family={\relax{TensorFlow\bibnamedelimb Blog}},
+           familyi={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
       \strng{namehash}{310a755337d0b1d335e90168630ae42b}
       \strng{fullhash}{310a755337d0b1d335e90168630ae42b}
@@ -2222,8 +2208,8 @@
     \entry{ts_foundation}{misc}{}
       \name{author}{1}{}{%
         {{hash=bbdd51b60d3d8d4d509604c22a99d2e2}{%
-           family={{\relax Trustworthy Software Foundation}},
-           familyi={_\bibinitperiod}}}%
+           family={\relax{Trustworthy\bibnamedelimb Software\bibnamedelimb Foundation}},
+           familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \strng{namehash}{bbdd51b60d3d8d4d509604c22a99d2e2}
       \strng{fullhash}{bbdd51b60d3d8d4d509604c22a99d2e2}
@@ -2242,8 +2228,8 @@
     \entry{tsl_git}{misc}{}
       \name{author}{1}{}{%
         {{hash=323e1abb329335f587b711172117fbe5}{%
-           family={{\relax Trustworthy System Lab}},
-           familyi={_\bibinitperiod}}}%
+           family={\relax{Trustworthy\bibnamedelimb System\bibnamedelimb Lab}},
+           familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
       \strng{namehash}{323e1abb329335f587b711172117fbe5}
       \strng{fullhash}{323e1abb329335f587b711172117fbe5}
@@ -2262,8 +2248,8 @@
     \entry{highwayCode}{book}{}
       \name{author}{1}{}{%
         {{hash=acf692456b5c107e06d6e6d63f3b9a52}{%
-           family={{\relax UK Driving Standards Agency}},
-           familyi={_\bibinitperiod}}}%
+           family={\relax{UK\bibnamedelimb Driving\bibnamedelimb Standards\bibnamedelimb Agency}},
+           familyi={U\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Her Majestys Stationery Office}%
@@ -2692,7 +2678,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Fisher2020}
 \endrefsection
 \endinput
 
