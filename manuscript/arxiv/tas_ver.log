@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  12 SEP 2022 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  12 SEP 2022 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1268,10 +1268,10 @@ Package pdftex.def Info: ../other/figures/trust_spider.png  used on input line
 [7 <../other/figures/tas_ver.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 440.
+               Default added (so using `htbp') on input line 446.
 
-LaTeX Font Info:    Trying to load font information for U+ding on input line 44
-8.
+LaTeX Font Info:    Trying to load font information for U+ding on input line 45
+4.
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 ))
@@ -1348,7 +1348,7 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 Here is how much of TeX's memory you used:
  27217 strings out of 481239
  515579 string characters out of 5920376
- 1190207 words of memory out of 5000000
+ 1195202 words of memory out of 5000000
  41909 multiletter control sequences out of 15000+600000
  538081 words of font info for 44 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1363,10 +1363,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti9.pfb>
-Output written on tas_ver.pdf (10 pages, 552728 bytes).
+Output written on tas_ver.pdf (10 pages, 553073 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
+ 366 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
  105 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
