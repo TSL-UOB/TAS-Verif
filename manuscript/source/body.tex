@@ -401,18 +401,33 @@ Evidence that fails to corroborate, although does not fail in itself, e.g. sampl
 % ****************************************
 \subsection{Stage 5: Visualising Trust}
 
-
-
-As suggested by Floridi, public confidence in AI-based systems could be bolstered with an internationally recognised index for trustworthy AI, such as a \emph{trust comparison index} or AI \emph{star rating}. A vision of this rating is shown in Table XXX. Much like an internet browser may convince users of their privacy on a web page through some means, e.g. padlock icons, a similar approach could be taken with AS applications either through cyber or physical means.
-
-Whereas metrics for the development and regulation community may be highly technical, those that are public facing must be presented in a user-friendly manner that will attain and hold trust in the user, whilst maintaining the meaning of salient information without clouding in jargon [ref]. 
-
 \begin{figure}[]
     \centering
     \includegraphics[width=0.98\linewidth, trim=0cm 0cm 0cm 0cm, clip]{\pathToOtherFiles/figures/trust_spider.png}
     \caption{Example of visualising trust in a fictitious swarm robot application.}
     \label{fig:spider}
 \end{figure}
+
+Visualising the trustworthiness of the system will be an important aspect of not just presenting objective evidence to developers and regulators, but also to end users who may have a lay understanding of the technical aspects of the system. 
+%
+Discussion on what type of information to present to users and how this is done extends beyond the scope of this paper, but must be considered as this forms the reciprocal part of the trust agreement between user and system. 
+%
+There are several aspects of visualising trust that should be considered; the categories to be displayed and the format, how the system performed during assessment or currently (if runtime monitoring is used), and a way of indicating the minimum requirements for each quality.
+%
+A fictitious example of how trustworthiness of a swarm application could be presented is shown in Fig.\ref{fig:spider}, showing a radar plot of disparate qualities plotted on shared axes. Each quality can be seen compared to a minimum level (dashed line) and where the quality exceeds (Task Performance) or fails to reach a minimum level (Idle Rate) alerting the user to areas that may require remediating action (in this case the swarm is under-utilised and scores poorly for idle time requiring a reduction in swarm agent numbers). 
+
+\subsubsection{Visualising Overall Trust}
+
+A complex, detailed visualisation if trust may be suitable in some cases but at other times it may be more appropriate to present a simpler visualisation, especially for general public and lay users. 
+%
+As suggested by Floridi, public confidence in AI-based systems could be bolstered with an internationally recognised index for trustworthy AI, such as a \emph{trust comparison index} or AI \emph{star rating}. Much like an internet browser may convince users of their privacy on a web page through some simple means, e.g. padlock icon, a similar approach could be taken with AS applications. 
+%
+A vision of this rating system is presented in Table~\ref{tab:tasq_rating}. Higher automation scope and criticality applications, hence higher risk, require more evidence and require the highest TASQ rating (3 stars). If there is satisfactory, corroborative evidence across the spectrum of qualities then that system be be allocated a 3-star rating. 
+%
+If evidence is only satisfied to a lower level then only 11 or 2 of the stars will be `filled' clearly demonstrating a lack of evidence. 
+%
+For systems with less automation scope and criticality, single sourced evidence is sufficient to be awarded a single star.
+
 
 
 \subsubsection{Insufficient Trust: Update \& Reassessment}
@@ -425,7 +440,7 @@ Whereas metrics for the development and regulation community may be highly techn
 
 
 \begin{table*}[]
-\caption{Trustworthiness Autonomous Systems Quality (TASQ) star rating comparison index}\label{tab:tasq_rating}
+\caption{Trustworthy Autonomous System Quality (TASQ) star rating comparison index}\label{tab:tasq_rating}
 \centering
 \begin{tabular}{lll}
 \toprule

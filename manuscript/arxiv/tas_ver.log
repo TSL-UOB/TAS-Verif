@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  12 SEP 2022 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  12 SEP 2022 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1254,36 +1254,38 @@ File: ../other/figures/tas_ver.jpg Graphic file (type jpg)
 <use ../other/figures/tas_ver.jpg>
 Package pdftex.def Info: ../other/figures/tas_ver.jpg  used on input line 326.
 (pdftex.def)             Requested size: 495.77003pt x 263.12817pt.
-[6] [7 <../other/figures/tas_ver.jpg>]
+[6]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 410.
+               Default added (so using `htbp') on input line 404.
 
-<../other/figures/trust_spider.png, id=238, 355.3275pt x 251.4996pt>
+<../other/figures/trust_spider.png, id=227, 355.3275pt x 251.4996pt>
 File: ../other/figures/trust_spider.png Graphic file (type png)
 <use ../other/figures/trust_spider.png>
 Package pdftex.def Info: ../other/figures/trust_spider.png  used on input line 
-412.
+406.
 (pdftex.def)             Requested size: 242.98503pt x 171.98836pt.
+[7 <../other/figures/tas_ver.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 427.
+               Default added (so using `htbp') on input line 440.
 
-LaTeX Font Info:    Trying to load font information for U+ding on input line 43
-5.
+LaTeX Font Info:    Trying to load font information for U+ding on input line 44
+8.
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 ))
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[8 <../other/figures/trust_spider.png (PNG copy)>]
 Underfull \hbox (badness 1028) in paragraph at lines 139--139
 \OT1/cmr/m/it/9 Sym-po-sium - Tech-ni-cal Re-port \OT1/cmr/m/n/9 SS-14-04.April
  2014
  []
 
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[8 <../other/figures/trust_spider.png (PNG copy)>]
 Underfull \hbox (badness 1838) in paragraph at lines 139--139
 \OT1/cmr/m/it/9 tems, De-ci-sion and Con-trol, Vol-ume 117) \OT1/cmr/m/n/9 (201
 8),
@@ -1324,7 +1326,7 @@ Underfull \hbox (badness 1072) in paragraph at lines 139--139
 
 AED: lastpage setting LastPage
 
-Overfull \vbox (1.375pt too high) has occurred while \output is active []
+Overfull \vbox (1.625pt too high) has occurred while \output is active []
 
  [10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
@@ -1344,9 +1346,9 @@ Package logreq Info: Writing requests to 'tas_ver.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27216 strings out of 481239
- 515558 string characters out of 5920376
- 1188207 words of memory out of 5000000
+ 27217 strings out of 481239
+ 515579 string characters out of 5920376
+ 1190207 words of memory out of 5000000
  41909 multiletter control sequences out of 15000+600000
  538081 words of font info for 44 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1361,10 +1363,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti9.pfb>
-Output written on tas_ver.pdf (10 pages, 551592 bytes).
+Output written on tas_ver.pdf (10 pages, 552728 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
