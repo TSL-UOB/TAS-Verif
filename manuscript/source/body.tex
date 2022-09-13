@@ -10,33 +10,54 @@ Autonomous systems are systems that involve software applications, machines and 
 %
 Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{mediumaiphones}, insurance pricing~\cite{kuo2020towards}, vacuum cleaners~\cite{tf_vacuum} and self-driving vehicles to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
 %
-For successful adoption of, and reliance upon AS there needs to be demonstrable assurance of their trustworthy operation which becomes increasingly difficult for complex systems and changing environments.  
+For successful adoption and reliance upon AS, there needs to be demonstrable assurance of their trustworthy operation which becomes increasingly difficult for complex systems with more ambitious \emph{automation scope} and being used for applications with greater criticality. 
 %
-There is also growing use of machine learning in a range of safety-critical systems (SCSs), for example in the aerospace and automotive industry where low reliability of these systems could result in catastrophic failure and potentially loss of life or damage to property and the environment. These safety-critical autonomous systems present a complex but essential challenge to the safety assurance and verification community. 
+% There is also growing use of machine learning in a range of safety-critical systems (SCSs), for example in the aerospace and automotive industry where low reliability of these systems could result in catastrophic failure and potentially loss of life or damage to property and the environment. These safety-critical autonomous systems present a complex but essential challenge to the safety assurance and verification community. 
 
 Verification and validation (V\&V) is the process to gain confidence in the correctness of a system relative to its requirements. Prior to, and separate from verification, a specification must clearly define the trustworthy operational behaviour of the system and many challenges are associated with this task for autonomous systems~\cite{Abeywickrama2022}. 
 %
 % Conventional V\&V is principally concerned with assessing the system against a set of requirements, providing guarantees of functionality and assurance of safety.
 %
-If autonomous systems are to be fully accepted into society, there must be acknowledgement of, and evidence to show, compliance with a broad range of \emph{trustworthiness qualities}. 
+If autonomous systems are to be fully trusted into society, there must be acknowledgement of, and evidence to show, compliance with a broad range of \emph{trustworthiness qualities}. 
 %
-A trustworthiness quality is defined here as a non-functional system property that enables adoption or promotes reliance in that system with \emph{trust stakeholders}. A trust stakeholder is a collection of entities or bodies that have a vested interest in the reliable operation of the system or otherwise seek assurance specific system properties. 
-% 
-A major challenge in verifying this broad category of trustworthiness qualities, are the lack of standards and regulations against which they can be evaluated. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of developing robust assessment methodologies and metrics for these more nuanced trustworthiness qualities. 
+A trustworthiness quality is defined here as a non-functional system property that promotes reliance or enables adoption in that system with respect to the views of the \emph{trust stakeholders}. A survey of the literature on trustworthy AS has identified many qualities that have been grouped into an ontology and includes properties such as robustness, security and accountability. 
+%
+Trust stakeholders have a vested interest in the reliable operation of the system or otherwise seek assurance of specific system properties from a variety of perspectives, such as: end users or operators, regulators, developers or system manufacturers, unintended users and, to some extent, the environment. 
+
+A major challenge in verifying this broad category of trustworthiness qualities, is the availability of standards and regulations against which they can be evaluated. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of developing robust assessment methodologies and metrics for these more nuanced trustworthiness qualities, e.g. fairness, beneficence. 
+%
+In addition, systems with operational adaptation or evolving functionality should have some level of runtime monitoring of appropriate metrics to ensure the system does not move to an untrustworthy state or condition. 
 %
 % [maybe cut] For example, there are well defined rules for driving conduct and expected behaviour [UKHC] which could be verified using simulation based verification [harper22] but standards for social interaction, aesthetics or ethical behaviour are either non-existent or just emerging [EU directive for AI ethics]. 
+
+This paper focuses on reviewing what trustworthiness means in the field of AS, including robotics, HRI and Cyber-Physical Systems (CPS), and how the application, criticality and automation scope influence trust assessment. 
 %
-This paper focuses on reviewing what trustworthiness means in the fields of AS, robotics, HRI and Cyber-Physical Systems (CPS) and how the application, criticality and level of autonomy influence trust priorities. 
+Trustworthiness of the system must also be reciprocated with user trust in the system for successful adoption and subsequent reliance~\cite{Lee2004}. User trust may consider of other factors contributing, such as the broader epistemological or sociotechnical aspects of trust but these will not be considered here, nor the process of gaining, maintaining or preventing the erosion of the \emph{trust agreement} between the user and the system, of which there are many excellent discussions, e.g. see~\cite{Kohn2021,Lee2004,kok2020trust,Chiou2021,Floridi2018}. 
 %
-We are aware of other factors contributing to trust, such as the broader epistemological or sociotechnical aspects of trust but will not consider these here, nor the process of gaining, maintaining or preventing the erosion of trust, e.g. see~\cite{Chiou2021}. We focus on technical aspects of trustworthiness relating to the system and outline the challenges associated with practical application of a presented assessment process. 
+We focus on technical aspects of trustworthiness relating to the system and outline the challenges associated with practical application of a presented assessment process. 
+
+This document is structured as follows: ...
 
 % ****************************************
-% ***** V&V for AS in complex environments
+% ***************************** V&V for AS 
 % ****************************************
 
-\subsection{V\&V for AS in complex environments} \label{sec:intro-vav}
+\subsection{Verification and Validation for AS} \label{sec:intro-vav}
 
-A widely held tenet is that there can never be a suitable amount of verification that gives complete assurance for complex, safety-critical autonomous systems, although limits on reliability rates have been proposed~\cite{Butler1993}. Corroborative V\&V~\cite{webster2020corroborative} attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, testing. 
+Attaining complete assurance of any complex system is challenging and, in some cases where the input parameter space is large, it may be intractable. 
+%
+However, there are multiple techniques and approaches that the verification engineer can use to seek assurances against certain system properties, such as formal modelling, testing, synthesis and runtime verification~\cite{kress2021formalizing}. 
+%
+These techniques and the V\-model of verification have been used to successfully provide assurance of software functionality for several decades~\cite{Fewster1999}. 
+%
+But as the functionality, ambition and level of automation of deployed systems grows, the assessment methodology must also adapt and account for these new responsibilities. This may include aspects such as security, privacy and other ethical concerns, highlighted by, for example, the need for better online security and protection against web search surveillance~\cite{trackmenot2009}. 
+%
+There are emerging developments in the areas of ethical AI assessment and assurance, for example Porter et al. propose a principles-based ethical argument framework for reasoning about the overall ethical acceptability of an AS~\cite{Porter2022}. 
+
+
+% A widely held tenet is that there can never be a suitable amount of verification that gives complete assurance for complex, safety-critical autonomous systems, although limits on reliability rates have been proposed~\cite{Butler1993}. 
+
+Corroborative V\&V~\cite{webster2020corroborative} attempts to improve confidence through combining mutually consistent evidence from multiple and diverse assessment methods, e.g. formal, testing. 
 %
 But even this may not be enough for the diverse operational domains of some AS, e.g. automated vehicles in high-density urban areas, and thinking should move beyond verification at only the system design stage, to a more continuous operational evaluation such as runtime verification. Runtime verification brings other currently unresolved issues, such suitable oracle design~\cite{Leucker2009}, but some authors propose valid ideas to this using edge computing and cloud-based verification~\cite{CyRes20,eder2021cyres}. 
 %
@@ -481,6 +502,8 @@ Rating & Description & Class \\ \midrule
 Riaz et al.~\cite{Riaz2018} suggest the idea of using social norms and human emotions as a standard by which better self-driving controllers may be developed. This idea sets the way for not just development of higher functioning AS, but also standards of trustworthiness by which they can be judged. Although there is much scholarly work on the theory and modelling of social norms, e.g.~\cite{hechter2001social}, there is yet to be published a standard that could be used to objectively assess an autonomous system. 
 
 In some cases, e.g. driving, legislation on appropriate conduct is presented to society in the form of guidelines such as the UKHC in the UK~\cite{highwayCode} but must be translated to a computer readable format to act as an appropriate standard, or set of assertions~\cite{harper2021safety}, if these guidelines can be used to assess AS trustworthiness. A similar process will have to be undertaken for other standards which have yet to be defined, e.g. cooperation, fairness or verifiability, to ensure all aspects of trustworthiness can be assessed. 
+
+McDermid paper on ethical assurance ...
 
 
 % ****************************************
