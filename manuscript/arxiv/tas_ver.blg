@@ -1,20 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'tas_ver.blg'
-[42] biber:322> INFO - === Tue Sep 13, 2022, 12:31:57
-[49] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
-[85] Biber.pm:943> INFO - Found 62 citekeys in bib section 0
-[92] Biber.pm:4256> INFO - Processing section 0
-[92] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
-[92] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
-[97] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
-[99] bibtex.pm:1653> INFO - LaTeX decoding ...
-[144] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
-[283] Utils.pm:293> WARN - ISBN '1387-2532' in entry 'Fisher2021' is invalid - run biber with '--validate_datamodel' for details.
-[320] Utils.pm:293> WARN - month field 'may' in entry 'Ashmore2021' is not an integer - this will probably not sort properly.
-[423] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[423] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[423] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[423] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[459] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
-[482] bbl.pm:755> INFO - Output to tas_ver.bbl
-[482] Biber.pm:128> INFO - WARNINGS: 2
+[39] biber:322> INFO - === Wed Sep 14, 2022, 15:29:47
+[46] Biber.pm:415> INFO - Reading 'tas_ver.bcf'
+[86] Biber.pm:943> INFO - Found 66 citekeys in bib section 0
+[93] Biber.pm:4256> INFO - Processing section 0
+[93] Utils.pm:75> INFO - Globbing data source '../source/TASverif.bib'
+[93] Utils.pm:91> INFO - Globbed data source '../source/TASverif.bib' to ../source/TASverif.bib
+[98] Biber.pm:4455> INFO - Looking for bibtex format file '../source/TASverif.bib' for section 0
+[100] bibtex.pm:1653> INFO - LaTeX decoding ...
+[148] bibtex.pm:1471> INFO - Found BibTeX data source '../source/TASverif.bib'
+[307] Utils.pm:293> WARN - ISBN '1387-2532' in entry 'Fisher2021' is invalid - run biber with '--validate_datamodel' for details.
+[344] Utils.pm:293> WARN - month field 'may' in entry 'Ashmore2021' is not an integer - this will probably not sort properly.
+[456] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[456] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[456] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[456] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[496] bbl.pm:652> INFO - Writing 'tas_ver.bbl' with encoding 'UTF-8'
+[522] bbl.pm:755> INFO - Output to tas_ver.bbl
+[522] Biber.pm:128> INFO - WARNINGS: 2

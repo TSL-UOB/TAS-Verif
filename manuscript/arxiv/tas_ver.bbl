@@ -145,37 +145,6 @@
       \field{type}{Final Report}
       \field{year}{2020}
     \endentry
-    \entry{Allen2018}{article}{}
-      \name{author}{1}{}{%
-        {{hash=d521f58a064df6a660f73da14a4493e1}{%
-           family={Allen},
-           familyi={A\bibinitperiod},
-           given={Bonnie\bibnamedelima D.},
-           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{d521f58a064df6a660f73da14a4493e1}
-      \strng{fullhash}{d521f58a064df6a660f73da14a4493e1}
-      \strng{bibnamehash}{d521f58a064df6a660f73da14a4493e1}
-      \strng{authorbibnamehash}{d521f58a064df6a660f73da14a4493e1}
-      \strng{authornamehash}{d521f58a064df6a660f73da14a4493e1}
-      \strng{authorfullhash}{d521f58a064df6a660f73da14a4493e1}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9781624105562}
-      \field{journaltitle}{2018 Aviation Technology, Integration, and Operations Conference}
-      \field{title}{{Serious gaming for building a basis of certification via trust and trustworthiness of autonomous systems}}
-      \field{year}{2018}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.2514/6.2018-3844
-      \endverb
-      \verb{file}
-      \verb :home/greg/Documents/Serious Gaming for Building a Basis of Certification via.pdf:pdf
-      \endverb
-    \endentry
     \entry{Ashmore2021}{article}{}
       \name{author}{3}{}{%
         {{hash=ce631906e81db06b64e2643dde60f3a7}{%
@@ -414,6 +383,51 @@
       \range{pages}{3}
       \keyw{AAAI Technical Report SS-14-04}
     \endentry
+    \entry{Bonnefon2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa50df4756b09729053ab19adcec74e9}{%
+           family={Bonnefon},
+           familyi={B\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=e3737367988c2ef6ed1db5a90d705690}{%
+           family={Shariff},
+           familyi={S\bibinitperiod},
+           given={Azim},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5ddd95e61c9884d4bc3c430e82855850}{%
+           family={Rahwan},
+           familyi={R\bibinitperiod},
+           given={Iyad},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ee62977aea3c4e5a9ca2f8bdf78b7d7}
+      \strng{fullhash}{7ee62977aea3c4e5a9ca2f8bdf78b7d7}
+      \strng{bibnamehash}{7ee62977aea3c4e5a9ca2f8bdf78b7d7}
+      \strng{authorbibnamehash}{7ee62977aea3c4e5a9ca2f8bdf78b7d7}
+      \strng{authornamehash}{7ee62977aea3c4e5a9ca2f8bdf78b7d7}
+      \strng{authorfullhash}{7ee62977aea3c4e5a9ca2f8bdf78b7d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6293}
+      \field{title}{The social dilemma of autonomous vehicles}
+      \field{volume}{352}
+      \field{year}{2016}
+      \field{pages}{1573\bibrangedash 1576}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.aaf2654
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.aaf2654
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.aaf2654
+      \endverb
+    \endentry
     \entry{BS8611}{misc}{}
       \name{author}{1}{}{%
         {{hash=ff1d110bdd69eba3236e646dcecfc334}{%
@@ -439,42 +453,6 @@
       \verb{url}
       \verb https://knowledge.bsigroup.com/products/robots-and-robotic-devices-guide-to-the-ethical-design-and-application-of-robots-and-robotic-systems/standard
       \endverb
-    \endentry
-    \entry{Butler1993}{article}{}
-      \name{author}{2}{}{%
-        {{hash=e7b2f426d4283370b562fc01ec4dc4db}{%
-           family={Butler},
-           familyi={B\bibinitperiod},
-           given={Ricky\bibnamedelima W.},
-           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=c567a79a4d95eb9f75d4207f9c7a7e13}{%
-           family={Finelli},
-           familyi={F\bibinitperiod},
-           given={George\bibnamedelima B.},
-           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{a75020dcbaec002ac382056fb3761d93}
-      \strng{fullhash}{a75020dcbaec002ac382056fb3761d93}
-      \strng{bibnamehash}{a75020dcbaec002ac382056fb3761d93}
-      \strng{authorbibnamehash}{a75020dcbaec002ac382056fb3761d93}
-      \strng{authornamehash}{a75020dcbaec002ac382056fb3761d93}
-      \strng{authorfullhash}{a75020dcbaec002ac382056fb3761d93}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{00985589}
-      \field{journaltitle}{IEEE Transactions on Software Engineering}
-      \field{number}{1}
-      \field{title}{{The Infeasibility of Quantifying the Reliability of Life-Critical Real-Time Software}}
-      \field{volume}{19}
-      \field{year}{1993}
-      \field{pages}{3\bibrangedash 12}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1109/32.210303
-      \endverb
-      \keyw{Design error,life-critical,software fault toler,software reliability,ultrareliability,validation}
     \endentry
     \entry{alpha_fold}{article}{}
       \name{author}{1}{}{%
@@ -693,6 +671,42 @@
       \endverb
       \verb{url}
       \verb https://www.easa.europa.eu/downloads/126648/en
+      \endverb
+    \endentry
+    \entry{Fewster1999}{book}{}
+      \name{author}{2}{}{%
+        {{hash=48b4ff78da22708a16b99f422cc0fbd3}{%
+           family={Fewster},
+           familyi={F\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=424c8fd0f401c0326370dfcad8652a3a}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Dorothy},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{fullhash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{bibnamehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{authorbibnamehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{authornamehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{authorfullhash}{fa30fc87076d6104df907f0fae86cf27}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{4418653813}
+      \field{journaltitle}{Machinery}
+      \field{title}{Software Test Automation Effective use of test execution tools}
+      \field{year}{1999}
+      \field{pages}{570}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://www.acm.org
+      \endverb
+      \verb{url}
+      \verb http://www.acm.org
       \endverb
     \endentry
     \entry{Fisher2021}{article}{}
@@ -1782,6 +1796,31 @@
       \endverb
       \keyw{Assertion checking,Monitoring,Testing,Verification}
     \endentry
+    \entry{macrae2021learning}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4ca9ba5a68edcd84d405a8f356f927f4}{%
+           family={Macrae},
+           familyi={M\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{4ca9ba5a68edcd84d405a8f356f927f4}
+      \strng{fullhash}{4ca9ba5a68edcd84d405a8f356f927f4}
+      \strng{bibnamehash}{4ca9ba5a68edcd84d405a8f356f927f4}
+      \strng{authorbibnamehash}{4ca9ba5a68edcd84d405a8f356f927f4}
+      \strng{authornamehash}{4ca9ba5a68edcd84d405a8f356f927f4}
+      \strng{authorfullhash}{4ca9ba5a68edcd84d405a8f356f927f4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Risk analysis}
+      \field{title}{Learning from the failure of autonomous and intelligent systems: Accidents, safety, and sociotechnical sources of risk}
+      \field{year}{2021}
+    \endentry
     \entry{Mamalet2021}{report}{}
       \name{author}{5}{}{%
         {{hash=20069a98d3292b47fbfb158d2342f852}{%
@@ -1953,6 +1992,78 @@
       \field{year}{2020}
       \field{pages}{1706\bibrangedash 1710}
       \range{pages}{5}
+    \endentry
+    \entry{trackmenot2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b87272f33535d7231ff18fbf708063a0}{%
+           family={Nissenbaum},
+           familyi={N\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=57e3d64b81d5b67a4cb95a151aef36cf}{%
+           family={Daniel},
+           familyi={D\bibinitperiod},
+           given={Howe},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford: Oxford University Press}%
+      }
+      \strng{namehash}{7aad19407e1be0df31bed39b7b79e697}
+      \strng{fullhash}{7aad19407e1be0df31bed39b7b79e697}
+      \strng{bibnamehash}{7aad19407e1be0df31bed39b7b79e697}
+      \strng{authorbibnamehash}{7aad19407e1be0df31bed39b7b79e697}
+      \strng{authornamehash}{7aad19407e1be0df31bed39b7b79e697}
+      \strng{authorfullhash}{7aad19407e1be0df31bed39b7b79e697}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TrackMeNot: Resisting surveillance in web search}
+      \field{year}{2009}
+    \endentry
+    \entry{Porter2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9c34964741a7cdca97d6fdaad305292d}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Zoe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b66a79d00f63f6132d69a412fcffa57c}{%
+           family={Habli},
+           familyi={H\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f724e6822c58dc444feb590dca2c4a03}{%
+           family={McDermid},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e67d9df9b6750d696cfd9a7d0e64bdc2}
+      \strng{fullhash}{e67d9df9b6750d696cfd9a7d0e64bdc2}
+      \strng{bibnamehash}{e67d9df9b6750d696cfd9a7d0e64bdc2}
+      \strng{authorbibnamehash}{e67d9df9b6750d696cfd9a7d0e64bdc2}
+      \strng{authornamehash}{e67d9df9b6750d696cfd9a7d0e64bdc2}
+      \strng{authorfullhash}{e67d9df9b6750d696cfd9a7d0e64bdc2}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{A Principle-based Ethical Assurance Argument for AI and Autonomous Systems}}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 39}
+      \range{pages}{39}
+      \verb{eprint}
+      \verb 2203.15370
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2203.15370v1
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2203.15370v1
+      \endverb
     \endentry
     \entry{UL4600}{misc}{}
       \name{author}{2}{}{%
@@ -2144,6 +2255,53 @@
       \verb{url}
       \verb https://www.sae.org/standards/content/j3016_202104
       \endverb
+    \endentry
+    \entry{schwamm2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=ae8119375962803af59a8a411eedd8f6}{%
+           family={Schwammberger},
+           familyi={S\bibinitperiod},
+           given={Maike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9f859e99551310b04c9b000ab67caa21}{%
+           family={Harper},
+           familyi={H\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a008c8fffc49b4ad83c51ad2166d7782}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Gleifer\bibnamedelima Vaz},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=e464ccfad93f539e8d83670bfd2ccdaa}{%
+           family={Chance},
+           familyi={C\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=efb7b9c6d783bb5c01d7d5b162640cd0}{%
+           family={Pipe},
+           familyi={P\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7c6ad14b250cf6c8ba8e92e4ad94f196}{%
+           family={Eder},
+           familyi={E\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae90ff180eafde26c160a7e8dcc4732b}
+      \strng{fullhash}{39ac4758f6c7de14bff0b4ad08734faf}
+      \strng{bibnamehash}{ae90ff180eafde26c160a7e8dcc4732b}
+      \strng{authorbibnamehash}{ae90ff180eafde26c160a7e8dcc4732b}
+      \strng{authornamehash}{ae90ff180eafde26c160a7e8dcc4732b}
+      \strng{authorfullhash}{39ac4758f6c7de14bff0b4ad08734faf}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2208.05273}
+      \field{title}{Integrating Formal Verification and Simulation-based Assertion Checking in a Corroborative V\&V Process}
+      \field{year}{2022}
     \endentry
     \entry{tf_vacuum}{misc}{}
       \name{author}{1}{}{%

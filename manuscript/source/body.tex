@@ -63,7 +63,9 @@ But even this may not be enough for the diverse operational domains of some AS a
 %
 % The use of \emph{serious games} can be another interesting opportunity for building trustworthiness in complex autonomous systems and has been used in the context of mission planning for NASA~\cite{Allen2018} and in a self-driving vehicle controller leveraging the power of crowdsourcing for test generation [ref test gen game, need to make github page, add code and youtube videos]. 
 
-Further to these issues, are the lack of standards against which some trustworthy qualities should be appraised and the methods by which they should be evaluated. For example, there are standards for correct road driving conduct~\cite{highwayCode} but ethical standards by which those driving decisions should be made are just emerging~\cite{Bonnefon2016} . 
+Further to these issues, are the lack of standards against which some trustworthy qualities should be appraised and the methods by which they should be evaluated. For example, there are standards for correct road driving conduct~\cite{highwayCode} but ethical standards by which those driving decisions should be made do not exist or are just emerging~\cite{Bonnefon2016} . 
+%
+An interesting dilemma is if maximising the trust in qualities result in conflict, and how these conflicts can be ethically resolved. 
 %
 Although headway is being made into developing standards for non-functional properties, such as guidelines for ethical AI~\cite{Floridi2018}, checklists for HRI best practice ~\cite{kraus2022trustworthy} and transparency~\cite{winfield2021ieee}, there are still areas that need attention, such as standards for adaptability, cooperation and fairness~\cite{Abeywickrama2022}. 
 %
@@ -252,10 +254,18 @@ Regulatability & Ease in which the system is verifiable, readable, explainable, 
 \end{table*}
 
 
+
+% ****************************************
+% ********************* Key Considerations
+% ****************************************
+\section{Key Considerations for Trustworthy AS} \label{sec:key}
+
+...
+
 % ****************************************
 % **************** Application Criticality
 % ****************************************
-\section{Application Criticality} \label{sec:appcrit}
+\subsection{Application Criticality} \label{sec:appcrit}
 
 What is not considered a great deal in the literature is application criticality; what application the AS is used for and if this should change the significance of specific trustworthiness qualities. Applications will need more emphasis on certain trustworthy qualities depending on where the system is most vulnerable to violating trust. 
 %
@@ -263,11 +273,17 @@ What is not considered a great deal in the literature is application criticality
 %
 For example, a self-driving vehicle, or indeed any safety critical system, must have emphasis on safety, possibly to the detriment of other qualities. 
 
-DIN SPEC 92001-1 describes a \emph{quality meta model} and distinguishes between high risk systems that have safety, security, privacy and ethical relevance and those that do not (low risk), delineating applications into two risk classes~\cite{Englisch2019} which can be assessed using an appropriate risk assessment process, e.g. HAZOP, FMEA, SHARD. High risk applications must commit evidence of system trustworthiness based on these categories (or must be justified) whilst low risk systems are less strict.
+DIN SPEC 92001-1 describes a \emph{quality meta model} and distinguishes between high risk systems that have safety, security, privacy and ethical relevance and those that do not (low risk), delineating applications into two risk classes~\cite{Englisch2019} which can be assessed using an appropriate risk assessment process from engineering, e.g. FMEA or sociotechnical disciplines~\cite{macrae2021learning}. High risk applications must commit evidence of system trustworthiness based on these categories (or must be justified) whilst low risk systems are less strict. 
 
 Whilst this DIN SPEC approach is commendable, it does not go far enough to filter trust qualities based on the application and identify the key qualities required for assessment. The risk assessment process can be used to identify those qualities which are most pertinent to the application which can be prioritised, included or discarded entirely. For example, there may be an application with strong safety requirements but little to none regarding privacy. 
 
 Fisher 2021 asks if there are some rules that are more important that others, are all rules born equal? Context and application, social and cultural norms will all influence this answer. An example may be the ease with which breaking the speeding limit is observed in driving behaviour, but other driving conduct rules are broken less often, such as driving through a red traffic signal light.
+
+\subsubsection{Potential harm (from failure)} \label{sec:app-harm}
+
+Qualities that are principally connected to the functionality of the AS, are required for trustworthiness. A vacuum cleaner with poor coordination can do limited harm to users, but the same lacking quality in a robotic assistant, say, may fail to be accepted as trustworthy and also cause potential harm. Therefore, the trust quality must be elevated to a high risk level.
+%
+A risk assessment process should be able to identify such critical properties that can follow through the verification process. 
 
 \begin{figure}[]
     \centering
@@ -276,25 +292,11 @@ Fisher 2021 asks if there are some rules that are more important that others, ar
     \label{fig:critauto}
 \end{figure}
 
-\subsection{Decision Making Complexity} \label{sec:appcrit-dec}
-
-Within application criticality comes decision making complexity, the complexity of the process the AS must navigate in order to achieve the task goal. This could be considered in terms of the system and the constraints in the environment or action space to allow or prevent the system reaching a number of potential future states. A autonomous vacuum cleaner, for example, is physically constrained to a small 2-dimensional plane (area to be cleaned) and can successfully function with a small action space (stop, rotate, drive) where decisions are reactively made based on a few simple sensor inputs (avoid close object). 
-%
-Contrast this to, for example, any system that requires a perception stack to interpret dynamic physical scenes, such as a self-driving vehicle, which must identify and extrapolate objects and their future states (pedestrians), environmental conditions (road furniture, fog) and static or temporary rules that require interpreting (road signs, traffic cones) which will all contribute to a decision, which is also exacerbated by the potential harm that can result if a wrong decision is made. 
-%
-Decision making complexity needs to be considered when judging the risk level of the application, and the associated trust qualities should be elevated accordingly, where applications that have high risk associated with particular qualities, those qualities should be elevated to higher risk levels and be assessed accordingly (see Section~\ref{sec:AssFramVis}).  
-
-\subsection{Potential harm (from failure)} \label{sec:app-harm}
-
-Qualities that are principally connected to the functionality of the AS, are required for trustworthiness. A vacuum cleaner with poor coordination can do limited harm to users, but the same lacking quality in a robotic assistant, say, may fail to be accepted as trustworthy and also cause potential harm. Therefore, the trust quality must be elevated to a high risk level.
-%
-A risk assessment process should be able to identify such critical properties that can follow through the verification process. 
-
 
 % ****************************************
 % *********************** Automation Level
 % ****************************************
-\section{Automation Level} \label{sec:autlev}
+\subsection{Automation Level} \label{sec:autlev}
 
 The level of automation is an important consideration which relates to what qualities the system should present, our reliance and vulnerability to the system and hence the criticality of the application. A good description of automation levels are given by SAE International~\cite{SAEJ3016}. 
 %
@@ -309,8 +311,19 @@ Greater scope, greater responsibility [ref]
 But automation scope is simply an aspect of non-functional AS qualities, of which compatibility, which includes co-existence and harmony, are aspects of automation that would naturally extend the scope of the system. 
 
 
+\subsubsection{Decision Making Complexity} \label{sec:appcrit-dec}
 
-\section{Trustworthy Metrics}
+Within application criticality comes decision making complexity, the complexity of the process the AS must navigate in order to achieve the task goal. This could be considered in terms of the system and the constraints in the environment or action space to allow or prevent the system reaching a number of potential future states. A autonomous vacuum cleaner, for example, is physically constrained to a small 2-dimensional plane (area to be cleaned) and can successfully function with a small action space (stop, rotate, drive) where decisions are reactively made based on a few simple sensor inputs (avoid close object). 
+%
+Contrast this to, for example, any system that requires a perception stack to interpret dynamic physical scenes, such as a self-driving vehicle, which must identify and extrapolate objects and their future states (pedestrians), environmental conditions (road furniture, fog) and static or temporary rules that require interpreting (road signs, traffic cones) which will all contribute to a decision, which is also exacerbated by the potential harm that can result if a wrong decision is made. 
+%
+Decision making complexity needs to be considered when judging the risk level of the application, and the associated trust qualities should be elevated accordingly, where applications that have high risk associated with particular qualities, those qualities should be elevated to higher risk levels and be assessed accordingly (see Section~\ref{sec:AssFramVis}). 
+
+
+% ****************************************
+% ******************************** Metrics
+% ****************************************
+\subsection{Trustworthy Metrics}
 
 It is not sufficient for systems to just be trustworthy, they must be clearly identifiable as such. By developing useful and informative metrics specific to each trustworthy property, developers, verification engineers, regulators and end users can be better informed of the systems trustworthiness.
 
@@ -334,6 +347,18 @@ For data-centric and highly objective measures of trust, operators such as accur
 Other, more subjective qualities will use metrics appropriate for the discipline. Qualities such as fairness, cooperation and beneficence may require questionnaires, polls and user feedback to get the correct level of detail. 
 %
 \textcolor{red}{Pete and Arianna - can you add to this last point?}
+
+
+% ****************************************
+% ****************** Conflicting Qualities
+% ****************************************
+\subsection{Conflicting Qualities} \label{sec:conflict}
+
+A trustworthy system could be defined as having sufficient evidence that provides assurance against all trustworthy qualities that are deemed necessary and appropriate for the intended application. But what if maximising one system quality meant reducing another? 
+%
+For example, a self-driving vehicle has a performance quality to arrive efficiently at a destination by minimising journey time and is hence optimal at some non-zero speed. 
+
+ref assertions paper
 
 
 
