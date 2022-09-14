@@ -21,6 +21,6 @@ A literature review into trustworthy autonomous systems reveals a set of quality
 
 In the first tab of TrustQualities.xlsx are the qualities listed in each academic study, a node name (if not a positive adjective), a definition of the word and a list of synonyms (used as edges in the network graph). Categories are used to put the qualities into groups. The final column lists objective specifications or regulations that may be used as an assessment reference. The trust_qualities.py script can be used to draw the quality network.
 
-![](Trust_qualities_net.png)
+![](Trust_qualities_net2.png)
 
 Larger nodes depict quality terms that were referenced with a higher frequency. The links between the nodes are derived from thesaurus synonyms.
