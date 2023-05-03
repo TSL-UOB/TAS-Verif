@@ -8,7 +8,7 @@
 
 Autonomous systems are systems that involve software applications, machines and people, which are capable of taking actions with no or little human supervision~\cite{Murukannaiah2020}.
 %
-Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from mobile phones~\cite{mediumaiphones}, insurance pricing~\cite{kuo2020towards}, vacuum cleaners~\cite{tf_vacuum} and self-driving vehicles to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
+Autonomous systems (AS) are pervasive in current society and set to become even more so with current technological growth trends and adoption rates. Systems with embedded artificial intelligence (AI) and machine learning (ML) algorithms can be found in numerous applications from chatbots like GPT\-3~\cite{floridi2020gpt}, mobile phones~\cite{mediumaiphones}, insurance pricing models~\cite{kuo2020towards}, vacuum cleaners~\cite{tf_vacuum} and self-driving vehicles to medical diagnostics~\cite{kononenko2001machine}, detecting structural damage to buildings~\cite{avci2021review} and predicting the shape of protein molecules~\cite{alpha_fold} to name a few.
 %
 For successful adoption and reliance upon AS, there needs to be demonstrable assurance of their trustworthy operation which becomes increasingly difficult for complex systems with more ambitious \emph{automation scope} and being used for applications with greater criticality. 
 %
@@ -18,25 +18,25 @@ Verification and validation (V\&V) is the process to gain confidence in the corr
 %
 % Conventional V\&V is principally concerned with assessing the system against a set of requirements, providing guarantees of functionality and assurance of safety.
 %
-If autonomous systems are to be fully trusted into society, there must be acknowledgement of, and evidence to show, compliance with a broad range of \emph{trustworthiness qualities}. 
+If autonomous systems are to be fully trusted into society, there must be acknowledgment of, and evidence to show, compliance with a broad range of \emph{trustworthiness qualities}. 
 %
-A trustworthiness quality is defined here as a non-functional system property that promotes reliance or enables adoption in that system with respect to the views of the \emph{trust stakeholders}. A survey of the literature on trustworthy AS has identified many qualities that have been grouped into an ontology and includes properties such as robustness, security and accountability. 
+A trustworthiness quality is defined here as a non-functional system property that promotes reliance or enables adoption in that system with respect to the views of the \emph{trust stakeholders}. A survey of the literature on trustworthy AS is presented and has identified many qualities that have been grouped into an ontology and includes properties such as reliability, robustness, security, accountability and ethics. 
 %
 Trust stakeholders have a vested interest in the reliable operation of the system or otherwise seek assurance of specific system properties from a variety of perspectives, such as: end users or operators, regulators, developers or system manufacturers, unintended users and, to some extent, the environment. 
 
-A major challenge in verifying this broad category of trustworthiness qualities, is the availability of standards and regulations against which they can be evaluated. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of developing robust assessment methodologies and metrics for these more nuanced trustworthiness qualities, e.g. fairness, beneficence. 
+A major challenge in verifying this broad category of trustworthiness qualities, is the availability of standards and regulations against which they can be evaluated. And whereas verification methods of assessing, for example, functional correctness are relatively mature, there also exists the challenge of developing robust assessment methodologies and metrics for non-functional and nuanced trustworthiness qualities, e.g. fairness, beneficence. Additionally, there may be a new class of AS that have evolving functionality, where functionality automatically changes over time which presents additional challenges to verification and standards. 
 %
-In addition, systems with operational adaptation or evolving functionality should have some level of runtime monitoring of appropriate metrics to ensure the system does not move to an untrustworthy state or condition. 
+Some commentators argue that for complex systems with high automation scope the level of proof required for verification at design time is intractable and that some form of runtime verification is required~\cite{althoff2014online,CyRes20}. In addition, systems with operational adaptation or evolving functionality should also include some level of runtime monitoring of appropriate metrics to ensure the system does not move to an untrustworthy state or condition. 
 %
 % [maybe cut] For example, there are well defined rules for driving conduct and expected behaviour [UKHC] which could be verified using simulation based verification [harper22] but standards for social interaction, aesthetics or ethical behaviour are either non-existent or just emerging [EU directive for AI ethics]. 
 
-This paper focuses on reviewing what trustworthiness means in the field of AS, including robotics, HRI and Cyber-Physical Systems (CPS), and how the application, criticality and automation scope influence trust assessment. 
-%
-Trustworthiness of the system must also be reciprocated with user trust in the system for successful adoption and subsequent reliance~\cite{Lee2004}. User trust may consider of other factors contributing, such as the broader epistemological or sociotechnical aspects of trust but these will not be considered here, nor the process of gaining, maintaining or preventing the erosion of the \emph{trust agreement} between the user and the system, of which there are many excellent discussions, e.g. see~\cite{Kohn2021,Lee2004,kok2020trust,Chiou2021,Floridi2018}. 
-%
-We focus on technical aspects of trustworthiness relating to the system and outline the challenges associated with practical application of a presented assessment process. 
+This paper contributes in the following areas: reviewing what trustworthiness means in the field of AS, robotics, Human Robot Interaction (HRI) and Cyber-Physical Systems (CPS) in both the academic literature and any standards or relevant frameworks; how the application, criticality and automation scope influence trust assessment; and we also present an assessment framework that can be used as a basis by AS can be verified. 
 
-This document is structured as follows: ...
+Trustworthiness \emph{of} the system must also be reciprocated with user trust \emph{in} the system for successful adoption and subsequent reliance~\cite{Lee2004}. User trust may consider other contributing factors, such as the broader epistemological or sociotechnical aspects of trust but these will not be considered here, nor the process of gaining, maintaining or preventing the erosion of the \emph{trust agreement} between the user and the system, of which there are many excellent discussions, e.g. see~\cite{Kohn2021,Lee2004,kok2020trust,Chiou2021,Floridi2018}. 
+%
+%We focus on technical aspects of objective trustworthiness relating to the system and outline the challenges associated with practical application of a presented assessment process. 
+
+%This document is structured as follows: ...
 
 % ****************************************
 % ***************************** V&V for AS 
@@ -44,7 +44,7 @@ This document is structured as follows: ...
 
 \subsection{Verification and Validation for AS} \label{sec:intro-vav}
 
-Attaining complete assurance of any complex system is challenging and, in some cases where the input parameter space is large, it may be intractable. 
+Attaining complete assurance of any complex system is challenging and, in some cases where the input parameter space is large, may be intractable. 
 %
 However, there are multiple techniques and approaches that the verification engineer can use to seek assurances against certain system properties, such as formal modelling, testing, synthesis and runtime verification~\cite{kress2021formalizing}. 
 %
@@ -71,9 +71,9 @@ Although headway is being made into developing standards for non-functional prop
 %
 Where standards are lacking or immature will require engagement with \emph{trust stakeholders}, expert steering groups that can define and prioritise the necessary trustworthiness qualities for each subject domain or application. 
 
-Additionally, there is more that can be done at the design stage to improve \emph{verifiability} [add ref]. Evidence for functional correctness is essential, but this must be supported with decision explanation~\cite{koopman2018toward} whilst maintaining intellectual property rights around, for example, sensitive software algorithms and trade secrets [ref]. 
+Additionally, there is more that can be done at the design stage to improve \emph{verifiability}~\cite{kusters2010}. Evidence for functional correctness is essential, but this must be supported with decision explanation~\cite{koopman2018toward} whilst maintaining intellectual property rights around, for example, sensitive software algorithms and trade secrets. 
 
-In addition to assessing the AS trustworthiness, there must also be consideration to gain, calibrate and maintain user trust in the system~\cite{kok2020trust, Chiou2021}, as miscalibration of trust between system and user can have serious consequences~\cite{kok2020trust}. 
+In addition to assessing the AS trustworthiness, there must also be consideration to gain, calibrate and maintain user trust in the system~\cite{kok2020trust, Chiou2021}, as miscalibration of trust between system and user can have serious consequences~\cite{kok2020trust}, although this is not the focus of this work. 
 
 
 %\subsection{Document Structure}
@@ -84,9 +84,9 @@ In addition to assessing the AS trustworthiness, there must also be consideratio
 % ************** Trustworthiness Qualities
 % ****************************************
 
-\section{Trustworthiness of AS Qualities (TASQ)}\label{sec:tasq}
+\section{AS Trustworthiness Qualities}\label{sec:astq}
 
-As computing and automation has developed, systems are now both more capable and users more reliant on them. This extension of capability has resulted in a broadening of the terms which encompass trustworthiness, as, for example, the important trustworthiness qualities of a calculator may be less numerous than those of a medical decision support system. Advancement in automation then, has led us to question and challenge these new capabilities, or, as some commentary has noted: with more automation comes more responsibility~\cite{Yazdanpanah2021}. 
+As computing and automation has developed, systems are now both more capable and users more reliant on them for productivity in several sectors. This extension of capability has resulted in a broadening of the terms which encompass trustworthiness, as, for example, the important trustworthiness qualities of a calculator may be less numerous than those of a medical decision support system. Advancement in automation then, has led us to question and challenge these new capabilities, or, as some commentary has noted: with more automation comes more responsibility~\cite{Yazdanpanah2021}. 
 
 Trust can be expressed in a number of ways and directions; trust the user has in the system, the objective trustworthiness of the system and the context in which the interaction between the two takes place~\cite{Hancock2021}. 
 %
@@ -96,12 +96,11 @@ In this research we consider the trustworthiness of the system and the specific 
 %
 Trustworthiness of autonomous systems in the context of this work then, results from objective assessment of the system with respect to a set of appropriate standards. 
 %
-There has been much academic deliberation on the specific qualities that comprise trustworthiness of AS, specifically for AI~\cite{Thiebes2021,Wing2021} and HRI~\cite{kraus2022trustworthy,atkinson2012trust}
+There has been much academic deliberation on the specific qualities that comprise trustworthiness of AS, specifically for AI~\cite{Thiebes2021,Wing2021} and HRI~\cite{kraus2022trustworthy,atkinson2012trust}. 
 %
 Devitt argues that reliability and accuracy are the two central pillars of trustworthiness of AS and that all other properties stem from these, for example, stating that adaptability and redundancy are higher-order properties of reliability~\cite{devitt2018trustworthiness}. 
 
-\cite{ts_foundation} state 5 facets of trustworthy software: Safety: The ability of the software to operate without causing harm to anything or anyone.Reliability: The ability of the software to operate correctly. Availability: The ability of the software to operate when required.
-Resilience: The ability of the software to recover from errors quickly and completely. Security: The ability of the software to remain protected against the hazards posed by malware, hackers or accidental misuse.
+The Trustworthy Software Foundation~\cite{ts_foundation} state 5 facets of trustworthy software: Safety: The ability of the software to operate without causing harm to anything or anyone; Reliability: The ability of the software to operate correctly; Availability: The ability of the software to operate when required; Resilience: The ability of the software to recover from errors quickly and completely; Security: The ability of the software to remain protected against the hazards posed by malware, hackers or accidental misuse.
 
 
 % ****************************************
@@ -120,6 +119,12 @@ Thiebes et al. argue for five foundational principles of trustworthy AS: benefic
 
 Cho et al. propose a STRAM ontology for measuring the trustworthiness of computer systems, based around four sub-metrics of: security (availability, confidentiality, integrity), trust (predictability, safety, reliability), resilience (adaptability, fault-tolerance, recoverability) and agility (efficiency, usability, timeliness), although again functional aspects are missing with the main focus being on security.
 
+The National Institute of Standards and Technology (NIST) produced a set of four guiding principles for explainable AI~\cite{nist4}. While useful in its own right, this document also outlines their ontology for trust, which comprises explainability alongside interoperability, accuracy, privacy, reliability, robustness, security, safety, bias mitigation, transparency, fairness and accountability. 
+
+In addition to objective trustworthiness of AS, there should be consideration to the governing principles of the people and companies that invent and develop these technologies, and the impact that these may have on their products and subsequently the people who use them. Keymolen outlines three key `pillars' of trust - competence, management commitment, and the provision of reasonable assurance~\cite{keymolen}, and that companies should nurture techno-moral competences and go beyond legal compliance.  
+
+%These pillars are somewhat less clearly defined than those given by other authors, though they are aimed more at the average corporate stakeholder who may not have as in-depth an understanding of AI technical aspects as the development teams they work with.
+
 \begin{figure*}[]
     \centering
     \includegraphics[width=0.98\linewidth, trim=2cm 4.5cm 2.5cm 2.5cm, clip]{\pathToOtherFiles/figures/trust_spectrum.jpg}
@@ -131,42 +136,41 @@ Cho et al. propose a STRAM ontology for measuring the trustworthiness of compute
 % ********************* Existing Standards
 % ****************************************
 
-\subsection{Standards for Autonomous Systems and Trustworthiness Properties}
+\subsection{Standards for Autonomous Systems and Trustworthiness Properties} \label{sec:standards}
 % Contributed by: Dhaminda Abeywickrama
 % 2 September 2022
 % Autonomous systems are systems that involve software applications, machines and people, which are capable of taking actions with no or little human supervision~\cite{Murukannaiah2020}. %moved up to intro
-The functionality of an autonomous system (i.e. what it is meant to do, what it does, and what it could do) evolves or changes over time. 
+%The functionality of an autonomous system (i.e. what it is meant to do, what it does, and what it could do) may evolve or change over time. 
 One of the main issues of adopting current standards and regulations with autonomous systems is the lack of consideration to the notions of \textit{uncertainty} and \textit{autonomy} \cite{Fisher2021}. 
+%
 Most conventional processes for defining system requirements assume that these are fixed and can be defined in a complete and precise manner before the system goes into operation \cite{Abeywickrama2022}. 
+%
 Also, in existing standards and regulations, the notion of autonomy is not their most characterizing feature where they are neither driven nor strongly influenced by it \cite{Fisher2021}. 
+%
 Most existing standards are either implicitly or explicitly based on the V\&V model, which moves from requirements through design onto implementation and testing before deployment~\cite{Jia2021}. 
+%
 However, this model is unlikely to be suitable for systems with the ability to adapt their functionality in operation; e.g.\ through interaction with other agents and the environment (e.g. as is the case with swarms); or through experience-driven adaptation as is the case with machine learning \cite{Abeywickrama2022}. 
 %
-\textcolor{red}{we have not yet mentioned systems with evolving functionality, this can be put in the introduction}
+%\textcolor{red}{we have not yet mentioned systems with evolving functionality, this can be put in the introduction} - added
 %
-Autonomous systems with evolving functionality follow a different, much more iterative life-cycle. 
-Thus, there is a need for new standards and assurance processes that extend beyond design time and allow continuous certification at runtime~\cite{Rushby2008}. 
-In this context, lately, there have been several standards and guidance introduced by several industry committees and research groups. 
-Now we provide an overview of several key efforts with any trustworthiness properties or ontologies supported by them.
+Autonomous systems with evolving functionality follow a different, much more iterative life-cycle. Thus, there is a need for new standards and assurance processes that extend beyond design time and allow continuous certification at runtime~\cite{Rushby2008}. In this context, there have been standards and guidance introduced by several industry committees and research groups. An overview of several key efforts with any trustworthiness properties or ontologies supported by them are now given.
 
 In 2016, the British Standards Institution introduced the \textit{BS 8611} standard that provides a guide to the ethical design and application of robots and robotic systems \cite{BS8611}. 
-Then, IEEE through its initiative Global Initiative on Ethics of Autonomous and Intelligent Systems initiated the development of a series of standards to address autonomy, ethical issues, transparency, data privacy and trustworthiness (IEEE P70XX, for e.g. IEEE P7001, P7007, P7010). 
-\textit{IEEE P7001} standard describes measurable, testable levels of transparency for autonomous systems so that they can be objectively assessed and levels of compliance determined\cite{IEEE-P7001}. 
-This standard outlines five stakeholder groups, and for each group it explains the structure of the normative definitions of levels of transparency. 
-\textit{IEEE P7001} can be applied to assess the transparency of an existing system using a process of System Transparency Assessment, or to specify transparency requirements for a system prior to its implementation using a System Transparency Specification.
-Meanwhile, the goal of \textit{IEEE P7007} standard is to assist in the ethically-driven methodologies for the design of robots and automation systems \cite{IEEE-P7007}.
-For this, it provides a set of ontologies with different abstraction levels of concepts, definitions, axioms and use cases. 
-IEEE P7001 mentions about a transparency concern, which is a property representing an explanation topic (e.g. fairness, safety, legality, reliability, accountability, responsibility, predictability, comprehensibility, justifiability, viability, coordination) describing the reason for explanations of agent behaviours. 
-\textit{IEEE P7010} standard is used to measure the impact of AI or autonomous and intelligent systems on humans \cite{IEEE-P7010}. 
 
-There are several standards and guidance related to machine learning in aeronautics, automotive, railway and industrial domains, e.g. AMLAS, EASA concept paper, DEEL white paper, AVSI report, LNE certification and UL 4600 standard \cite{Kaakai2022}.
+IEEE, through its  Global Initiative on Ethics of Autonomous and Intelligent Systems, developed a series of standards (IEEE P70XX) to address autonomy, ethical issues, transparency, data privacy and trustworthiness. The \textit{IEEE P7001} standard describes measurable, testable levels of transparency for autonomous systems so that they can be objectively assessed and levels of compliance determined~\cite{IEEE-P7001}. This standard outlines five stakeholder groups, and for each group it explains the structure of the normative definitions of levels of transparency. IEEE P7001 can be applied to assess the transparency of an existing system using a process of System Transparency Assessment, or to specify transparency requirements for a system prior to its implementation using a System Transparency Specification.
 
-\textit{Assurance of Machine Learning for use in Autonomous Systems (AMLAS)} provides guidance on how to systematically integrate safety assurance into the development of the machine learning components based on offline supervised learning \cite{Hawkins2021}. 
+Additionally the \textit{IEEE P7007} standard is to assist in the ethically-driven methodologies for the design of robots and automation systems \cite{IEEE-P7007}. For this, it provides a set of ontologies with different abstraction levels of concepts, definitions, axioms and use cases. 
+
+IEEE P7001 discusses transparency concern, which is a property representing an explanation topic (e.g. fairness, safety, legality, reliability, accountability, responsibility, predictability, comprehensibility, justifiability, viability, coordination) describing the reason for explanations of agent behaviours. Since the draft was proposed, this has gone on to be ratified in the Standard for Transparency of Autonomous Systems~\cite{FinalP7001}.
+
+The \textit{IEEE P7010} standard is used to measure the impact of AI or autonomous and intelligent systems on humans~\cite{IEEE-P7010}. Recently, ISO/IEC TR 24028:2020 has also been introduced, aiming to provide a more general standard on how to define trust in the context of AI~\cite{24028}. ISO also publish standards which delve deeper into specific applications, for example 24029 which looks at robustness in neural networks~\cite{24029}.
+A more general standard also exists for recording transparency in the algorithms used to drive ML and AI systems, courtesy of the Centre for Data Ethics and Innovation within the UK government~\cite{cdei}.
+
+There are several standards and guidance related to machine learning in aeronautics, automotive, railway and industrial domains, e.g. AMLAS, EASA concept paper, DEEL white paper, AVSI report, LNE certification and UL 4600 standard \cite{Kaakai2022}. General guidance also exists in the form of the recently-published NIST AI Risk Management Framework~\cite{airmf}.
+
+\textit{Assurance of Machine Learning for use in Autonomous Systems (AMLAS)} provides guidance on how to systematically integrate safety assurance into the development of machine learning components based on offline supervised learning \cite{Hawkins2021}. 
 %AMLAS provides an explicit and structured safety case that the system is safe to operate in its intended context of use. 
-AMLAS contains six stages, and the assurance activities are performed in parallel to the development of machine learning component. 
-The process is iterative by design and feedback is used to update previous stages. 
-In AMLAS, the safety requirements are always based on performance and robustness of the machine learning model. 
-In a related work to AMLAS \cite{Ashmore2021}, the authors identify several phases in a machine learning life cycle (data management, model learning, verification and deployment) with their associated data. From an assurance view point, they consider several key properties the models generated by learning should exhibit: performance, robustness, reusability and interpretability.% (see Table\ref{table:1}).
+AMLAS contains six stages, and the assurance activities are performed in parallel to the development of machine learning component. The process is iterative by design and feedback is used to update previous stages. In AMLAS, the safety requirements are always based on performance and robustness of the machine learning model. In work related to AMLAS \cite{Ashmore2021}, the authors identify several phases in a machine learning life cycle (data management, model learning, verification and deployment) with their associated data. From an assurance view point, they consider several key properties the models generated by learning should exhibit: performance, robustness, reusability and interpretability.
 
 The \textit{concept paper} by the \textit{European Union Aviation Safety Agency (EASA)} provides its first usable guidance for level 1 (human assistance) safety-related machine learning applications \cite{EASA2021}. 
 %It provides means of compliance for the certification of safety-critical systems which rely on machine learning-based algorithms for their operation. 
@@ -178,40 +182,40 @@ The \textit{Aerospace Vehicle System Institute (AVSI) report} on machine learnin
 
 The \textit{UL 4600 standard} guides a user through the development of safety cases for fully automated vehicles (i.e. vehicles with no driver or supervisor) \cite{UL4600}. It is more of a standard of care and not a procedure for certification of fully automated vehicles. The \textit{Laboratoire National de Métrologie et d'Essais (LNE) certification} \cite{LNE2021} is a quality assurance standard for machine learning processes. The aim is to provide guidance for an applicant when obtaining certifications for their design, development, evaluation and maintenance in operational conditions. 
 
-\subsubsection{Ontologies within Existing Standards}\label{sec:tasq-ont-stds}
+Fenn et al.~\cite{fenn2023architecting} discuss how to apply safety and safety assurance, using common architectural patterns in safety critical aviation systems, to systems with AI and ML functionality. Although not a standard, this paper outlines work at KBR/NASA relating to the work progressing on the SAE G-34 AS6983 airworthiness standard for systems implementing AI. 
+
+Hawkins et al.~\cite{Hawkins22} have presented a comprehensive guidance framework on the safety assurance of AS in complex environments (SACE) covering operational domain models, hazardous scenario identification, requirements definition and design assurance, failure mitigation and how and AS can operate outside of the usual domain boundary. This work offers an extension to Stage 8 in the SACE framework covering verification assurance. 
+
+%\subsubsection{Ontologies within Existing Standards}\label{sec:tasq-ont-stds}
 
 The international standard ISO/IEC/IEEE 29119 describes software and systems engineering and part-4 covers software testing techniques and outlines 8 areas that testing should focus around: Functional Stability, Performance Efficiency, Compatibility
 Usability, Reliability, Security, Maintainability, Portability~\cite{ISO29119}. 
 %
 This standard is primarily focused on software testing and so some of these categories, although useful, includes jargon specific to computing systems which were not repeated in any other literature pertaining to AS more generally and therefore less user-friendly. However, part-13 of ISO29119 sets out standards specifically for testing AI-based software systems which extends these quality characteristics to include AI-specific qualities such as: flexibility (range of behaviours), adaptability (ease of modification or achieving flexibility), autonomy (unsupervised ability and level of control), evolution (behaviour adaptation over time), bias (e.g. due to discrimination, historic bias, uneven sampling), transparency (access to data and algorithms and decision interpretability) and determinism (same output for given input) as well as consideration to ethical specifications and side-effects such as reward hacking. 
 
-FUTURE:ISO standard on "quality model for AI-based systems"
+%FUTURE:ISO standard on "quality model for AI-based systems"
 
-
-DIN SPEC 92001 is a standard to help ensure quality in AI systems. Part 2 of the standard (92001-2) describes three pillars responsible for AI quality, namely: functionality and performance, robustness and comprehensibility - look into
+%DIN SPEC 92001 is a standard to help ensure quality in AI systems. Part 2 of the standard (92001-2) describes three pillars responsible for AI quality, namely: functionality and performance, robustness and comprehensibility - look into
 
 % maybe drop
-The NIST Framework for Cyber-Physical Systems [ref] details a list of trustworthy `aspects' and `concerns' in addition to operational and business concerns for CPS and also includes some excellent case studies to show a complete end-to-end analysis, whilst Balduccini goes on to draw reasoning about the trustworthy properties set out in the framework in a UML/XML language [ref].  
+%The NIST Framework for Cyber-Physical Systems [ref] details a list of trustworthy `aspects' and `concerns' in addition to operational and business concerns for CPS and also includes some excellent case studies to show a complete end-to-end analysis, whilst Balduccini goes on to draw reasoning about the trustworthy properties set out in the framework in a UML/XML language [ref].  
 %
 
 
 
 % notes:
 
-% Existing standards on verification (from Rudas 2020): P1872.1, P2817, P7000 and P7007.
-
 % Safety of autonomous systems (from Hawkins 2022): UL4000 [Underwriters Laboratories. Standard for evaluation of autonomous products, 2020] or SCSC-153B [Safety of Autonomous SystemsWorking Group. Safety assurance objectives for autonomous systems, 2022. URL: https://scsc.uk/scsc-153B]
 
-% Ethical framework for AI~\cite{Floridi2018} ``offer 20 concrete recommendations to assess, to develop, to incentivise, and to support good AI"
-
-% Porter2022 presents an ethical assurance argument for AS, extending the assurance case considered for safety to include ethical standards
-
-% devitt2018trustworthiness 
 
 
+\subsubsection{Trustworthiness Spectrum}\label{sec:spectrum}
 
+A review of over 60 academic papers and standards around trustworthiness of AS, HRI and CPS was conducted as part of this work, see~\cite{tsl_git}. The aim of this review was to understand the expected properties of a trustworthy system that is automated or has integrated ML. The properties described by each paper were then collated into one of eight categories making up a spectrum of trustworthiness.
 
-A spectrum of qualities is presented that captures the broad definition of trustworthiness of AS from the literature, see Table~\ref{tab:quals}. A full list of the quality terms reviewed can be found at~\cite{tsl_git}.
+For each property described in the literature review semantic themes were investigated and collated, e.g. reliable, stable, predictable, reputable are semantically linked to describe reliability. These terms were then counted for frequency of occurance and binned into the 8 themes in the spectrum.
+
+The spectrum of qualities that captures the broad definition of trustworthiness of AS from the literature is shown in Table~\ref{tab:quals}. Reading from top to bottom, the trustworthy categories in the first column begin objectively and become increasingly subjective moving down the list. The spectrum of qualities comprise all of the trustworthy properties reviewed in the literature and the second column of Table~\ref{tab:quals} gives a short description of the category giving more detail. A full list of the quality terms reviewed and the semantic themes can be found at~\cite{tsl_git}.
 
 \begin{table*}[t]
 \caption{Trustworthiness qualities ontology}\label{tab:quals}
@@ -224,28 +228,29 @@ Quality Category   &   \\ \midrule
 Functionality & Ability of a system to not enter a failure mode, to be able to execute tasks required of it without \\
 &fault, to achieve a goal state (liveness), and do so within permitted use of resources.\\
 
+Reliability & Degree to which the system performs specified functions under specified conditions for a specified\\
+&period of time in a consistent manner.\\
+
+Robustness & Ease with which the system can overcome adverse conditions and be maintained or modified to change\\
+&or add capabilities or to operate at new scales, correct faults or defects, improve performance or other\\
+&attributes and to adapt to new environments.\\
+
+Security & Protection against intentional subversion or forced failure, malicious access, use, modification, \\
+&destruction, or disclosure. Defining, achieving, and maintaining confidentiality, integrity, availability, \\
+&non‐repudiation, accountability, authenticity, and reliability of the system. \\
+
 Compatibility & Degree to which the system can exchange information with users or other systems, be transferred to\\
 &other environments and the ability to share the same environment with other autonomous agents.\\
 
 Usability & Extent to which the system is available and responsive and can be used to achieve specified goals\\
 &with effectiveness, and satisfaction in a specified context.\\
 
-Reliability & Degree to which the system performs specified functions under specified conditions for a specified\\
-&period of time in a consistent manner.\\
-
-Security & Protection against intentional subversion or forced failure, malicious access, use, modification, \\
-&destruction, or disclosure. Defining, achieving, and maintaining confidentiality, integrity, availability, \\
-&non‐repudiation, accountability, authenticity, and reliability of the system. \\
-
-Robustness & Ease with which the system can overcome adverse conditions and be maintained or modified to change\\
-&or add capabilities or to operate at new scales, correct faults or defects, improve performance or other\\
-&attributes and to adapt to new environments.\\
+Regulatability & Ease in which the system is verifiable, readable, explainable, transparent and understandable in a \\
+&manner to support regulation, appropriate trustworthy metrics and specifications.\\
 
 Ethical & Ability to demonstrate beneficence and non-maleficence, fair and reasonable behaviour, to preserve\\
 &human decision making and be easily understood\\
 
-Regulatability & Ease in which the system is verifiable, readable, explainable, transparent and understandable in a \\
-&manner to support regulation, appropriate trustworthy metrics and specifications.\\
 
 \bottomrule
 \end{tabular}
@@ -260,7 +265,7 @@ Regulatability & Ease in which the system is verifiable, readable, explainable, 
 % ****************************************
 \section{Key Considerations for Trustworthy AS} \label{sec:key}
 
-...
+The following section discusses other considerations for AS against which the trustworthy qualities should be examined. 
 
 % ****************************************
 % **************** Application Criticality
@@ -269,7 +274,7 @@ Regulatability & Ease in which the system is verifiable, readable, explainable, 
 
 What is not considered a great deal in the literature is application criticality; what application the AS is used for and if this should change the significance of specific trustworthiness qualities. Applications will need more emphasis on certain trustworthy qualities depending on where the system is most vulnerable to violating trust. 
 %
-\textcolor{red}{Arianna, is there a focus in ethics on where the power is held? and whom can be prejudiced/discriminated against?} 
+%\textcolor{red}{Arianna, is there a focus in ethics on where the power is held? and whom can be prejudiced/discriminated against?} 
 %
 For example, a self-driving vehicle, or indeed any safety critical system, must have emphasis on safety, possibly to the detriment of other qualities. 
 
@@ -277,7 +282,7 @@ DIN SPEC 92001-1 describes a \emph{quality meta model} and distinguishes between
 
 Whilst this DIN SPEC approach is commendable, it does not go far enough to filter trust qualities based on the application and identify the key qualities required for assessment. The risk assessment process can be used to identify those qualities which are most pertinent to the application which can be prioritised, included or discarded entirely. For example, there may be an application with strong safety requirements but little to none regarding privacy. 
 
-Fisher 2021 asks if there are some rules that are more important that others, are all rules born equal? Context and application, social and cultural norms will all influence this answer. An example may be the ease with which breaking the speeding limit is observed in driving behaviour, but other driving conduct rules are broken less often, such as driving through a red traffic signal light.
+Fisher et al.~\cite{Fisher2021} asks if there are some rules that are more important that others, are all rules born equal? Context and application, social and cultural norms will all influence the answer to this question. An example may be the ease with which breaking the speeding limit is observed in driving behaviour, but other driving conduct rules are broken less often, such as driving through a red traffic signal light.
 
 \subsubsection{Potential harm (from failure)} \label{sec:app-harm}
 
@@ -304,19 +309,19 @@ Fisher et al. describe \emph{automation scope} which, alongside the level of aut
 %
 Alongside scope, agency (independent acting or decision making) and whether to be reactive (responding to a situation or stimulus) or proactive (creating a situation) in action decision are also factors to consider within automation level.
 %
-Greater scope, greater responsibility [ref]
+%Greater scope, greater responsibility [ref]
 %
 % The example given is that two automated vacuum cleaners can both clean and avoid obstacles, but one schedules action to avoid human disruption. 
 %
-But automation scope is simply an aspect of non-functional AS qualities, of which compatibility, which includes co-existence and harmony, are aspects of automation that would naturally extend the scope of the system. 
+It could be seen that automation scope is an aspect of some non-functional AS qualities such as usability and compatibility, which includes co-existence and harmony, are aspects of automation that would naturally extend the scope of the system. 
 
 
 \subsubsection{Decision Making Complexity} \label{sec:appcrit-dec}
 
-Within application criticality comes decision making complexity, the complexity of the process the AS must navigate in order to achieve the task goal. This could be considered in terms of the system and the constraints in the environment or action space to allow or prevent the system reaching a number of potential future states. A autonomous vacuum cleaner, for example, is physically constrained to a small 2-dimensional plane (area to be cleaned) and can successfully function with a small action space (stop, rotate, drive) where decisions are reactively made based on a few simple sensor inputs (avoid close object). 
-%
+Within automation level comes decision making complexity, the complexity of the process the AS must navigate in order to achieve the task goal. This could be considered in terms of the system and the constraints in the environment or action space to allow or prevent the system reaching a number of potential future states. A autonomous vacuum cleaner, for example, is physically constrained to a small 2-dimensional plane (area to be cleaned) and can successfully function with a small action space (stop, rotate, drive) where decisions are reactively made based on a few simple sensor inputs (avoid close object). 
+
 Contrast this to, for example, any system that requires a perception stack to interpret dynamic physical scenes, such as a self-driving vehicle, which must identify and extrapolate objects and their future states (pedestrians), environmental conditions (road furniture, fog) and static or temporary rules that require interpreting (road signs, traffic cones) which will all contribute to a decision, which is also exacerbated by the potential harm that can result if a wrong decision is made. 
-%
+
 Decision making complexity needs to be considered when judging the risk level of the application, and the associated trust qualities should be elevated accordingly, where applications that have high risk associated with particular qualities, those qualities should be elevated to higher risk levels and be assessed accordingly (see Section~\ref{sec:AssFramVis}). 
 
 
@@ -325,17 +330,17 @@ Decision making complexity needs to be considered when judging the risk level of
 % ****************************************
 \subsection{Trustworthy Metrics}
 
-It is not sufficient for systems to just be trustworthy, they must be clearly identifiable as such. By developing useful and informative metrics specific to each trustworthy property, developers, verification engineers, regulators and end users can be better informed of the systems trustworthiness.
+It is not sufficient for systems to just be trustworthy, they must be clearly identifiable as such. By developing useful and informative metrics specific to each trustworthy property, developers, verification engineers, regulators and end users can be better informed of the system's trustworthiness.
 
-At the system level, Floridi suggests the need for agreed upon metrics for trustworthiness of AI systems and suggests an  AI Trust comparison index, metrics are needed for benchmarking AI suitability to the public. 
+At the system level, Floridi suggests the need for agreed upon metrics for trustworthiness of AI systems and suggests an  AI Trust comparison index, metrics that are needed for benchmarking AI suitability to the public or specific applications~\cite{Floridi2018}. 
 %
-Rudas and Haidegger also supports the idea of agreed upon metrics from the verification community that can be used to ensure reliability of complex autonomous systems~\cite{Rudas2020}. Wang et al. go further and propose a  theoretical framework of \emph{tripartite trustworthiness} covering; \emph{to-be trust} (trustfulness of an entity or structure), \emph{to-do trust} (trust in an action or behaviour) and \emph{system trust} (a statistical runtime evaluation of performance) and set out 18 formal definitions~\cite{Wang2020}. 
+Rudas and Haidegger also supports the idea of agreed upon metrics from the verification community that can be used to ensure reliability of complex autonomous systems~\cite{Rudas2020}. Wang et al. go further and propose a theoretical framework of \emph{tripartite trustworthiness} covering; \emph{to-be trust} (trustfulness of an entity or structure), \emph{to-do trust} (trust in an action or behaviour) and \emph{system trust} (a statistical runtime evaluation of performance) and set out 18 formal definitions~\cite{Wang2020}. 
 %
 Garbuk presents the idea of \emph{applied intellimetry} to assess the quality of AI systems by formulating a list quality characteristics in a functional characteristic vector~\cite{garbuk2018intellimetry}. 
 %
 Kaur et al. suggest explainability metrics based on the euclidean distance between the system output compared to a panel of experts~\cite{kaur2021trustworthy}. 
 %
-trustworthiness of computer systems using metrics designed to assess security, trust, resilience and agility~\cite{cho2019stram}
+%trustworthiness of computer systems using metrics designed to assess security, trust, resilience and agility~\cite{cho2019stram}
 
 
 In addition to system level trust, there must be metrics that provide transparency on specific trustworthy qualities. 
@@ -346,7 +351,7 @@ For data-centric and highly objective measures of trust, operators such as accur
 %
 Other, more subjective qualities will use metrics appropriate for the discipline. Qualities such as fairness, cooperation and beneficence may require questionnaires, polls and user feedback to get the correct level of detail. 
 %
-\textcolor{red}{Pete and Arianna - can you add to this last point?}
+%\textcolor{red}{Pete and Arianna - can you add to this last point?}
 
 
 % ****************************************
@@ -354,13 +359,15 @@ Other, more subjective qualities will use metrics appropriate for the discipline
 % ****************************************
 \subsection{Conflicting Qualities} \label{sec:conflict}
 
-A trustworthy system could be defined as having sufficient evidence that provides assurance against all trustworthy qualities that are deemed necessary and appropriate for the intended application. But what if maximising one system quality meant reducing another? 
+A trustworthy system could be defined as having sufficient evidence that provides assurance against all trustworthy qualities that are deemed necessary and appropriate for the intended application. But what if maximising one system quality meant reducing another? How should this trade-off be managed and does this lead to competing demands~\cite{Abeywickrama2022}. 
 %
-For example, a self-driving vehicle has a performance quality to arrive efficiently at a destination by minimising journey time and is hence optimal at some non-zero speed. 
+For example, a self-driving vehicle has a performance quality to arrive efficiently at a destination by minimising journey time and is hence optimal at some legal, non-zero speed. However, many safety properties are maximised when the vehicle is at or close to zero speed, a vehicle does no harm if stationary~\cite{harper2021safety}. 
+%
+It is possible to imagine a scenario in a busy market square filled with pedestrians and the autonomous vehicle trying to make progress in these conditions. Typically pedestrians will feel more comfortable to be in the road due to the conditions (the market) and cultural norms (consensus with other pedestrians). Maximal driving safety must ensure the vehicle does not come close to any pedestrians but must be traded-off against the need to make progression the journey.
 
-ref assertions paper
-
-
+This type of conflict is conventionally resolved, in the UK at least, with the driver indicating intention by taking small, low speed steps through the crowd, effectively pushing through the crowd with a pseudo-social force effect~\cite{helbing1995social}. 
+%
+Although this serves as a good example it does not help with any generalisable rules that can be applied to trading-off qualities other than they may be application and culturally specific. 
 
 % ****************************************
 % ******************* Assessment Framework
@@ -374,28 +381,33 @@ ref assertions paper
     \label{fig:tas_ver}
 \end{figure*}
 
-Below are the stages proposed for AS trustworthiness assessment process.
+In this section, the stages of an assessment process are described and are illustrated in Fig.~\ref{fig:tas_ver}. Here, the main considerations for trustworthy AS are considered along with; parties that have vested interest in prevention of failure (\emph{trust stakeholders}), how the application will influence the selection and priority of risk, what assessment methods are available and how trustworthiness can be communicated through the use of appropriate metrics. 
 %
-From reviewing the literature, a comprehensive ontology has been derived based on trustworthy AS qualities. This index of qualities have been categorised and this can be used as a reference to begin the assessment. 
+From reviewing the literature, a comprehensive spectrum of trustworthy qualities have been derived, which were explored in Section~\ref{sec:astq}, and these qualities form the start of the assessment.
+
 
 % \subsection{TASQ Categories}
 
 % ****************************************
 % ******************************** Stage 1
 % ****************************************
-\subsection{Stage 1: Application Filtering \& Criticality Analysis}
+\subsection{Stage 1: Trustworthy Qualities, Application Filtering \& Criticality Analysis}
 % Which TASQ to include in your application? Are all qualities relevant? How can quality relevance be objectively assessed? What inputs are required from trust stakeholders? How does automation level affect the choice?    
 
-Not all TAS qualities are relevant to all applications, so the first stage of the process is to identify the qualities that are relevant to the specified application and filter out those that are irrelevant or inappropriate. 
+Not all trustworthy qualities are relevant to all applications, so the first stage of the process is to identify the qualities that are relevant to the specified application and filter out those that are irrelevant or inappropriate. 
 %
-A criticality assessment is applied at this stage, using a process akin to a hazard analysis for each of the selected qualities not forgetting to assess the impact that automation scope may have on the final outcome, and what potential harm or impact of failing to uphold the specific quality will have on the outcomes of the system and it's users. 
-
-The consensus on which qualities to include and how important they are, will be decided by the \emph{trust stakeholders}, a collection of individuals, groups and organisations who may include regulators, developers, end users and incidental users for example. 
+A criticality assessment is applied at this stage, using a process such as a risk or hazard analysis for each of the selected qualities. 
+% not forgetting to assess the impact that automation scope may have on the final outcome, and what potential harm or impact of failing to uphold the specific quality will have on the outcomes of the system and it's users. 
+%
+The consensus on which qualities to include in the assessment and how important they are, will be decided by the \emph{trust stakeholders}, a collection of individuals, groups and organisations who have a vested interest in ensuring the trustworthiness of the AS. Theses stakeholders may include, for example, regulators, developers, end users and incidental users. 
 %
 Important factors that the stakeholders will consider are the scope of the automation; how automated the system is or the ambitions it has to be in the future, and the application criticality including the potential harm from the system not upholding the trustworthy attribute or quality. 
 %
-This should result in a list of qualities for the given application each with an assigned criticality rating, e.g. high, medium and low risk, that will be used in the assessment stage. 
+The result from this stage in the process should be a list of qualities for the given application each with an assigned criticality rating, e.g. high, medium and low risk, that will be used in the assessment stage. 
 
+The main challenge in this area is the need to identify the failure routes of AI and ML systems in comparison to conventional engineering systems. Risk assessments for AS need to include the specific failure modes of AI~\cite{piorkowski2023quantitative} and account for the \emph{brittle} nature of AI models~\cite{druce2021brittle} or the reliability of predictions made on unseen data~\cite{wing2021trustworthy}. 
+
+%Note: AI failure mode different from conventional engineering. Unseen data causes issues, don't know when a model is confident in answer - VAE could b useful here.
 
 % ****************************************
 % ******************************** Stage 2
@@ -408,23 +420,38 @@ At this point quality metrics should be considered that clearly visualise each o
 %
 Many metrics already exist, e.g. precision and recall for predictive analytics, but some will need to be generated and agreed upon by the community, e.g. cooperation, fairness. 
 %
-This is where the verifiability of a trustworthy quality, when thought about at the design stage, can pay off in the later assessment and verification stages, such as designing in status indicating LEDs into consumer electronics to visualise operational trustworthiness. 
+The area of standards and regulations, as discussed in Section~\ref{sec:standards}, is generally immature for AS but is moving rapidly in terms of new publications and frameworks, such as the ratified version of the EU AI act~\cite{EUAIact2021}. 
+
+The challenges in this area are not just the development of the standards for AI, but at a pace that matches the technological advancement. 
+%
+Another challenge is the development of appropriate metrics to improve \emph{verifiability}, which is the ease by which as system can be understood and explained, e.g. to a stakeholder or regulator. 
+
+Knowledge of the internal state of the system is often hidden, e.g. blackbox, due to IP and commercial sensitivity, but whitebox access will be essential for certain aspects of trustworthiness assessment. This may not need to reveal sensitive algorithms but just enough information through observability points in the software architecture could go a long way to understanding if automated decisions are made for the right reason~\cite{koopman2018toward}. 
+%
+Introduction of verifiability at the design stage, can pay off in the later assessment and verification stages. An example of this is designing in status indicating LEDs into electronics to visualise certain operational parameters, such as power or network connectivity, which can be clearly understood without need for deeper analysis or tools. 
+%
+This is a key challenge to the community and is being addressed through the developments in explainable AI (XAI) that include model layers or separate models that help interpret, for example, image recognition focus~\cite{petsiuk2021black} or general decision making~\cite{danilevsky2020survey, gunning2019xai}. 
 
 
 % ****************************************
 % ******************************** Stage 3
 % ****************************************
-\subsection{Stage 3: TASQ Assessment with Corroborative V\&V}
+\subsection{Stage 3: Quality Assessment with Corroborative V\&V}
 
-Stage 3 assesses each of the qualities from stage 1 using one or more verification approaches. 
+At Stage 3, each of the qualities from Stage 1 are assessed using one or more verification approaches depending on the risk level identified. Where a higher risk is identified, more evidence should be gathered for that property from independent verification methods. Mutually consistent, corroborating evidence from independent verification methods should be seen as the gold standard for high risk trustworthy system properties. 
 %
-Kress-Gazit et al. state that assessing the trustworthiness of AS can be broken down into four approaches: \emph{synthesis} of correct-by-construction systems, \emph{formal} verification at design time, \emph{runtime} verification or monitoring, and \emph{testing} methods~\cite{kress2021formalizing}. 
+For example, a quality deemed low risk may use a single method to provide sufficient evidence of trustworthiness, but for higher risk categories corroborative evidence from multiple approaches is recommended. 
 %
-Initially each quality will be assessed using either synthesis, testing or formal methods (runtime monitoring is considered in stage 4). However, the higher the risk criticality then a greater number of methods should be used. For example, a quality deemed low risk may use a single method to provide sufficient evidence of trustworthiness, but for higher risk categories corroborative evidence from multiple approaches is recommended. 
+During each assessment, the trustworthy property will be verified against the respective set of standards, regulations or specifications as appropriate. The quality metrics will be used to visualise the outcomes and give a common language by which the system trustworthiness can be communicated. 
+
+Kress-Gazit et al. state that assessing the trustworthiness of AS can be categorised into four approaches: \emph{synthesis} of correct-by-construction systems, \emph{formal} verification at design time, \emph{runtime} verification or monitoring, and \emph{testing} methods~\cite{kress2021formalizing}. 
 %
-During each assessment, the quality will be verified against the respective set of standards, regulations or specifications as appropriate and the quality metrics will be used to visualise the outcomes. 
+An addition to this list may be the inclusion of another verification assessment method, called the Principles Based Argument (PBA) that can be used for more subjective qualities such as those in the Ethics category, see ~\cite{Porter2022}. 
 %
-For example, a robot swarm may be monitored for efficiency by monitoring idle individuals and representing this to the tester, regulator or end user as a utilisation score. 
+%Initially each quality will be assessed using either synthesis, testing or formal methods (runtime monitoring is considered in Stage 4). However, the higher the risk criticality then a greater number of methods should be used. 
+%
+%
+%For example, a robot swarm may be monitored for efficiency by monitoring idle individuals and representing this to the tester, regulator or end user as a utilisation score. 
 
 
 % ****************************************
@@ -437,9 +464,11 @@ Corroborative, mutually consistent evidence from diverse methodologies provides 
 %
 The assessment analysis should inspect the evidence for each trust quality relative to the risk level based on the application criticality and automation scope. Confidence in the trustworthiness of the system will require more evidence for applications where there is a greater risk level. 
 %
-Where appropriate, there may be minimum requirement levels that must be achieved to attain trustworthiness for certain quality categories, for example 98\% accuracy for an image recognition task.
-
-Evidence that fails to corroborate, although does not fail in itself, e.g. sampling different parts of the input space, may be considered equivalent to single-source evidence and therefore, although not a failure, can only provide evidence for lower risk applications.
+Where appropriate, there may be minimum requirement levels that must be achieved to attain trustworthiness which will be dictated by the appropriate standard for the AI algorithm, application or sector.  %For certain quality categories, for example 98\% accuracy for an image recognition task.
+%
+Evidence that fails to corroborate, although does not fail in itself, e.g. sampling different parts of the input space, may be considered equivalent to single-source evidence and therefore, although not a failure, can only provide evidence for lower risk applications. 
+%
+Where there is insufficient availability of independent testing methodology, risks would have to be carried forward and appropriate mitigation plans used during operation. Confidence in trustworthiness can also be gathered from runtime data, although there are obvious dangers with carrying too much risk forward into a live system.
 
 
 % ****************************************
@@ -456,7 +485,7 @@ Evidence that fails to corroborate, although does not fail in itself, e.g. sampl
 
 Visualising the trustworthiness of the system will be an important aspect of not just presenting objective evidence to developers and regulators, but also to end users who may have a lay understanding of the technical aspects of the system. 
 %
-Discussion on what type of information to present to users and how this is done extends beyond the scope of this paper, but must be considered as this forms the reciprocal part of the trust agreement between user and system. 
+Discussion on what type of information to present to users and how this is done extends beyond the scope of this paper, but is an open challenge to the community. This must be considered as trust visulaisation forms the reciprocal part of the trust agreement between user and system. 
 %
 However, there are several aspects of visualising trust that should be considered; which categories to display and the format, how the system performed during assessment or currently (if runtime monitoring is used), and a way of indicating the minimum requirements for each quality.
 
@@ -476,7 +505,7 @@ A star rating is awarded based on the level of corroborative evidence from indep
 %
 Essentially the more diverse the evidence the greater the trustworthiness rating will be, assuming that assessment outcomes are positive. 
 
-The proposal is that applications with lower risk levels are not required to provide the same level of evidence as higher risk applications, and therefore the highest burdens of proof are required exclusively for higher risk applications. 
+The proposal is that applications with lower risk levels are not required to provide the same level of evidence as higher risk applications, and therefore the highest burdens of proof are required for higher risk applications. 
 
 
 
@@ -486,14 +515,16 @@ The assessment and subsequent analysis should identify qualities that are suffic
 
 \subsubsection{Insufficient Evidence: Update \& Reassessment}
 
-If the analysis shows that the quality fails to meet the minimum specification or there is insufficient evidence that the quality meets the specification, the systems fails on that quality. The system must then pass into an iterative development cycle, where the system is updated and then reassessed.
+If the analysis shows that the quality fails to meet the minimum specification or there is insufficient evidence that the quality meets the relevant standards, the systems fails on that quality. The system must then pass into an iterative development cycle, where the system is updated and then reassessed. 
 
 \subsubsection{Sufficient Evidence: Monitoring}
 
-If there is sufficient evidence that the quality meets the specifications with respect to it automation scope and criticality, then the system passes that quality. In some applications it may be prudent to enter into a phase of operational assessment where metrics are observed in real-time. This runtime monitoring allows system trustworthiness to continue to be assessed which may be required if the system is adaptive to new environments or has evolving functionality. 
+If there is sufficient evidence that the quality meets the relevant standards, then the system passes that quality. In some applications it may be prudent to enter into a phase of operational assessment where trustworthy metrics are observed in real-time. This \emph{runtime monitoring} allows system trustworthiness to continue to be assessed which may be required if the system is adaptive to new environments, has evolving functionality or design stage risk is being carried forward. 
+%
+There are challenges associated with runtime monitoring, such as the availability of a suitable oracle~\cite{Leucker2009} to act as a guide for trustworthy operation. This type of operational assurance can be achieved through the use of formal models of the system or AI-subsystem~\cite{dementyeva2022runtime} or by estimating state confidence~\cite{dementyeva2022runtime}.
 
 
-\begin{table*}[]
+\begin{table*}[t]
 \caption{Trustworthy Autonomous System Quality (TASQ) star rating comparison index}\label{tab:tasq_rating}
 \centering
 \begin{tabular}{lll}
@@ -524,21 +555,19 @@ Rating & Description & Class \\ \midrule
 
 \subsection{Future Challenges in Standards} \label{sec:AssFramVis-fut}
 
-Riaz et al.~\cite{Riaz2018} suggest the idea of using social norms and human emotions as a standard by which better self-driving controllers may be developed. This idea sets the way for not just development of higher functioning AS, but also standards of trustworthiness by which they can be judged. Although there is much scholarly work on the theory and modelling of social norms, e.g.~\cite{hechter2001social}, there is yet to be published a standard that could be used to objectively assess an autonomous system. 
+Riaz et al.~\cite{Riaz2018} suggest the idea of using social norms and human emotions as a standard by which better self-driving controllers may be developed. This idea sets the way for not just development of higher functioning AS, but also standards of trustworthiness by which they can be judged. Although there is much scholarly work on the theory and modelling of social norms, e.g.~\cite{hechter2001social}, there is yet to be published a standard that could be used to objectively assess an autonomous system and would be subjective to political and cultural influences. 
 
-In some cases, e.g. driving, legislation on appropriate conduct is presented to society in the form of guidelines such as the UKHC in the UK~\cite{highwayCode} but must be translated to a computer readable format to act as an appropriate standard, or set of assertions~\cite{harper2021safety}, if these guidelines can be used to assess AS trustworthiness. A similar process will have to be undertaken for other standards which have yet to be defined, e.g. cooperation, fairness or verifiability, to ensure all aspects of trustworthiness can be assessed. 
-
-McDermid paper on ethical assurance ...
+In some use cases, e.g. driving, legislation on appropriate conduct is presented to society in the form of guidelines such as the UKHC in the UK~\cite{highwayCode}. Often such guidelines must be translated to a computer readable format to act as an appropriate standard, or set of assertions~\cite{harper2021safety}, that can be used to assess AS trustworthiness. A similar process will have to be undertaken for other standards which have yet to be defined, e.g. cooperation, fairness or verifiability, to ensure all aspects of trustworthiness can be assessed. 
 
 
 % ****************************************
 % ***************************** Assessment
 % ****************************************
+%
+%\subsection{Assessment Methods \& Corroborative Evidence} \label{sec:AssFramVis-AssMthds}
+%Gaining reliability assurance of SCASs using testing alone is unfeasible given the often high-dimensional operational state space. Multiple testing methodologies should be employed where appropriate, e.g. verification, falsification and testing, [Harper Corroborative 2022] combining mutually consistent evidence from multiple and diverse assessment methods will raise the confidence in system trustworthiness.
 
-\subsection{Assessment Methods \& Corroborative Evidence} \label{sec:AssFramVis-AssMthds}
-Gaining reliability assurance of SCASs using testing alone is unfeasible given the often high-dimensional operational state space. Multiple testing methodologies should be employed where appropriate, e.g. verification, falsification and testing, [Harper Corroborative 2022] combining mutually consistent evidence from multiple and diverse assessment methods will raise the confidence in system trustworthiness.
 
-Knowledge of the internal state of the system is often hidden, e.g. blackbox, due to IP and commercial sensitivity, but whitebox access will be essential for certain aspects of trustworthiness assessment. This may not need to reveal sensitive algorithms but just enough information through observability points in the software architecture could go a long way to understanding if automated decisions are made for the right reason~\cite{koopman2018toward}. 
 
 
 
@@ -547,3 +576,16 @@ Knowledge of the internal state of the system is often hidden, e.g. blackbox, du
 % ****************************************
 
 \section{Conclusion} \label{sec:conc}
+
+
+
+Autonomous Systems are pervasive in our society and the need to demonstrate their trustworthiness has never been more crucial. 
+%
+In this paper we have presented an analysis of the literature identifying the key traits or qualities pertaining to trustworthiness of AI and autonomous systems. This literature review has resulted in a \emph{spectrum of trustworthy qualities} which captures the sentiment of the community. These qualities are: Functionality, Reliability, Robustness, Security, Compatibility, Usability, Regulatability and Ethical. Further details of the analysis can be found on our github~\cite{tsl_git}. 
+%
+A review of current and emerging standards has been undertaken and although there are only a few number that relate directly to AS, there is a great interest in the community evidenced by the number of emerging frameworks and draft proposals. 
+
+Some key considerations for trustworthy autonomous systems are considered such as the application criticality and the level of automation scope that the system has. Additionally, trustworthy metrics are discussed and their importance in communicating trust with users.
+
+A vision of an assessment process for autonomous and AI-based systems is proposed and each of the stages of the assessment have been explored relating to current trends in the literature. The stages cover system risk assessment based on application and stakeholder engagement, identification of standards and metrics, assessment and corroborative V\&V, analysis of the assessment and visualising trust.
+
