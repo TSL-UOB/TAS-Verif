@@ -2,6 +2,7 @@
 \documentclass[runningheads,twocolumn,a4paper,10pt]{llncs}
 \usepackage[maxnames=3,firstinits=true,doi=false,url=true,isbn=false]{biblatex}
 \addbibresource{../source/TASverif.bib}
+
 \AtBeginBibliography{\small} % small bib font
 
 % \documentclass[runningheads,a4paper]{llncs}
@@ -61,6 +62,7 @@
 \setcounter{secnumdepth}{3} %set heading number depth (default=2, eg. 1.5)
 \usepackage{bbding} %for star symbol
 
+
 \newcommand{\pathToSourceFiles}{../source}
 \newcommand{\pathToOtherFiles}{../other}
 
@@ -76,28 +78,27 @@
 
 \title{Assessing Trustworthiness of Autonomous Systems}
 \titlerunning{Assessing Trustworthiness of AS}
-\authorrunning{Chance, Abeywickrama, Eder}
-% Christopher Harper\inst{1}, 
-\author{Greg Chance\inst{1}, Dhaminda Abeywickrama\inst{1}, Kerstin Eder\inst{1}}
+\authorrunning{Chance, Abeywickrama et al.}
+\author{Gregory Chance\inst{1,2}  \and Dhaminda Abeywickrama\inst{1}  \and Beckett LeClair\inst{2}  \and Owen Kerr\inst{2}  \and Kerstin Eder\inst{1}}
 
-\institute{Trustworthy Systems Lab, University of Bristol, Bristol, UK}
+\institute{Trustworthy Systems Lab, University of Bristol, Bristol, UK \and Digital Systems Assurance, Frazer Nash Consultancy, Bristol, UK}
 \tocauthor{Authors' Instructions}
 
 \maketitle
 \nnfootnote{
-\textit{Statements about authorship contribution.}
-% Christopher Harper (e-mail: chris.harper@brl.ac.uk),
-% Saquib Alam (e-mail:saquib764@gmail.com), 
-% S\'everin Lemaignan (e-mail: severin.lemaignan@brl.ac.uk)
-% and
-% Tony Pipe (e-mail: tony.pipe@brl.ac.uk), 
-% are with the University of the West of England, Frenchay, Coldharbour Ln, Bristol, BS34 8QZ, United Kingdom.
-%
-Greg Chance (e-mail: greg.chance@bristol.ac.uk), 
-% Abanoub Ghobrial (e-mail: abanoub.ghobrial@bristol.ac.uk), 
-and 
-Kerstin Eder (e-mail: kerstin.eder@bristol.ac.uk) 
-are with the Trustworthy Systems Lab, Department of Computer Science, University of Bristol, Merchant Ventures Building, Woodland Road, Bristol, BS8 1UQ, United Kingdom.
+%\textit{Statements about authorship contribution.}
+%% Christopher Harper (e-mail: chris.harper@brl.ac.uk),
+%% Saquib Alam (e-mail:saquib764@gmail.com), 
+%% S\'everin Lemaignan (e-mail: severin.lemaignan@brl.ac.uk)
+%% and
+%% Tony Pipe (e-mail: tony.pipe@brl.ac.uk), 
+%% are with the University of the West of England, Frenchay, Coldharbour Ln, Bristol, BS34 8QZ, United Kingdom.
+%%
+Greg Chance is the corresponding author (e-mail: greg.chance@bristol.ac.uk), 
+%% Abanoub Ghobrial (e-mail: abanoub.ghobrial@bristol.ac.uk), 
+%and 
+%Kerstin Eder (e-mail: kerstin.eder@bristol.ac.uk) 
+%are with the Trustworthy Systems Lab, Department of Computer Science, University of Bristol, Merchant Ventures Building, Woodland Road, Bristol, BS8 1UQ, United Kingdom.
 }
 
 % \let\thefootnote\relax\footnotetext{
@@ -130,6 +131,7 @@ are with the Trustworthy Systems Lab, Department of Computer Science, University
 %  Main Body
 % ***************************************************
 \input{\pathToSourceFiles/body.tex}
+%\input{body.tex}
 \balance
 
 % ***************************************************
